@@ -1,0 +1,25 @@
+{
+    "pos": "part",
+    "var": "act.pres",
+    "descr": "irreg",
+    "dict": "εἶμι",
+    "gend": "masc",
+    "trn": "to go",
+    "forms": {
+        "sg.nom": "ἰών",
+        "sg.gen": "ἰόντος",
+        "sg.dat": "ἰόντι",
+        "sg.acc": "ἰόντα",
+        "sg.voc": "ἰών",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "ἰόντες",
+        "pl.gen": "ἰόντων",
+        "pl.dat": "ἰοῦσι ἰοῦσιν",
+        "pl.acc": "ἰόντας",
+        "pl.voc": "ἰόντες"
+    }
+}

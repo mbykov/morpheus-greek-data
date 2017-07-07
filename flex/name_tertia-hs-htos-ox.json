@@ -1,0 +1,25 @@
+{
+    "type":"flex",
+    "pos":"name",
+    "descr": "cons",
+    "var": "hs-htos",
+    "gend": "fem masc",
+    "dict": "ής",
+    "flexes":{
+        "sg.nom": "ής",
+        "sg.gen": "ῆτος ητός",
+        "sg.dat": "ῆτι ητί",
+        "sg.acc": "ῆτα",
+        "sg.voc": "ής",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "ῆτες",
+        "pl.gen": "ήτων ητῶν",
+        "pl.dat": "ῆσι ῆσιν ησί ησίν",
+        "pl.acc": "ῆτας",
+        "pl.voc": "ῆτες"
+    }
+}

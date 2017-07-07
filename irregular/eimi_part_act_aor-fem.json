@@ -1,0 +1,27 @@
+{
+    "type": "term",
+    "pos": "part",
+    "var": "act.aor",
+    "descr": "irreg",
+    "verb": "εἰμί",
+    "dict": "ὤν",
+    "gend": "fem",
+    "trn": "to be",
+    "forms": {
+        "sg.nom": "γενομένη",
+        "sg.gen": "γενομένης",
+        "sg.dat": "γενομένῃ",
+        "sg.acc": "γενομένην",
+        "sg.voc": "γενομένη",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "γενόμεναι",
+        "pl.gen": "γενομένων",
+        "pl.dat": "γενομέναις",
+        "pl.acc": "γενομένας",
+        "pl.voc": "γενόμεναι"
+    }
+}

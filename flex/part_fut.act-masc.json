@@ -1,0 +1,24 @@
+{
+    "pos":"part",
+    "var": "fut.act",
+    "dict": "ω",
+    "gend": "masc",
+    "ex": "λύσων",
+    "flexes":{
+        "sg.nom": "σων",
+        "sg.gen": "σοντος",
+        "sg.dat": "σοντι",
+        "sg.acc": "σοντα",
+        "sg.voc": "σων",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "σοντες",
+        "pl.gen": "σόντων",
+        "pl.dat": "σουσι σουσιν",
+        "pl.acc": "σοντας",
+        "pl.voc": "σοντες"
+    }
+}

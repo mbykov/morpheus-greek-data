@@ -1,0 +1,14 @@
+{
+    "type":"term",
+    "pos": "pron",
+    "descr": "σεαυτοῦ, of yourself",
+    "var": "ref",
+    "trn": "of yourself, reflexive, third person",
+    "dict": "σεαυτοῦ",
+    "gend": "masc",
+    "forms":{
+        "sg.gen": "σεαυτοῦ, σαυτοῦ",
+        "sg.dat": "σεαυτῷ, σαυτῷ",
+        "sg.acc": "σεαυτόν, σαυτόν"
+    }
+}

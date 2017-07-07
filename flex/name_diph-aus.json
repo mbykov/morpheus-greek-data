@@ -1,0 +1,26 @@
+{
+    "type":"flex",
+    "pos":"name",
+    "descr": "cons diph",
+    "var": "diph-aus",
+    "gend": "fem",
+    "dict": "αῦς",
+    "example": "γραῦς ναῦς",
+    "flexes":{
+        "sg.nom": "αῦς",
+        "sg.gen": "ᾱός εώς",
+        "sg.dat": "ᾱΐ ηΐ",
+        "sg.acc": "αῦν",
+        "sg.voc": "αῦ",
+        "du.nom": "ᾶε ῆε",
+        "du.gen": "ᾱοῖν εοῖν",
+        "du.dat": "ᾱοῖν εοῖν",
+        "du.acc": "ᾶε ῆε",
+        "du.voc": "ᾶε ῆε",
+        "pl.nom": "ᾶες ῆες",
+        "pl.gen": "ᾱῶν εῶν",
+        "pl.dat": "αυσί αυσίν",
+        "pl.acc": "αῦς",
+        "pl.voc": "ᾶες"
+    }
+}

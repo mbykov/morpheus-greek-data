@@ -1,0 +1,1001 @@
+# ==== Early (Classical) Attestations
+
+# τέχνη γραμματική, ἡ = art of grammar; reading (gramm.).
+
+τέχνη, ἡ = art (of grammar); reading (gramm.).
+
+γραμματική, ἡ = art of grammar; reading (gramm.).
+
+φιλολογία, -ας, ἡ = "love of dialectic" or "of scientific argument" (gramm.).
+
+φιλόλογος, -ου, ὁ = "lover of discourse" (gramm.).
+
+παρεπόμενα, τά = "secondary grammatical categories" (gramm.).
+
+πτῶσις, -εως, ἡ = case; mode or modification of a word; inflection (gramm.).
+
+διπλοῦς, -ῆ, -οῦν = composite; compound (gramm.).
+
+σύνδεσμος, -ου, ὁ = connecting word; conjunction, particle (gramm.).
+
+ἄφωνος, ον = consonant (gramm.).
+
+λέξις, -εως, ἡ = diction (gramm.).; word
+
+στοιχείον, -ου, τό = element, letters; elements (gramm.).
+
+θηλύς, -εῖα, -ύ = feminine (gramm.).
+
+μέλλων = future (gramm.).
+
+γλῶσσαι, αἱ = glosses – written collections of rare and obsolete epic words (gramm.).
+
+γραμματικός, -ου, ὁ = grammarian; one familiar with the letters, knowing "their number and their nature" (gramm.).
+
+άρρην, -εν = masculine (gramm.).
+
+ἄφθογγον, -ου, τό = mute (gramm.).
+
+μεταξύ = adv. neuter gender; lit 'between' (gramm.).
+
+πτώσεις, -εως, ἡ = oblique (ὀνόματος) (cases) (gramm.).
+
+μέρη, τά = parts of speech (λόγου); "primary grammatical categories" (gramm.).
+
+παρεληλυθώς, -υῖα, -ός = past (gramm.).
+
+κατηγορούμενον, -ου, τό = predicate (gramm.).
+
+παρών, -ούση, -όν = present (gramm.).
+
+γραμματιστής, -οῦ, ὁ = writing master; scribe; grammar-master (gramm.).
+
+ἡμίφωνος, -ον = semi-vowel (gramm.).
+
+λόγος, -ου, ὁ = sentence (gramm.).; phrase, sentence; analogy, rule; speech (gramm.)
+
+ὑποκείμενον, -ου, τό = subject (gramm.).
+
+συλλαβή, -ῆς, ἡ = syllable (gramm.).
+
+συνώνυμον, -ου, τό = synonym (gramm.).
+
+κριτικοί, οἱ = teachers (of mathematics, tactics, criticism) (gramm.).
+
+ὑπερβατόν, -οῦ, τό = a transposition of words or clauses (gramm.).
+
+ῥῆμα, -ατος, τό = verb (gramm.).
+
+ῥῆματικός, ή, όν = verbal (gramm.).
+
+φωνῆεν, -εντος, τό = vowel (gramm.).
+
+# =============== THRAX
+
+τόνος, -ου, ὁ = τάσις, tone (gramm.).; accent (gramm.)
+
+τονικός, ή, όν = of or for stretching, capable of extension, tonal
+
+τάσις, εως, ἡ = stretching, tension
+
+ὀξύς, -εῖα, -ύ = acute (gramm.).
+
+βαρύς, -εῖα, -ύ = grave (gramm.).; grave, barytone (gramm.)
+
+βαρύνω = weigh down, oppress, depress (βαρύς)
+
+βαρύτης, ητος, ἡ = weight, heaviness
+
+περισπώμενος, -η, -ον = circumflex (gramm.).; contract verbs, since these in most cases have circumflex accent (gramm.)
+
+στοιχεῖον, -ου, τό = element (gramm.).; element; letter; individual sound (gramm.)
+
+γράμμα, -ατος, τό = letter (gramm.).
+
+# os-eos - переназвать бы TODO: прил
+μέρος, -ους, τό = part of speech - τοῦ λόγου (gramm.)
+
+μέρικός, ή, όν = partial
+
+μερίζω = divide, distribute
+
+μερισμός, ὁ = dividing, division
+
+προσηγορία, -ας, ἡ = appellation; common noun or name "proper noun" (gramm.).
+
+παρέπομαι = be an accident of (gramm.).
+
+γένος, -ους, τό = gender (gramm.).; gender; kind, class (gramm.)
+
+ἀρσενικός, -ή, -όν = masculine (gramm.).
+
+ἀρρενικός, -ή, -όν = masculine (gramm.)
+
+θηλυκός, -ή, -όν = feminine (gramm.).
+
+οὐδέτερος, -α, -ον = neuter (gramm.).
+
+συγκριτικός, -ή, -όν = comparative (gramm.).
+
+ὑπερθετικός, -ή, -όν = superlative (gramm.).
+
+ὑποκοριστικός, -ή, -όν = diminutive (gramm.).
+
+ἀριθμός, -οῦ, ὁ = number (gramm.).
+
+ἑνικός, -ή, -όν = singular (gramm.).
+
+δυικός, -ή, -όν = dual (gramm.).
+
+πληθυντικός, -ή, -όν = plural (gramm.).
+
+ὀνομαστικός, -ή, -όν = (πτῶσις) nominative; nominative case (gramm.)
+
+γενική, ἡ = generic (πτῶσις); genitive (gramm.).
+
+δοτική, ἡ = dative (πτῶσις) (gramm.).; dative, for giving (gramm.)
+
+αἰτιατική, ἡ = accusative (πτῶσις) (gramm.).
+
+κλῆσις, -εως, ἡ = calling, vocative; vocative case κλητική (πτῶσις) (gramm.)
+
+κλητικός, ή, όν = of or for invitation
+
+κύριος, -α, -ον = proper; proper name, noun κύριον (ὄνομα) (gramm.)
+
+κύριως = adv. like a lord
+
+ἐπίθετον, -ου, τό = adjective noun (gramm.).
+
+ἐπίθετικός, ή, όν = adjective (gramm.).
+
+ἐρωτηματικόν, -ου, τό = interrogative (gramm.).
+
+ἀόριστον, -ου, τό = indefinite (gramm.).
+
+πρόσωπον, -ου, τό = person (gramm.).
+
+ὁριστικός, -ή, -όν = indicative; indicative mood ὁριστική (ἔγκλισις) (gramm.)
+
+προστακτική, ἡ = imperative (ἔγκλισις - mood) (gramm.).
+
+προστάσσειν = indecl. imperative (ἔγκλισις - mood) (gramm.)
+
+προσστάζω = command, prescribe, enjoin
+
+προστάξις, εως, ἡ = an ordaining, an ordinance, command,
+
+προστακτικός, ή, όν = of or for commanding, imperative, imperious
+
+ὑποτακτική, ἡ = subjunctive (ἔγκλισις) (gramm.).
+
+ὑποτάσσειν = put after or in a subordinate position; postposition, subordination; put into the subjunctive; govern the subjunctive; subjunctive (mood) ὑποτακτική (ἔγκλισις) (gramm.)
+
+ὑποτάξις, εως, ἡ = put after or in a subordinate position; postposition, subordination; put into the subjunctive; govern the subjunctive; subjunctive (mood) ὑποτακτική (ἔγκλισις) (gramm.)
+
+ὑποτακτικός, ή, όν = put after or in a subordinate position; postposition, subordination; put into the subjunctive; govern the subjunctive; subjunctive (mood) ὑποτακτική (ἔγκλισις) (gramm.)
+
+εὐκτική, ἡ = optative (ἔγκλισις - mood) (gramm.)
+
+ἐπηρμένη, ἡ = subjunctive (ἔγκλισις) (gramm.)
+
+ἔγκλισις, -εως, ἡ = mood (gramm.).
+
+ἀπαρέμφατος, -ον = infinitive (gramm.).
+
+διάθεσις, -εως, ἡ = disposition; (voice) (gramm.).
+
+ἐνέργεια, -ας, ἡ = activity; (active voice) (gramm.).
+
+πάθος, -ους, τό = passivity; (passive voice) (gramm.).; passive (gramm.)
+
+παθητικός, ή, όν = passivity; (passive voice) (gramm.).; passive (gramm.)
+
+μεσότης, -ητος, ἡ = mediality; (middle voice) (gramm.).; manner (gramm.).
+
+ὑπερσυντελικός, ὁ = pluperfect (χρόνος) (gramm.)
+
+χρόνος, -ου, ὁ = time, tense; length or quantity (e.g., of syllables); augment (gramm.)
+
+χροικός, ή, όν = of or concerning time, temporal
+
+ἐνεστώς = present (gramm.).
+
+παρατατικός, ὁ = imperfect, continuing (gramm.).
+
+παρακείμενος, ὁ = perfect (tense, aspect) (gramm.)
+
+ὑπερσυντέλικος, ὁ = pluperfect (gramm.).
+
+ἀόριστος, -ον = aorist (gramm.); indefinite (gramm.)
+
+# ἀόριστώδης = aorist (gramm.); indefinite (gramm.)
+
+# ἀόριστοῦσθαι = aorist (gramm.); indefinite (gramm.)
+
+συζυγία, -ας, ἡ = conjugation (gramm.).; conjugation, used to classify verbs (gramm.)
+
+μετοχή, -ῆς, ἡ = participle (gramm.).
+
+ἀντωνυμία, -ας, ἡ = pronoun (gramm.); pronoun or possessive adjective (gramm.)
+
+ἀντωνυμικός, ή, όν = pronominal, like a pronoun
+
+ἀντονομάζειν = pronoun (gramm.); pronoun or possessive adjective (gramm.)
+
+πρόθεσις, -εως, ἡ = preposition (gramm.).
+
+σύνταξις, -εως, ἡ = putting together of words, syntax (gramm.).
+
+ἐπίρρημα, -ατος, τό = adverb (gramm.); particle (gramm.)
+
+ἐπιρρηματικός, ή, όν = adverbial
+
+ἐπίρρηματικῶς = adv. adverbial
+
+ποσότης, -ητος, ἡ = quantity (gramm.).
+
+ἀπόφασις, -εως, ἡ = negation (gramm.).
+
+ἀπαγόρευσις, -εως, ἡ = prohibition (gramm.).
+
+παρακέλευσις, -εως, ἡ = command (gramm.).
+
+# ============ DYSKOLUS
+
+ἄδεια, -ας, ἡ = poetic license, freedom from fear, abundance, plenty. (gramm.).
+
+ἄδεής, ές = without fear, fearless, ἀδεὴς θανάτου without fear of death
+
+ἀδεῶς = adv. without fear, confidently, without stint, freely,
+
+ἀδιαβίβαστος, -ον = intransitive (gramm.).
+
+ἄθροισις, -εως, ἡ = collection; collective, aggregate (of nouns), copulative (of conjunctions) (gramm.).
+
+ἄθροισμα, ατος, τό = that which is gathered, a gathering
+
+ἄθροιστικός, ή, όν = given to accumulation
+
+αἰτιολογικός, -ή, -όν = causal (gramm.).; causal conjunction; meaning "since", "because" (gramm.)
+
+αἰτιολογικῶς = adv. causal (gramm.).; causal conjunction; meaning "since", "because" (gramm.)
+
+αἰτιώδης, -ες = causal (gramm.).
+
+ἀκατάλληλος, -ον = incongruent, ungrammatical, lacking in concord (gramm.).
+
+ἀκαταλληλότης, ητος, ἡ = incongruent, ungrammatical, lacking in concord (gramm.).
+
+ἀκαταλληλία, ἡ = failure to conform with rules, inaccurate designation,
+
+ἀκίνητος, -ον = invariable, not inflected, unmodified (of noun in nom. sing. or verb in first-person sing.) (gramm.).
+
+ἄκλιτος, -ον = stable; indeclinable (gramm.).
+
+ἄκλισία, ἡ = indeclinability
+
+ἀκόλουθος, -ον = consequent, in accordance, regular, consistent with, analogical (gramm.).
+
+ἀκόλουθῶς = adv. (gramm.)., analogically, Logic., consequent,
+
+ἀκολουθία, ἡ = following, attendance
+
+ἀκόλουθεῖν = consequent, in accordance, regular, consistent with, analogical (gramm.).
+
+ἀλλοπαθής, -ές = non-reflexive (of pronouns); transitive (of verbs) (gramm.).
+
+ἄλογος, -ον = aberrant, abnormal, irregular; irrational (in meter) (gramm.).
+
+ἄλογως = adv. without reason, irrational,
+
+ἄλογία, ἡ = want of reason, absurdity
+
+ἄλογεῖσθαι = aberrant, abnormal, irregular; irrational (in meter) (gramm.).
+
+ἀμερής, -ές = indivisible (gramm.).
+
+ἀμετάβατος, -ον = intransitive (of verbs); reflexive (of pronouns) (gramm.).
+
+ἀμφιβάλλεσθαι = ambiguous (gramm.).
+ἀμφιβολος, ον = doubtful, ambiguous
+ἀμφιβολία, ἡ = ambiguity
+
+ἀναβιβάζειν = throw back the accent (gramm.).
+ἀναβιβασμός, ὁ = the throwing back the accent,
+
+ἀναγινώσκειν = read; reading (interpretation) (gramm.).
+ἀναγνωσις, εως, ἡ = recognition
+ἀναγνωσμα, ατος, τό = reading
+
+ἀνακόλουθος, -ον = anomalous, inconsistent (gramm.).
+ἀνακολουθία, ἡ = anomalia, inconsequence
+
+ἀνάλογος, -ον = proportionate, regular, suitable, analogical (gramm.).
+ἀνάλογῶς = adv. equivalent to, resembling,
+ἀνάλογία, ἡ = mathematical proportion,
+
+ἀναπολεῖν = repeat, refer (gramm.).
+ἀναπολησις, εως, ἡ = repetition
+
+ἀναστρέφειν = anastrophe, inversion (gramm.).
+ἀναστροφή, ἡ = turning upside down, upsetting, overthrow
+
+ἀναφέρειν = reference, repetition, relation, anaphora (gramm.).
+ἀναφορά, ἡ = repetition of a word
+
+ἀντιδιαστέλλειν = opposition, distinction (gramm.).
+ἀντιδιαστωλή, ἡ = opposition
+ἀντιδιασταλτικός, ή, όν = distinctive
+
+ἀπαγορεύειν = prohibition (gramm.).
+ἀπαγορεύσις, εως, ἡ = prohibition
+ἀπαγορευτικός, ή, όν = prohibitory
+
+ἁπλοῦς, -ὴ, -οῦν = simple (gramm.).; simplex, uncompounded (gramm.)
+ἁπλοϊκός, ή, όν = simple (gramm.).; simplex, uncompounded (gramm.)
+
+ἀποκοπή, -ῆς, ἡ = apocope (gramm.).
+
+ἀπόλυτος, ον = absolute, unconditional
+
+ἀποτελεστικός, -ή, -όν = final (having to do with purpose); having to do with result (gramm.).
+ἀποτελεστικῶς = adv. finallly
+
+ἀποφάσκειν = negation (gramm.).
+ἀποφάσις, εως, ἡ = denial, negation
+ἀποφατικός, ή, όν = negative
+
+ἄπτωτος, -ον = without cases, indeclinable (gramm.).
+
+ἄρθρον, -ου, τό = article (προτακτικόν); relative pronoun (ὑποτακτικόν) (gramm.).
+ἄρθρονικός, -ή, -όν = like article
+
+ἀσύναρθρος, -ον = without the article (gramm.).; pronoun, not taking an article (gramm.)
+
+ἀσυνταξία, -ας, ἡ = error in construction, ungrammatical form; irregularity, incapacity of entering into construction (gramm.).
+
+ἀσύστατος, -ον = irregular, inadmissible (gramm.).
+
+αὐτοπαθής, -ές, -εια = reflexive (of pronouns); intransitive (of verbs) (gramm.).
+
+αυτοτελής, -ές, -εια = ending in itself, complete in itself (e.g., intransitive) (gramm.).
+
+ἀφαιρεῖν = removal of letters (initial, medial) or of feet in verse (gramm.).
+
+βαρβαρισμός, -οῦ, ὁ = barbarism (gramm.).
+
+βαρύτονος, -ον = barytone (gramm.).; basic ω -verbs, since these have recessive accent (gramm.)
+βαρύτονωνεῖν = barytone (gramm.).; basic ω -verbs, since these have recessive accent (gramm.)
+βαρύτονεῖν = barytone (gramm.).; basic ω -verbs, since these have recessive accent (gramm.)
+βαρυτονέω = pronounce with the grave accent
+
+βραχύς, -εῖα, -ύ = short (of vowels or syllables) (gramm.).
+
+δασύς, -εῖα, -ύ = rough breathing, aspirated (gramm.).
+δασύνειν = rough breathing, aspirated (gramm.).
+δασύνω = make rough, aspirated
+
+δεῖξις, -εως, ἡ = reference, demonstrative force (gramm.).
+
+δεύτερος, -α, -ον = second; second person (gramm.).
+δεύτερεύειν = second; second person (gramm.).
+δευτερεύω = to be second
+
+δηλοῦν = indecl. indicate, signify, mean (gramm.).
+# δηλούμενον = indicating
+δηλωσις, -εως, ἡ = a pointing out, manifestation, explaining
+# δηλόω = to make visible
+
+διαβιβάζειν = transitive (gramm.).
+διαβιβαστικός, ή, όν = transitive (gramm.).
+
+διάλεκτος, -ου, ἡ = dialect (gramm.).
+
+διασαφεῖν = declarative; affirmative; explanatory, making completely clear (gramm.).
+διασαφητικός, ή, όν = declarative; affirmative; explanatory, making completely clear (gramm.).
+
+διάστασις, -εως, ἡ = dimension; distance; separation (of vowels, not being a diphthong; of words, written as two) (gramm.).
+
+διαστέλλειν, στωλή = distinction, opposition (gramm.).
+
+διατιθέναι = act; τὸ διατιθέν subject; τὸ διατιθέμενον object; voice; force, function (gramm.).
+διατιθέν = indecl. subject;
+διατιθέμενον = indecl. object, arrange
+διαθέσις, εως, ἡ = force, function
+
+διεγείρειν = raise, make acute (of accent) (gramm.).
+
+διπλασιάζειν = reduplicate (gramm.).
+διπλασιασμός, ὁ = reduplication, doubling
+
+διπρόσωπος, -ον = dual, denoting two persons (gramm.).
+
+δισύλλαβος, -ον = disyllabic (gramm.).
+
+δίφθογγος, -ον = diphthong (gramm.).
+
+δυϊκός, -ή, -όν = dual (gramm.).
+
+δυνητικός, -ή, -όν = potential (gramm.).
+
+ἐγκλίνειν = enclitic (gramm.).
+ἐγκλισις, εως, ἡ = inclination
+ἐγκλιτικός, ή, όν = which leans (ἐγκλίνει) its accent upon the one before
+ἐγκλιμα, ατος, τό = inclination, inflected form, form pronounced with grave accent
+
+ἔθος, -ους, τό = usage (gramm.).
+ἔθιμος, ον = usage, accustomed, usual
+
+εἶδος, -ους, τό = kind, species; specific; derivational status (i.e. primitive or derived) (gramm.).; derivational status; form, characterizing verbs or nouns (gramm.)
+εἰδικός, ή, όν = specific
+
+# εἰς τόπον = toward a place, place to which (gramm.).
+# ἐκ τόπου = from a place, place from which (gramm.).
+
+ἐπιτείνειν = lengthen; augment (gramm.).; intensive (gramm.).
+ἐπιτασις, εως, ἡ = stretching
+ἐπιτατικός, ή, όν = intensive
+
+ἐλλείπειν = ellipsis (gramm.).
+ἐλλειψις, εως, ἡ = ellipsis, omission of a letter
+
+ἐναλλάσσειν = enallage, interchange, variate (gramm.).
+ἐναλλασσομένως = adv. by enallage, interchange (gramm.).
+ἐναλλαγή, ἡ = interchange, variation
+
+ἐνεργεῖν, -ής, -εια = active (gramm.).
+ἐνεργημα, ατος, τό = action, activity, operation
+ἐνεργητικός, ή, όν = able to act upon, acting upon
+
+ἑτερόκλιτος, -ον = irregularly inflected (of nouns) (gramm.).
+
+εὐθεῖα, ἡ = nominative (πτῶσις) (gramm.).; nominative, straight (gramm.)
+
+εὐχή, -ῆς, ἡ = wish (e.g., optative of wish); prayer (gramm.).
+εὔχεσθαι = wish (e.g., optative of wish); prayer (gramm.).
+εὐκταῖος, α, ον = of or for prayer, votive; generally, prayed for, desired,
+ἀπευκταῖος, α, ον = to the loss of our hopes
+
+θέμα, -ατος, τό = base form (primary, non-derived form); primary word, root (gramm.).
+θέματικός, ή, όν = primary, not derivative
+θέματίζειν = base form (primary, non-derived form); primary word, root (gramm.).
+
+θέσις, -εως, ἡ = convention; form; position (in meter, of syllables long by position) (gramm.).
+
+ἰσάριθμος, -ον = having the same (grammatical) number (gramm.).
+ἰσάριθμως = adv. having the same (grammatical) number (gramm.).
+
+ἰσόχρονος, -ον = the same length, consisting of same number of time-units (gramm.).
+ἰσόχρονεῖν = the same length, consisting of same number of time-units (gramm.).
+
+κανών, -όνος, ὁ = rule, paradigm, metrical scheme (gramm.).
+
+καταφάσκειν = affirmation (gramm.).
+καταφάσις, εως, ἡ = affirmation (gramm.).
+καταφατικός, ή, όν = affirmative
+
+καταχρηστικῶς = adv. by a misuse of language; by extension (gramm.).
+
+κατορθοῦν = correct (gramm.).
+κατορθόω = set correct
+
+κλίνειν = inflect, decline, conjugate; augment (gramm.).
+κλίτικός, ή, όν = inflexional
+
+κοινός, -ή, -όν = common; colloquial or non-literary (gramm.).
+κοινῶς = adv. common; colloquial or non-literary (gramm.).
+
+κρᾶσις, -εως, ἡ = crasis (gramm.).
+
+κτᾶσθαι = possession (gramm.).
+κτᾶσθῆμα, ἡ = possession (gramm.).
+κτᾶσθητικός, -ή, -όν = possessive (gramm.).
+# κτᾶσθήτωρ = possession (gramm.).
+
+μείωσις, -εως, ἡ = diminution (gramm.).
+
+μεταβαίνειν = transitive (gramm.).
+μετάβασις, εως, ἡ = moving over, shifting
+μεταβατικός, ή, όν = able to pass from one place to another
+
+μεταβιβάζειν = transfer, translate; carry over, serve as transitive (gramm.).
+
+μεταλαμβάνειν = change of construction;use in place of; take in another sense; translate; change in dialect (gramm.).
+μεταληψις, εως, ἡ = participation, change of construction, change of name
+
+μεταφορά, -ᾶς, ἡ = metaphor (gramm.).
+
+μεταφράζειν = paraphrase; translate (gramm.).
+
+μέτρον, -ου, τό = meter (gramm.).
+
+μονοπρόσωπος, -ον = having or referring to one person (of pronouns) (gramm.).
+
+μονόπτωπος, -ον = with only one case, indeclinable (gramm.).
+
+μόριον, -ου, τό = word, part of speech; part (of a phrase); affix (gramm.).
+
+ὀμοιόπτωτος, -ον = with a similar inflection; with similar endings; in a like case, in the same case (gramm.).
+
+ὄνομα, -ατος, τό = noun; adjective; word (gramm.).
+
+ὀνοματικός, -ή, -όν = pertaining to nouns (gramm.).
+
+ὀξεῖα, ἡ = acute (προσῳδία) (gramm.).
+ὀξύνειν = acute (προσῳδία) (gramm.).
+
+ὀξύτονος, -ον = oxytone (gramm.).
+ὀξύτονεῖν = oxytone (gramm.).
+
+ὀρθός, -ή, -όν = nominative ὀρθή (πτῶσις); nominative case; active (of verbs) (gramm.).
+ὀρθῶς = adv. true, real, genuine
+
+παράγειν = derivation (gramm.).
+παραγωγός, όν = misleading, deceitful
+
+παραλήγειν = penult (gramm.).
+
+παράλληλος, -ον = parallel, used pleonastically (gramm.).
+παραλληλότης, ητος, ἡ = repetition
+
+παραπληρωματικός, -οῦ, ὁ = expletive conjunction (gramm.).; particle; lit. "filling out" (gramm.)
+
+παρασυνάπτειν = paraconditional (causal) conjunction (gramm.).
+παρασυνάπτικός, -η, -ον = paraconditional (causal) conjunction (gramm.).
+
+παρασχηματισμός, -οῦ, ὁ = inflection; change of form (gramm.).
+
+παρατείνειν = imperfect (tense) (gramm.).
+παρατασις, εως, ἡ = extension or continuance of or in time, time of the tempus imperfectum
+
+παρεδρεύειν = penult (gramm.).
+
+παρεμφαίνειν = mean, signify; indicative, finite (of verbs); grammatical modification of sense (caused by number, person) (gramm.).
+παρέμφασις, εως, ἡ = signification, indication
+παρεμφατικός, ή, όν = indicative
+
+παρέπεσθαι = accompany, follow; accidental properties or features (gramm.).
+# παρέσθόμενον = accompany, follow; accidental properties or features (gramm.).
+
+προπαροξύνειν = proparoxytone (gramm.).
+
+παροξύνειν = paroxytone (gramm.).
+
+παρῳχῆσθαι = past (tense) (gramm.).
+παρῳχημένος, η, ον = past (tense) (gramm.).
+
+πατρωνυμικός, -ή, -όν = patronymic (gramm.).
+
+# προπερισπᾶν = with circumflex on penult (gramm.).
+# περισπᾶν, -ώμενος = circumflex (gramm.). ##### CONTR PART - ===== part sg pres act neut nom contr
+# περισπώμενος
+περισπάω = draw off from around, strip off
+
+πεῦσις, -εως, ἡ = question, interrogative (gramm.).
+πεῦστικός, ή, όν = interrogative
+πύσμα, ατος, τό = question
+
+πλάγιος, -η, -ον = oblique case (gramm.).
+
+πλεονάζειν = pleonasm (gramm.).
+πλεονασμός, ὁ = use of redundant words,
+πλεονάσμα, ατος, τό = superfluity
+
+πλῆθος, -εος, τό = plural (gramm.).
+πλῆθύνεσθαι = increase, multiply,
+πλῆθικός, ή, όν = plurally, many
+πλῆθῶς = adv. plural (gramm.).
+
+ποίημα, -ατος, τό = poem (gramm.).
+ποίησις, εως, ἡ = fabrication, creation, production
+ποιητής, οῦ, ὁ = maker
+ποιητικός, ή, όν = capable of making, creative, productive
+
+ποιός, -ά, -όν = quality, qualitative (gramm.).
+ποιότης, ητος, ἡ = quality
+
+ποσός, -ή, -όν = quantity (gramm.).
+
+πρᾶγμα, -ατος, τό = act, action (gramm.).
+
+προσαγορεύειν = call; common (noun or adjective); appellative, used in address (gramm.).
+προσηγορικός, ή, όν = appellative
+προσηγορικῶς = adv. by one's common name
+
+προσφωνεῖν = address (gramm.).
+προσφωνησις, εως, ἡ = addressing, address
+
+προσῳδία, -ας, ἡ = variation in pitch; accentuation; diacritic (gramm.).
+
+προτάσσειν = prefix; prepositive (gramm.).
+πρόταξις, εως, ἡ = prefixing, posting in front
+προτακτικός, ή, όν = used as prefix
+
+προτιθέναι = preposition (gramm.).
+προθέσις, εως, ἡ = preposition; prefixing, placing first,
+προθετικός, ή, όν = of or for prefixing
+
+προφέρεσθαι = utter, pronounce (gramm.).
+
+πρῶτος, -η, -ον = first; first person (gramm.).
+
+πρωτότυπος, -ον = primitive, not derived (gramm.).; primary, underived; lit. "original" (gramm.)
+
+σολοικίζειν = incorrectness in the use of language, solecism, incorrect reasoning
+σολοικίσμος, ὁ = incorrectness in the use of language, solecism, incorrect reasoning
+
+στερεῖν = depriving; privation, negation; privative, negative (gramm.).
+στερεσθαι = depriving; privation, negation; privative, negative (gramm.).
+στερησις, εως, ἡ = deprivation, loss, negation
+στερητικός, ή, όν = having a negative quality
+
+στιγμή, -ῆς, ἡ = punctuation (gramm.).
+
+στίχος, -ου, ὁ = verse, line of poetry (gramm.).
+
+στοιχειωτής, -οῦ, ὁ = teacher of elements (first grammarians) (gramm.).
+
+συγγραφεύς, -έως, ὁ = prose writer (as opposed to poet) (gramm.).
+
+συγκόπτειν = syncope, sudden loss of strength, cutting a word short by striking out one or more letters
+συγκοπή, ἡ = syncope, sudden loss of strength, cutting a word short by striking out one or more letters
+
+συγκρίνειν = comparison; comparative (gramm.).
+σύγκρισις, εως, ἡ = comparison; comparative (gramm.).
+
+σύζυγος, -ον = conjugation (gramm.).
+σύζυγεῖα, ἡ = conjugation (gramm.).
+σύζυγία, ἡ = union, conjugation, declension, any group of related words, e.g. sapiens, sapienter, sapientia
+
+συμβολικός, -ή, -όν = conventional; symbolic; figurative (gramm.).
+συμβολικῶς = adv. conventional; symbolic; figurative (gramm.).
+
+συμπλέκειν = coordinating, copulative (conjunction) (gramm.).
+συμπλοκή, ἡ = copula, combination of letters to form a word or of words to form a proposition
+συμπλεκτικός, ή, όν = a copulative conjunction
+
+σύμφωνον, -ου, τό = consonant (gramm.).
+
+συναλείφεσθαι = contract; crasis; elision (gramm.).
+συναλοιφή, ἡ = contract; crasis; elision (gramm.).
+
+συναπτικός, -ή, -όν = conditional, synaptic (conjunction) (gramm.).; conditional conjunction; lit. "joining together"; meaning "if" (gramm.)
+
+σύναρθρος, ὁ = articular (forms); accompanied by article, connected by article (gramm.).; possessive adjective, taking an article (gramm.)
+
+συνδεῖν = conjunction (gramm.).
+συνδεσις, εως, ἡ = conjunctive construction; binding together
+συνδεσμος, ὁ = that which is bound together, bundle
+συνδεσμικός, ή, όν = conjunctive
+συνδετικός, ή, όν = conjunctive, binding together
+
+συνεμπίπτειν = coincidence, similarity of form,
+συνεμπτωσις, εως, ἡ = coincidence, similarity of form
+
+συνήθης, -ες = usage (gramm.).
+συνήθως = adv. in common use, habitually, as is usual
+συνήθεια, ἡ = ordinary language
+
+συνίστασθαι = well-formed (of phrases) (gramm.).
+σύστασις, εως, ἡ = well-formed (of phrases) (gramm.).
+συνίστός, ή, όν = well-formed (of phrases) (gramm.).
+
+σύνοδος, -ου, ἡ = agreement (gramm.).
+
+σύνταγμα, -ατος, τό = syntactic element; treatise (gramm.).
+
+συντάσσειν = putting together of words, syntax (gramm.).
+
+συντελής, ές = perfective; completed action (as opposed to imperfect) (gramm.).
+συντέλεια, ἡ = completed action
+συντελείωσις, εως, ἡ = a completed action, opp. παράτασις
+
+συντιθέναι = compose; compound; composition, treatise (gramm.).
+σύνθεσις, εως, ἡ = compose; compound; composition, treatise (gramm.).
+σύνθετος, -η, ον = compose; compound; composition, treatise (gramm.).
+
+συνώνυμος, -ον = synonym (gramm.).
+συνωνυμία, ἡ = synonym (gramm.).
+συνωνυμεῖν = synonym (gramm.).
+
+συσσημαίνειν = cosignify; signify in addition; acquire a meaning through its context (gramm.).
+
+σχέσις, -εως, ἡ = configuration; relation (e.g., of place, possession, kinship), relationship (gramm.).
+
+σχῆμα, -ατος, τό = form; figure (gramm.).; compositional status of noun or verb (gramm.)
+σχῆματίζειν = form; figure (gramm.).; compositional status of noun or verb (gramm.)
+σχῆματισμός, ὁ = form; figure the poetical formation
+
+τέλος, -ους, τό = complete (gramm.).
+τέλειος, α, ον = complete (gramm.).
+τέλεῖν = complete (gramm.).
+τελείωσις, εως, ἡ = completion (gramm.).
+
+τέλικός, -ή, -όν = final; at end or termination of a word (gramm.).
+
+τρίτος, -η, -ον = third; third person (gramm.).
+
+τύπος, -ου, ὁ = type, model, pattern, form (gramm.).
+
+ὑγιής, -ές = sound, correct (gramm.).
+ὑγιῶς = adv. healthily, sound, correct (gramm.).
+
+ὑπακούειν = understand something not expressed, supply in thought (gramm.).
+
+ὑπαλλαγή, -ῆς, ἡ = hypallage (gramm.).
+
+ὑπερβιβάζειν = hyperbaton, transposition of words or clauses in a sentence (gramm.).
+ὑπερβιβασμός, ὁ = transposition
+ὑπερβατός, ή, όν = transposed
+
+φθόγγος, -ου, ὁ = sound (gramm.).
+
+φύσις, -εως, ἡ = nature; φύσει by nature (of long syllables containing long vowel) (gramm.).
+φυσικός, ή, όν = natural, produced or caused by nature, inborn, native
+
+φωνή, -ῆς, ἡ = form; sound (gramm.).
+
+χαρακτήρ, -ῆρος, ὁ = style; character; letter; form (gramm.).
+χαρακτήριστικός, ή, όν = characteristic
+
+χρῆσθαι = usage (gramm.).
+χρῆσις, εως, ἡ = usage (gramm.).
+
+ψιλός, -η, -ον = unaspirated (gramm.).
+ψιλοῦν = indecl. unaspirated (gramm.).
+
+
+# ================= Hellenistic and Byzantine periods
+
+ἀδόκιμος, -ον = not approved, not accepted (gramm.).
+
+ἀκλισία, -ας, ἡ = indeclinability (gramm.).
+
+ἀκυριολέκτηκος, -ον = incorrectly used (gramm.).
+
+ἀκυρολεξία, -ας, ἡ = incorrect phraseology (gramm.).
+
+ἄκυρος, -ον = used in improper sense (gramm.).
+
+ἀλογέομαι = to be irregular (gramm.).
+
+ἀντιπίπτω = to be irregular (gramm.).
+
+ἀμετάβλητος, -ον = unchanging, uninflected (gramm.).
+
+ἀναδιπλασιάζω = to reduplicate (gramm.).
+
+ἀναδίπλασις, -εως, ἡ = reduplication (gramm.).
+
+ἀναδίπλωσις, -εως, ἡ = reduplication (gramm.).
+
+ἀνακριτικός, -ή, -όν = interrogative (gramm.).
+
+ἐρωτηματικός, -ή, -ον = interrogative (gramm.).
+
+ἀναρτάομαι = to depend (gramm.).
+
+ἀνατρέπω = to be irregular (gramm.).
+
+ἀναφορικός, -ή, -όν = relative (of pronouns, other parts of speech) (gramm.).
+
+ἀντανάκλαστος, -ον = reciprocal, reflexive (of pronouns) (gramm.).
+
+ἀντιπεπονθώς, -υῖα, -ός = reciprocal, reflexive (of verbs) (gramm.).
+
+ἀνωμαλία, -ας, ἡ = anomaly, irregularity (gramm.).
+
+ἀξιωματικός, -ή, -όν = declarative (gramm.).
+
+ἀπαιτέω = to require (e.g., certain tense, case) (gramm.).
+
+ἁπλότης, -ητος, ἡ = simplicity; positive degree (gramm.).
+
+ἀποδεικτικός, -ή, -όν = demonstrative, able to show (gramm.).
+
+δεικτικός, -ή, -όν = demonstrative, able to show (gramm.).
+
+ἀπόδοσις, -εως, ἡ = explanation, interpretation; apodosis; conclusion (gramm.).
+
+ἀποδοτικός, -ή, -όν = correlative (gramm.).
+
+ἀποθετικός, -ή, -όν = deponent (of verbs) (gramm.).
+
+αὐτενέργητος, -ον = deponent (of verbs) (gramm.).
+
+ἀπότασις, -εως, ἡ = reference (gramm.).
+
+ἀποτείνω = to refer to (gramm.).
+
+ἀποτελεσμός, -οῦ, ὁ = purpose clause (gramm.).
+
+ἀποφαντικός, -ή, -ον = indicative (mood), for declaring (gramm.).
+
+ἀπρόσωπος, -ον = impersonal (of verbs) (gramm.).
+
+ἄρνησις, -εως, ἡ = negation (gramm.).
+
+ἀρτάομαι = to be construed with, to depend on (gramm.).
+
+ἀσόλοικιστος, -ον = correct, without solecisms (gramm.).
+
+ἀσόλοικος, -ον = correct, without solecisms (gramm.).
+
+ἄτονος, -ον = unaccented (gramm.).
+
+αὔξησις, εως, ἡ = augment (gramm.).
+
+ἀχώριστος, -ον = inseparable (gramm.).
+
+βαθμός, -οῦ, ὁ = degree of comparison (gramm.).
+
+διαζευτικός, -ή, -όν = disjunctive (gramm.).
+
+δίφθογγον, τό = diphthong (gramm.).
+
+διφθόγγη, ἡ = diphthong (gramm.).
+
+δόκιμος, -ον = approved, found in Attic texts (gramm.).
+
+δουλεύω = to be construed with, to take (a certain case) (gramm.).
+
+δραστήριος, -ον = active (gramm.).
+
+δραστικός, -ή, -όν = active (gramm.).
+
+δύναμις, -εως, ἡ = meaning (of words) (gramm.).
+
+ἐγερτικός, -ή, -όν = enclitic (gramm.).
+
+ἐγκελευσματικός, -ή, -όν = hortatory (gramm.).
+
+ἐγκελευστικός, -ή, -όν = hortatory (gramm.).
+
+κελευστικός, -ή, -όν = hortatory (gramm.).
+
+παραινετικός, -ή, -όν = hortatory (gramm.).
+
+παρακελευσματικός, -ή, -όν = hortatory (gramm.).
+
+ἔκθεσμος, -ον = irregular (gramm.).
+
+παράλογος, -ον = irregular (gramm.).
+
+ἐμφαίνω = to indicate, mean (gramm.).
+
+ἐναντιωματικός, -ή, -όν = adversative (gramm.).
+
+ἐναρκτικός, -ή, -όν = inchoative (gramm.).
+
+ἐπεξηγηματικός, -ή, -όν = epexegetical (gramm.).
+
+ἐπιταγματικός, -ή, -όν = subsidiary; appositive (gramm.).
+
+ἐσόμενος, ὁ = future (gramm.).
+
+ἐτυμηγορία, -ας, ἡ = etymology (gramm.).
+
+ἐτυμολογία, -ας, ἡ = etymology (gramm.).
+
+ὑποθετικός, -ή, -όν = hypothetical, conditional (gramm.).
+
+θετικός, -ή, -όν = positive (degree) (gramm.).
+
+καιρικός, -ή, -όν = temporal (gramm.).
+
+χρονικός, -ή, -όν = temporal (gramm.).
+
+κίνημα, -ατος, τό = inflection (gramm.).
+
+κίνησις, -εως, ἡ = inflection (gramm.).
+
+κλίσις, -εως, ἡ = inflection (gramm.).
+
+κουφισμός, -οῦ, ὁ = elision (gramm.).
+
+μακρός, -ά, -όν = long (of vowels or syllables) (gramm.).
+
+μονόκλιτος, -ον = indeclinable (gramm.).
+
+οἰκειωματικός, -ή, -όν = possessive (gramm.).
+
+οἰκειωτικός, -ή, -όν = possessive (gramm.).
+
+#μετ’ ὀλίγον μέλλων = future perfect tense (gramm.).
+
+ὁρεκτικός, -ή, -όν = conative (of verbs) (gramm.).
+
+ὕπτιος, -α, -ον = passive (gramm.).
+
+παραβολικός, -ή, -όν = comparative (of adverbs) (gramm.).
+
+παραγωγή, -ῆς, ἡ = derivation (gramm.).
+
+προσθήκη, -ης, ἡ = particle, epithet (gramm.).
+
+παραλαμβάνω = to use, (pass.) to be found, occur, be used (gramm.).
+
+πρότασις, -εως, ἡ = hypothetical clause, protasis (gramm.).
+
+συμβουλευτικός, -ή, -όν = deliberative (gramm.).
+
+συναίρεσις, -εως, ἡ = contraction (gramm.).
+
+συναρτάομαι = to be construed with (gramm.).
+
+συνάρτησις, -εως, ἡ = construction, combination (gramm.).
+
+συντελικός, -ή, -όν = aorist, completed action (gramm.).
+
+ὑπαρκτικός, -ή, -όν = substantive (gramm.).
+
+ὑποζευτικός, -ή, -όν = subordinating (of conjunctions) (gramm.).
+
+ὑπόζευξις, -εως, ἡ = subordination (gramm.).
+
+# ================ Basic terms with multiple uses or translations (gramm.).
+
+ὀρθή, ἡ = nominative (gramm.).
+
+ὀνομαστική, ἡ = nominative (gramm.).
+
+κτητική, ἡ = genitive, possessive; (gramm.).
+
+πατρική, ἡ = genitive, of the father (gramm.).
+
+ἐπισταλτική, ἡ = dative, epistolary (gramm.).
+
+κλητική, ἡ = vocative, for calling (gramm.).
+
+προσαγορευτική, ἡ = vocative, for addressing (gramm.).
+
+παράγωγος, -ον = derived; lit. "led aside" (gramm.).
+
+πευστικός, -ή, -όν = interrogative (gramm.).
+
+πυσματικός, -ή, -όν = interrogative (gramm.).
+
+ὁριστική, ἡ = indicative, for defining (gramm.).
+
+ἐνεστῶς = present (gramm.).
+
+παρεληλυθῶς = past (gramm.).
+
+# εἰς μι λήγων = μι-verbs; lit. "ending in -μι" (gramm.).
+
+προτακτικόν, τό = definite article, put before the noun (gramm.).
+
+ὑποτακτικόν, τό = relative pronoun, put after the antecedent (gramm.).
+
+συμπλεκτικοί = copulative conjunction; lit. "twining together"; "and", "but" (gramm.).
+
+διαζευκτικός, ή, όν = disjunctive conjunction; lit. "separating"; meaning "or" (gramm.).
+
+# ============== ME
+
+παράδοσις, εως, ἡ = transmission of legends, doctrines, tradition
+
+καθώς = adv. even as
+
+ἔκδοσις, εως, ἡ = giving up, surrendering, publication of a book
+
+καταλληλότης, ητος, ἡ = correct construction
+
+θέσθαι = should define (τίθημι
+ἔπειτα = adv.  thereupon, thereafter, then
+ἀπόφανσις, εως, ἡ =  declaration, statement
+σύμβολον, τό = token serving as proof of identity
+πάθημα, ατος, τό = in pl., incidents, happenings
+νόημα, ατος, τό =  that which is perceived, perception, thought,
+ὁτὲ = adv. when, at the time when
+ἔοικε = indecl. verb. act.perf.ind sg.3, to be like, look like, seem, as
+εἶκε = indecl. verb. act.perf.ind sg.3, to be like, look like, seem, as
+ὅταν = conj. whenever
+ψεῦδος, εος, τό =  falsehood, lie
+ἁπλῶς = adv. simply, plainly, generally
+συνθήκη, ἡ = compounding
+σημαντικός, ή, όν = significant
+οὐδαμῶς = adv.  not any one, no one
+χωρὶς = adv.  separately, apart
+ὁμολουέω = to confess, agreeing, of one mind

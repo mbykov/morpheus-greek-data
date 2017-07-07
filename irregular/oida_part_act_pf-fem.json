@@ -1,0 +1,25 @@
+{
+    "pos": "part",
+    "var": "act.pf",
+    "descr": "irreg",
+    "dict": "οἶδα",
+    "gend": "fem",
+    "trn": "to know",
+    "forms": {
+        "sg.nom": "ἐγνωκυῖα",
+        "sg.gen": "ἐγνωκυίας",
+        "sg.dat": "ἐγνωκυίᾳ",
+        "sg.acc": "ἐγνωκυῖαν",
+        "sg.voc": "ἐγνωκυῖα",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "ἐγνωκυῖαι",
+        "pl.gen": "ἐγνωκυιῶν",
+        "pl.dat": "ἐγνωκυίαις",
+        "pl.acc": "ἐγνωκυίας",
+        "pl.voc": "ἐγνωκυῖαι"
+    }
+}

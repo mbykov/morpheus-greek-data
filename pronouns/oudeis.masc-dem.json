@@ -1,0 +1,23 @@
+{
+    "type":"term",
+    "pos": "pron",
+    "descr": "dem",
+    "var": "dem",
+    "trn": "not one, nobody",
+    "dict": "οὐδείς",
+    "gend": "masc",
+    "forms":{
+        "sg.nom": "οὐδείς",
+        "sg.gen": "οὐδενός",
+        "sg.dat": "οὐδενί",
+        "sg.acc": "οὐδένα",
+        "du.nom": "",
+        "du.acc": "",
+        "du.gen": "",
+        "du.dat": "",
+        "pl.nom": "οὐδένες",
+        "pl.gen": "οὐδένων",
+        "pl.dat": "οὐδέσι οὐδέσιν",
+        "pl.acc": "οὐδένας"
+    }
+}

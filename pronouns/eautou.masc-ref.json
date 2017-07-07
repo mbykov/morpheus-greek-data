@@ -1,0 +1,17 @@
+{
+    "type":"term",
+    "pos": "pron",
+    "descr": "ἑαυτοῦ, ἑαυτῆς, ἑαυτοῦ, of himself, herself, itself",
+    "var": "ref",
+    "trn": "of himself, herself, itself, 3d person",
+    "dict": "ἑαυτοῦ",
+    "gend": "masc",
+    "forms":{
+        "sg.gen": "ἑαυτοῦ, αὑτοῦ",
+        "sg.dat": "ἑαυτῷ, αὑτῷ",
+        "sg.acc": "ἑαυτόν, αὑτόν",
+        "pl.gen": "ἑαυτῶν, αὑτῶν",
+        "pl.dat": "ἑαυτοῖς, αὑτοῖς",
+        "pl.acc": "ἑαυτούς, αὑτούς"
+    }
+}

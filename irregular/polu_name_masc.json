@@ -1,0 +1,20 @@
+{
+    "type": "term",
+    "pos": "name",
+    "descr": "irreg",
+    "dict": "πολύς",
+    "gend": "masc",
+    "trn": "many, much, very, great",
+    "forms": {
+        "sg.nom": "πολύς",
+        "sg.gen": "πολλού πολλοῦ",
+        "sg.dat": "πολλῷ",
+        "sg.acc": "πολύν",
+        "sg.voc": "πολύ",
+        "pl.nom": "πολλοί",
+        "pl.gen": "πολλῶν",
+        "pl.dat": "πολλοῖς",
+        "pl.acc": "πολλούς",
+        "pl.voc": "πολλοί"
+    }
+}

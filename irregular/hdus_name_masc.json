@@ -1,0 +1,25 @@
+{
+    "type": "term",
+    "pos": "name",
+    "descr": "irreg",
+    "dict": "ἡδύς",
+    "gend": "masc",
+    "trn": "sweet",
+    "forms": {
+        "sg.nom": "ἡδύς",
+        "sg.gen": "ἡδέος",
+        "sg.dat": "ἡδεῖ",
+        "sg.acc": "ἡδύν",
+        "sg.voc": "ἡδύ",
+        "du.nom": "ἡδεῖ",
+        "du.gen": "ἡδέοιν",
+        "du.dat": "ἡδέοιν",
+        "du.acc": "ἡδεῖ",
+        "du.voc": "ἡδεῖ",
+        "pl.nom": "ἡδεῖς",
+        "pl.gen": "ἡδέων",
+        "pl.dat": "ἡδέσι",
+        "pl.acc": "ἡδεῖς",
+        "pl.voc": "ἡδεῖς"
+    }
+}

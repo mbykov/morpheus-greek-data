@@ -1,0 +1,26 @@
+{
+    "pos":"name",
+    "descr": "liquid stems",
+    "var": "wn",
+    "gend": "neut",
+    "dict": "όν",
+    "add": "ων ών",
+    "example": "τό ἑκόν",
+    "flexes":{
+        "sg.nom": "όν",
+        "sg.gen": "όντος",
+        "sg.dat": "όντι",
+        "sg.acc": "όν",
+        "sg.voc": "όν",
+        "du.nom": "όντε",
+        "du.gen": "όντοιν",
+        "du.dat": "όντοιν",
+        "du.acc": "όντε",
+        "du.voc": "όντε",
+        "pl.nom": "όντα",
+        "pl.gen": "όντων",
+        "pl.dat": "οῦσι",
+        "pl.acc": "όντα",
+        "pl.voc": "όντα"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "pos": "part",
+    "var": "aor.pres",
+    "descr": "irreg",
+    "dict": "φημί",
+    "gend": "fem",
+    "trn": "to say",
+    "forms": {
+        "sg.nom": "φήσασα",
+        "sg.gen": "φησάσης",
+        "sg.dat": "φησάσῃ",
+        "sg.acc": "φήσασαν",
+        "sg.voc": "φήσασα",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "φήσασαι",
+        "pl.gen": "φησασῶν",
+        "pl.dat": "φησάσαις",
+        "pl.acc": "φησάσας",
+        "pl.voc": "φήσασαι"
+    }
+}

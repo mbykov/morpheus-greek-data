@@ -1,0 +1,25 @@
+{
+    "pos": "part",
+    "descr": "irreg",
+    "var": "act.pf",
+    "dict": "εἰμί",
+    "gend": "fem",
+    "trn": "to be",
+    "forms": {
+        "sg.nom": "γεγονυῖα",
+        "sg.gen": "γεγονυίας",
+        "sg.dat": "γεγονυίᾳ",
+        "sg.acc": "γεγονυῖαν",
+        "sg.voc": "γεγονυῖα",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "γεγονυῖαι",
+        "pl.gen": "γεγονυιῶν",
+        "pl.dat": "γεγονυίαις",
+        "pl.acc": "γεγονυίας",
+        "pl.voc": "γεγονυῖαι"
+    }
+}

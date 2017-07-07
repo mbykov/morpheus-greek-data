@@ -1,0 +1,27 @@
+{
+    "type":"flex",
+    "pos":"name",
+    "descr": "prima",
+    "var": "h ous",
+    "dict": "ῆ",
+    "add": "οῦς",
+    "gend": "fem",
+    "ex": "γῆ",
+    "flexes":{
+        "sg.nom": "ῆ",
+        "sg.gen": "ῆς",
+        "sg.dat": "ῇ",
+        "sg.acc": "ῆν",
+        "sg.voc": "ῆ",
+        "du.nom": "ᾶ",
+        "du.gen": "αῖν",
+        "du.dat": "αῖν",
+        "du.acc": "ᾶ",
+        "du.voc": "ᾶ",
+        "pl.nom": "αῖ",
+        "pl.gen": "ῶν",
+        "pl.dat": "αῖς",
+        "pl.acc": "ᾶς",
+        "pl.voc": "αῖ"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "term",
+    "pos": "name",
+    "descr": "irreg",
+    "dict": "μέγας",
+    "gend": "neut",
+    "trn": "great",
+    "forms": {
+        "sg.nom": "μέγα",
+        "sg.gen": "μεγάλου",
+        "sg.dat": "μεγάλῳ",
+        "sg.acc": "μέγα",
+        "sg.voc": "μέγα",
+        "du.nom": "μεγάλω",
+        "du.gen": "μεγάλοιν",
+        "du.dat": "μεγάλοιν",
+        "du.acc": "μεγάλω",
+        "du.voc": "μεγάλω",
+        "pl.nom": "μεγάλα",
+        "pl.gen": "μεγάλων",
+        "pl.dat": "μεγάλοις",
+        "pl.acc": "μεγάλα",
+        "pl.voc": "μεγάλα"
+    }
+}

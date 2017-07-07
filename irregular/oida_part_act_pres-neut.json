@@ -1,0 +1,25 @@
+{
+    "pos": "part",
+    "var": "act.pres",
+    "descr": "irreg",
+    "dict": "οἶδα",
+    "gend": "neut",
+    "trn": "to know",
+    "forms": {
+        "sg.nom": "εἰδός",
+        "sg.gen": "εἰδότος",
+        "sg.dat": "εἰδότι",
+        "sg.acc": "εἰδός",
+        "sg.voc": "εἰδός",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "εἰδότα",
+        "pl.gen": "εἰδότων",
+        "pl.dat": "εἰδόσι εἰδόσιν",
+        "pl.acc": "εἰδότα",
+        "pl.voc": "εἰδότα"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type":"flex",
+    "pos":"name",
+    "descr": "cons",
+    "var": "ir-iros",
+    "gend": "fem masc",
+    "dict": "ιρ ίρ",
+    "flexes":{
+        "sg.nom": "ιρ ίρ",
+        "sg.gen": "ιρος ιρός",
+        "sg.dat": "ιρι ιρί",
+        "sg.acc": "ιρα ῖρα",
+        "sg.voc": "ιρ ίρ",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "ιρες ῖρες",
+        "pl.gen": "ίρων ιρῶν",
+        "pl.dat": "ιρσι ιρσιν ρσί ρσίν",
+        "pl.acc": "ιρας ῖρας",
+        "pl.voc": "ιρες ῖρες"
+    }
+}

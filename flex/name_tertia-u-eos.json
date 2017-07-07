@@ -1,0 +1,25 @@
+{
+    "type":"greek-flex",
+    "pos":"name",
+    "descr": "stem-iu",
+    "var": "u-eos",
+    "gend": "neut",
+    "dict": "υ",
+    "flexes":{
+        "sg.nom": "υ",
+        "sg.gen": "εως",
+        "sg.dat": "ει",
+        "sg.acc": "υ",
+        "sg.voc": "υ",
+        "du.nom": "ει",
+        "du.gen": "έοιν",
+        "du.dat": "έοιν",
+        "du.acc": "ει",
+        "du.voc": "ει",
+        "pl.nom": "η",
+        "pl.gen": "εων",
+        "pl.dat": "εσι εσιν",
+        "pl.acc": "η εα",
+        "pl.voc": "η"
+    }
+}

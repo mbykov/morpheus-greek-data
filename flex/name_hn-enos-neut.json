@@ -1,0 +1,24 @@
+{
+    "pos":"name",
+    "descr": "liquid stems",
+    "var": "hn-enos",
+    "gend": "neut",
+    "dict": "ην ήν",
+    "flexes":{
+        "sg.nom": "εν",
+        "sg.gen": "ενος",
+        "sg.dat": "ρενι",
+        "sg.acc": "εν",
+        "sg.voc": "εν",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "ενα",
+        "pl.gen": "ένων",
+        "pl.dat": "εσι εσιν",
+        "pl.acc": "ενα",
+        "pl.voc": "ενα"
+    }
+}

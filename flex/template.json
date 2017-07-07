@@ -1,0 +1,25 @@
+{
+    "pos":"part",
+    "descr": "",
+    "var": "",
+    "dict": "",
+    "gend": "masc",
+    "ex": "",
+    "flexes":{
+        "sg.nom": "",
+        "sg.gen": "",
+        "sg.dat": "",
+        "sg.acc": "",
+        "sg.voc": "",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "",
+        "pl.gen": "",
+        "pl.dat": "",
+        "pl.acc": "",
+        "pl.voc": ""
+    }
+}

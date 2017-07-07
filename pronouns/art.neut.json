@@ -1,0 +1,22 @@
+{
+    "type":"term",
+    "pos": "art",
+    "descr": "art-neut",
+    "var": "",
+    "trn": "article the",
+    "gend": "neut",
+    "forms":{
+        "sg.nom": "τό",
+        "sg.gen": "τοῦ",
+        "sg.dat": "τῷ",
+        "sg.acc": "τό",
+        "du.nom": "τώ",
+        "du.acc": "τώ",
+        "du.gen": "τοῖν",
+        "du.dat": "τοῖν",
+        "pl.nom": "τά",
+        "pl.gen": "τῶν",
+        "pl.dat": "τοῖς",
+        "pl.acc": "τά"
+    }
+}

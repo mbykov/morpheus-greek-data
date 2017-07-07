@@ -1,0 +1,23 @@
+{
+    "type":"term",
+    "pos": "pron",
+    "descr": "3rd person",
+    "var": "pers",
+    "trn": "self, he, she, it",
+    "dict": "αὐτός",
+    "gend": "masc",
+    "forms":{
+        "sg.nom": "αὐτός",
+        "sg.gen": "αὐτοῦ",
+        "sg.dat": "αὐτῷ",
+        "sg.acc": "αὐτόν ταὐτόν",
+        "du.nom": "αὐτώ",
+        "du.acc": "αὐτώ",
+        "du.gen": "αὐτοῖν",
+        "du.dat": "αὐτοῖν",
+        "pl.nom": "αὐτοί αὐτοῖ",
+        "pl.gen": "αὐτῶν",
+        "pl.dat": "αὐτοῖς",
+        "pl.acc": "αὐτούς"
+    }
+}

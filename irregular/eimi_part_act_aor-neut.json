@@ -1,0 +1,25 @@
+{
+    "pos": "part",
+    "var": "act.aor",
+    "descr": "irreg",
+    "dict": "εἰμί",
+    "gend": "neut",
+    "trn": "to be",
+    "forms": {
+        "sg.nom": "γενόμενον",
+        "sg.gen": "γενομένου",
+        "sg.dat": "γενομένῳ",
+        "sg.acc": "γενόμενον",
+        "sg.voc": "γενόμενον",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "γενόμενα",
+        "pl.gen": "γενομένων",
+        "pl.dat": "γενομένοις",
+        "pl.acc": "γενόμενα",
+        "pl.voc": "γενόμενα"
+    }
+}

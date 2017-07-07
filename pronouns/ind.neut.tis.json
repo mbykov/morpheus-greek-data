@@ -1,0 +1,24 @@
+{
+    "type":"term",
+    "pos": "pron",
+    "descr": "τὶς, τὶς, τὶ, some, any",
+    "var": "ind",
+    "trn": "some, any",
+    "gend": "neut",
+    "dict": "τὶς",
+    "com": "second enclitic forms were added by hand",
+    "forms":{
+        "sg.nom": "τὶ, τι",
+        "sg.gen": "τινός, τινος, του",
+        "sg.dat": "τινί, τινι, τῳ",
+        "sg.acc": "τὶ, τι",
+        "du.nom": "τινέ, τινε",
+        "du.acc": "τινέ, τινε",
+        "du.gen": "τινοῖν, τινοιν",
+        "du.dat": "τινοῖν, τινοιν",
+        "pl.nom": "τινά, τινα",
+        "pl.gen": "τινῶν, τινων",
+        "pl.dat": "τισί, τισι",
+        "pl.acc": "τινά, τινα"
+    }
+}

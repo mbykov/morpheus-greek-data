@@ -1,0 +1,515 @@
+
+<html>
+<head>
+  <title>Liddell & Scott</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link type="text/css" rel="stylesheet" media="all" href="http://diderot.uchicago.edu/drupalparts/style.css?x" />
+<style type="text/css">
+<!--
+/* The following is PhiloLogic specific CSS to handle TEI encoding */
+/* Edit as you see fit, but you will probably need to modify traps in */
+/* philosubs.pl in the database lib/ directory.  Yes, indeed, it is */
+/* a bit fiddly.  One day, XSLT!  If you do it, please let us know. */
+span.emph {font-weight: bolder; }
+span.emphsc {FONT-SIZE: 12px;}
+span.hi   {font-weight: bolder;}
+span.foreign {font-style: italic;}
+span.bibl {font-style: italic;}
+span.title     {font-style: italic;}
+span.hiitalic  {font-style: italic;}
+span.hiunderline {text-decoration: underline;}
+span.hibold   {font-weight: bolder;}
+span.doctitle {display: block; text-align: center; FONT-SIZE: 24px; LINE-HEIGHT: 1.5;}
+span.byline {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.pubplace {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.docedition {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.publisher {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.docimprint {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.addrline {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.docauthor {display: block; text-align: center; FONT-SIZE: 20px; LINE-HEIGHT: 1.5;}
+span.docdate {display: block; text-align: center; FONT-SIZE: 20px; LINE-HEIGHT: 1.5;}
+span.opener   {display: block; text-align: center;}
+span.label   {display: block; text-align: center;}
+span.signed   {display: block; text-align: right;}
+span.stage    {display: block; text-align: right; font-style: italic; margin-left: 120px;}
+span.speaker  {display: block; text-align: center; FONT-SIZE: 16;}
+span.epigraph {display: block; margin-left: 300px;}
+span.salute   {display: block; text-align: center;}
+span.trailer  {display: block; text-align: center;}
+span.closer   {display: block; text-align: center;}
+span.item     {display: block; text-align: left;}
+span.role     {display: block; text-align: left; margin-left: 100px; margin-right: 100px}
+span.argument {display: block; text-align: left; margin-left: 100px; margin-right: 100px}
+span.roledesc {display: block; text-align: right; margin-right: 100px}
+span.l        {display: block; text-align: left;}
+span.small   {FONT-SIZE: 11px;}
+span.hismallcap {FONT-SIZE: 12px;}
+span.head    {display:block; text-align: center; font-weight: bolder; FONT-SIZE: 18px; LINE-HEIGHT: 1.5;}
+span.notetarget {FONT-SIZE: 12px; text-decoration: underline; vertical-align: super;}
+span.footnote {display: block; FONT-SIZE: 12px; margin-left: 60px; margin-right: 40px;}
+span.marginnote {display: block; FONT-SIZE: 12px; text-align: right;}
+span.inlinenote {display: block; FONT-SIZE: 12px;}
+span.generalnote {display: block; FONT-SIZE: 12px;}
+span.endnote {display: block; FONT-SIZE: 12px;}
+span.refalignright {display: block; text-align: right;}
+span.mstoneid {display: block; FONT-SIZE: 12px; text-align: right;}
+span.mstonen {display: block; FONT-SIZE: 12px; text-align: right;}
+span.mstonetype {display: block; text-align: center;}
+span.mwright {display: block; FONT-SIZE: 12px; text-align: right;}
+span.authfreqindt {display: block; text-align: left; margin-left: 60px;}
+span.perfreqindt {display: block; text-align: left; margin-left: 45px;}
+span.navhead {display: block; text-align: center; font-size: 16; font-weight: bold;}
+span.navbiblio {display: block; font-size: 14;}
+span.navlevel1 {display: block; text-align: left; font-size: 14;}
+span.navlevel2 {display: block; text-align: left; margin-left: 40px; FONT-SIZE: 14;}
+span.navlevel3 {display: block; text-align: left; margin-left: 60px; FONT-SIZE: 12;}
+span.projecthead { text-align: right; font-size: 20; color: #000000;}
+span.sense {display:block; margin:2px;}
+
+/* For pop-in notes */
+.hiddennote {
+        display: none;
+        margin: 5px;
+        border: 1px solid #242e55;
+        background-color: #dde3ef;
+        padding: 2px;
+}
+
+-->
+</style>
+<!-- Needed JavaScript Code -->
+<script language="JavaScript">
+    var cleared = 0;
+
+function clearField(field)
+    {
+        if (cleared != 1) {
+            field.value = ""
+            cleared = 1
+        } else {
+            cleared = 0
+        }
+    }
+
+function toggleMenu(currElem,nextPos) {
+        menuObj = (document.all) ? eval("document.all." + currElem + ".style") : eval("document." + currElem)
+        if (toggleMenu.arguments.length == 1)
+                nextPos = (parseInt(menuObj.top) == -5) ? -90 : -5
+                if (document.all)
+                        menuObj.pixelTop = nextPos
+                else
+                        menuObj.top = nextPos
+}
+
+</script>  
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/misc/jquery.js?x"></script>
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/mischttp://encyclopedie.uchicago.edu.js?x"></script>
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/misc/tabledrag.js?x"></script>
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/misc/tableheader.js?x"></script>
+
+	<!--[if lt IE 7]>
+  <style type="text/css" media="all">@import "http://artfl-project.uchicago.edu/sites/all/themes/deco/fix-ie6.css";</style>
+  <![endif]-->
+	<!--[if gt IE 5]>
+  <style type="text/css" media="all">@import "http://artfl-project.uchicago.edu/sites/all/themes/deco/fix-ie.css";</style>
+  <![endif]-->
+</head>
+
+<body  onkeypress="if (dictOn) checkKeyPressed(event);">
+  
+
+	<div id="container" class="clear-block">
+		
+		<div id="header">
+                        <div id="top-bar">
+                                                        <div class="region-content">
+<ul class="links secondary-links">
+<li class="menu-124"><a href="http://perseus.uchicago.edu/">HOME</a></li>
+<li class="menu-124"><a href="http://perseus.uchicago.edu/about.html">ABOUT THIS RESOURCE</a></li>
+<li class="menu-124"><a href="http://www.perseus.tufts.edu/">PERSEUS DIGITAL LIBRARY AT TUFTS</a></li>
+<li class="menu-123"><a href="http://artfl.uchicago.edu/" title="">ARTFL PROJECT</a></li>
+<li class="menu-175"><a href="http://humanities.uchicago.edu/depts/classics/" title="">CLASSICS AT CHICAGO</a></li>
+
+</ul>                           </div>
+                        </div>
+			
+<div class="region-content">
+<h1><span class="site-name"><a href="http://perseus.uchicago.edu/Reference/LSJ.html">Liddell & Scott</span></a></h1>
+<ul class="links primary-links" style="float:left;">
+<li class="menu-115 first"><a href="http://perseus.uchicago.edu/Reference/LSJ.html">search</a></li>
+<li class="menu-288"><a href="http://philologic.uchicago.edu/manual.php" target="blank">help</a></li>
+<li class="menu-197 last"><a href="http://spreadsheets.google.com/viewform?key=pOHHlctnbPqT1dKtC24I2Iw" target="blank">report a problem</a></li>
+<li class="menu-298"><form action="/cgi-bin/philologic/search3torth" style="margin:0px; padding-top:18px; padding-right:16px; padding-left:16px;"><input name="dgdivhead" title="Enter unaccented Greek. (Leave out accents, breathings and iota subscripts.)" type="text" size="12"/><input type="hidden" name="dbname" value="LSJ" /><input type="submit" value="Headword Lookup" /><input type="hidden" name="ORTHMODE" value="UNACCENTED" /></form> </li>
+<li class="menu-288"><a href="/cgi-bin/philologic/getobject.pl?c.0:2:3.LSJ">abbreviations</a></li>
+
+</ul>
+</div>
+		</div> <!-- /header -->
+
+			<div id="featured">
+                                </div>
+			<div id="main">
+			<div id="content">
+<a name="greatscott01"></a>Henry George Liddell; Robert Scott [<b>1940</b>], <i><a href="/cgi-bin/philologic/navigate.pl?LSJ.0
+">A Greek-English Lexicon; Machine readable text</a></i>  (Trustees of Tufts University, Oxford) [<a href="/cgi-bin/philologic/getwordcount.pl?LSJ.0
+">word count</a>] [<b>greatscott01</b>]. <hr noshade>
+<table width='95%'><tr><td width='50%' align='left'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:2:4.LSJ">Previous Entry</A><p>
+</td><td width='50%' align='right'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:2:6.LSJ"><p>Next Entry</A><p>
+</td></tr></table><div1 n="3" type="section" org="uniform" sample="complete">
+  <span class=head>III. Papyrological Publications</span>
+<p><br>
+
+ <span class=item><span class=title>BGU = Berliner griechische Urkunden (Ägyptische Urkunden aus
+   den Königlichen Museen zu Berlin</span>), Berlin 1895-.</span>
+ <span class=item><span class=title>BKT = Berliner Klassikertexte, herausgegeben von der Generalver-
+   waltung der Kgl. Museen zu Berlin,</span> Berlin 1904-.</span>
+ <span class=item><span class=title>Berichtigungsl. = Berichtigungsliste der griechischen Papyrusurkunden
+   aus Ägypten:</span> I. F. Preisigke, Hefte 1 &amp; 2, Strassburg 1913;
+   Hefte 3 &amp; 4, Berlin &amp; Leipzig 1922; II. F. Bilabel, Heidelberg
+   1931, 1933.</span>
+ <span class=item>Bilabel <span class=foreign>Ὀψαρτ.</span> = F. Bilabel, <span class=foreign>Ὀψαρτυτικά</span> <span class=title>und Verwandtes (Sitzungs-
+   berichte d. Heidelberger Akademie der Wissenschaften, Phil.-hist.
+   Kl.</span> 1919, 23. <span class=title>Abh.</span>), Heidelberg 1920.</span>
+ <span class=item><span class=title>CPHerm. = Corpus Papyrorum Hermopolitanorum</span> i, ed. C. Wessely
+   (<span class=title>Studien zur Paläogr. u. Papyruskunde</span> v), Leipzig 1905.</span>
+ <span class=item><span class=title>CPR = Corpus Papyrorum Raineri Archiducis Austriae,</span> vol. i,
+   <span class=title>Griechische Texte,</span> ed. C. Wessely, Wien 1895; cf. <span class=title>PRain.(NS).</span></span>
+ <span class=item><span class=foreign>Διηγήσεις  Διηγήσεις</span> <span class=title>di poemi di Callimaco in un papiro di Tebtynis,</span>
+   a cura di M. Norsa e G. Vitelli, Firenze 1934: cited by column
+   and line; ed. A. Vogliano <span class=title>PUniv.Milan.</span> i. 18.</span>
+ <span class=item>Frisk <span class=title>Bankakten = Bankakten aus dem Faijûm nebst anderen Ber-
+   liner Papyri,</span> ed. H. Frisk (<span class=title>Göteborgs Kungl. Vetenskaps- och
+   Vitterhets-Samhälles Handlingar, femte följden, Ser.A. Band 2
+   No. 2</span>), Göteborg 1931.</span>
+ <span class=item><span class=title>Herc.</span> (following an author's name) = Herculaneum papyri, cited
+   by No. of papyrus and column or fragment from <span class=title>Herculanensium
+   Voluminum quae supersunt, Collectio altera,</span> Naples 1862-76,
+   D. Bassi, <span class=title>Herculanensium Voluminum, Collectio tertia,</span> fasc. i,
+   Milan 1914, and other publications; 'Epicureus <span class=title>Herc.</span> . . p. . . V.'
+   refers to <span class=title>Epicuri et Epicureorum scripta</span> . . , ed. A. Vogliano (v. I
+   (Add.) s.v. Epicurus).</span>
+ <span class=item><span class=title>Kapsomenakis</span> = S. G. Kapsomenakis, <span class=title>Voruntersuchungen zu einer
+   Grammatik der Papyri der nachchristlichen Zeit,</span> Munich 1938.</span>
+ <span class=item>Meyer <span class=title>Ostr.</span> = Ostraca in <span class=title>P.Meyer</span> (q.v.).</span>
+ <span class=item>Mitteis <span class=title>Chr.,</span> Wilcken <span class=title>Chr.</span> = L. Mitteis &amp; U. Wilcken, <span class=title>Grundzüge
+   und Chrestomathie der Papyruskunde,</span> Leipzig &amp; Berlin 1912.</span>
+ <span class=item>Möller <span class=title>Pap.Berl.Mus.</span> = S. Möller, <span class=title>Griechische Papyri aus dem Ber-
+   liner Museum,</span> Göteborg 1929.</span>
+ <span class=item><span class=title>Ostr.</span> = U. Wilcken, <span class=title>Griechische Ostraka aus Ägypten und Nubien,</span>
+   Leipzig &amp; Berlin 1899.</span>
+ <span class=item><span class=title>Ostr.Bodl.</span> = J. G. Tait, <span class=title>Greek Ostraca in the Bodleian Library and
+   other collections,</span> I, London 1930 (cited by No. of part and No. of
+   ostracon).</span>
+ <span class=item><span class=title>Ostr.Mich.</span> = L. Amundsen, <span class=title>Greek Ostraca in the University of
+   Michigan Collection,</span> Part I, Texts ( = University of Michigan
+   Studies, Humanistic Series, vol. xxxiv), Ann Arbor 1935.</span>
+ <span class=item><span class=title>Ostr.Strassb. = Griechische und griechisch-demotische Ostraka der
+   Universitäts- und Landesbibliothek zu Strassburg,</span> ed. P. Viereck,
+   Berlin 1923.</span>
+ <span class=item><span class=title>Ostr.Wilbour</span> = C. Préaux, <span class=title>Les ostraca grecs de la Collection
+   Charles-Edwin Wilbour an Musee de Brooklyn,</span> New York 1935.</span>
+ <span class=item><span class=title>PAberd. = Catalogue of Greek &amp; Latin papyri &amp; ostraca in the pos-
+   session of the University of Aberdeen,</span> ed. E. G. Turner (<span class=title>Aberdeen
+   Univ. Studies</span> No. 116), 1939.</span>
+ <span class=item><span class=title>PAlex. = Papyrus ptolémaïques du Musee d' Alexandrie,</span> ed. G. Botti,
+   <span class=title>Bull.Soc.Alex.</span> First Series No. 2 (1899) p. 65.</span>
+ <span class=item><span class=title>PAmh. = Amherst Papyri,</span> ed. B. P. Grenfell &amp; A. S. Hunt, 2 vols.,
+   London 1900-1; cited by No. of vol., papyrus, and line.</span>
+ <span class=item><span class=title>PAntin. = the Antinoe Papyrus</span> of Theocritus in <span class=title>Two Theocritus
+   Papyri,</span> ed. A. S. Hunt &amp; J. Johnson, London 1930.</span>
+ <span class=item><span class=title>PAvrom. = Parchments of the Parthian period from Avroman in
+   Kurdistan,</span> ed. E. H. Minns, <span class=title>JHS</span> xxxv (1915) p. 22.</span>
+ <span class=item><span class=title>PBaden</span> = F. Bilabel, <span class=title>Veröffentlichungen aus den badischen Papyrus-
+   Sammlungen,</span> Heft 2 and Heft 4, <span class=title>Griechische Papyri,</span> Heidelberg
+   1923, 1924.</span>
+ <span class=item><span class=title>PBasel = Papyrusurkunden der öffentlichen Bibliothek der Universität
+   zu Basel,</span> I. <span class=title>Urkunden in griechischer Sprache,</span> ed. E. Rabel
+   (<span class=title>Abh. Gött. Gesellsch.</span> Neue Folge, vol. xvi, No. 3), Berlin 1917.</span>
+ <span class=item><span class=title>PBerl.Leihg. = Berliner Leihgabe griechischer Papyri,</span> herausgegeben
+   vom griechischen Seminar der Universität Uppsala durch T.
+   Kalén, Uppsala 1932.</span>
+ <span class=item><span class=title>PBerol.</span> = Berlin Papyri, cited by inventory No. (<span class=title>PBerol.</span> 6926,
+   7927v = B. Lavagnini, <span class=title>Eroticorum Graecorum Fragmenta Papyra-
+   cea,</span> Leipzig (T.) 1922, pp. 1ff., 21ff.).</span>
+ <span class=item><span class=title>PBouriant = Les papyrus Bouriant,</span> ed. P. Collart, Paris 1926.</span>
+ <span class=item><span class=title>PBremen</span> = U. Wilcken, <span class=title>Die Bremer Papyri (Abhandlungen der
+   Preussischen Akademie der Wissenschaften,</span> 1936, Phil.-hist. Klasse
+   No. 2), Berlin 1936.</span>
+ <span class=item><span class=title>PCair.</span> = Cairo Papyri cited by catalogue No. from B. P. Grenfell
+   &amp; A. S. Hunt, <span class=title>Greek Papyri, Catalogue général des Antiquités
+   égyptiennes du Musée du Caire,</span> vol. x, Nos. 10001-10869, Oxford
+   1903.</span>
+ <span class=item><span class=title>PCair.Preis.</span> = F. Preisigke, <span class=title>Griechische Urkunden des ägyptischen
+   Museums zu Kairo (Schriften der wissenschaftlichen Gesellschaft
+   zu Strassburg,</span> IIeft 8), Strassburg 1911.</span>
+ <span class=item><span class=title>PCair.Zen.</span> = C. C. Edgar, <span class=title>Zenon Papyri,</span> 4 vols. (<span class=title>Catal. gén. des
+   Antiq. égypt. du Musée du Caire,</span> 79) 1925-31: digits indicating
+   59(000) omitted in refs., thus 2 = 59002.</span>
+ <span class=item><span class=title>PCornell = Greek Papyri in the Library of Cornell University,</span> ed.
+   W. L. Westermann &amp; C. J. Kraemer, New York 1926.</span>
+ <span class=item><span class=title>PEdgar</span> = C. C. Edgar, <span class=title>Selected papyri from the archives of Zenon,
+   Annales du Service des Antiquités de l' Égypte,</span> Nos. 1-10 in vol.
+   xviii (1918) pp. 159-82; Nos. 11-21, ib. pp. 224-44; Nos. 22-
+   36, vol. xix (1920) pp. 13-36; Nos. 37-48, ib. pp. 81-104; Nos.
+   49-54, vol. xx (1920) pp. 19-40; Nos. 55-64, ib. pp. 181-206;
+   Nos. 65-6, vol. xxi (1921) pp. 89-109; Nos. 67-72, vol. xxii
+   (1922) pp. 209-31; Nos. 73-76, vol. xxiii (1923) pp. 73-98; Nos.
+   77-88, ib. pp. 187-209; Nos. 89-104. vol. xxiv (1924) pp. 17-52.</span>
+ <span class=item><span class=title>PEleph. = Elephantine Papyri,</span> ed. O. Rubensohn, <span class=title>Ägyptische Ur-
+   kunden aus den Kgl. Museen zu Berlin: Griechische Urkunden:</span>
+   Sonderheft, Berlin 1907.</span>
+ <span class=item><span class=title>PEnteux. = Publications de la Société royale égyptienne de Papyrologie,
+   Textes et Documents,</span> i, <span class=foreign>Ἐντεύξεις</span> . . , ed. O. Guéraud, Cairo 1931-2.</span>
+ <span class=item><span class=title>PFay.</span> = B. P. Grenfell, A. S. Hunt, D. G. Hogarth, <span class=title>Fayûm Towns
+   and their Papyri,</span> London 1900.</span>
+ <span class=item><span class=title>PFlor. = Papiri Fiorentini, documenti pubblici e privati dell' età
+   romana e bizantina:</span> I ed. G. Vitelli, Milano 1906; II ed.
+   D. Comparetti, 1908-11; III ed. G. Vitelli, 1915.</span>
+ <span class=item><span class=title>PFrankf.</span> = H. Lewald, <span class=title>Griechische Papyri aus dem Besitz des rechts-
+   wissenschaftlichen Seminars der Universität Frankfurt (Sitzungs-
+   berichte der Heidelberger Akademie der Wissenschaften, Phil.-hist.
+   Kl.</span> 1920, 14. <span class=title>Abh.</span>).</span>
+ <span class=item><span class=title>PFreib. = Mitteilungen aus der Freiburger Papyrussammlung,</span> in
+   <span class=title>Sitzungsberichte der Heidelberger Akademie der Wissenschaften,
+   Phil.-hist. Klasse,</span> 1914, 2. <span class=title>Abh.,</span> 1916, 10. <span class=title>Abh.</span></span>
+ <span class=item><span class=title>PGand} = Quelques papyrus des collections de Gand et de Paris,</span> ed.</span>
+ <span class=item><span class=title>PSorb.}</span> M. Hombert, <span class=title>Revue belge de Philologie et d' Histoire</span> iv (1925),
+   633-76: republished in <span class=title>Sammelb.</span> iii.</span>
+ <span class=item><span class=title>PGen. = Les papyrus de Genève</span> transcrits et publiés par Jules Nicole,
+   Geneva 1896, 1900.</span>
+ <span class=item><span class=title>PGiss. = Griechische Papyri im Museum des oberhessischen Geschichts-
+   vereins zu Giessen,</span> Bd. I, Hefte 1-3, ed. O. Eger, E. Kornemann,
+   P. M. Meyer, Leipzig etc. 1910-12.</span>
+ <span class=item><span class=title>PGnom. = Der Gnomon des Idios Logos (BGU</span> v (1) 1210) ed. W.
+   Schubart 1919.</span>
+ <span class=item><span class=title>PGoodsp.</span> = E. J. Goodspeed, <span class=title>A group of Greek papyrus texts (Class.
+   Phil.</span> i, 1906, p. 167).</span>
+ <span class=item><span class=title>PGoodsp.Cair.</span> = E. J. Goodspeed, <span class=title>Greek papyri from the Cairo</span>
+   <span class=title>Museum . . (Decennial publications of the University of Chicago,</span>
+   1st series, vol. v p. 3), Chicago 1904.</span>
+ <span class=item><span class=title>PGot.</span> = H. Frisk, <span class=title>Papyrus grecs de la Bibl. Municipale de Gothem-
+   bourg,</span> Göteborg 1929.</span>
+ <span class=item><span class=title>PGrad.</span> = G. Plaumann, <span class=title>Griechische Papyri der Sammlung Graden-
+   witz (Sitzungsberichte der Heidelberger Akademie der Wissen-
+   schaften,</span> 1914, 15. <span class=title>Abh.</span>).</span>
+ <span class=item><span class=title>PGrenf.</span> 1. = B. P. Grenfell. <span class=title>An Alexandrian erotic fragment and other
+   Greek papvri chiefly Ptolemaic,</span> Oxford 1896.
+    2. = B. P. Grenfell &amp; A. S. Hunt, <span class=title>New Classical Fragments
+   and other Greek and Latin papyri.</span> 1897.</span>
+ <span class=item><span class=title>PGurob = Greek papyri from Gurob,</span> ed. J. G. Smyly (Royal Irish
+   Academy, Cunningham Memoirs, No. 12, Dublin-London 1921).</span>
+ <span class=item><span class=title>PHal.</span> = Halle Papyri = <span class=title>Dikaiomata: Auszüge aus alexandrinischen
+   Gesetzen und Verordnungen in einem Papyrus des Philologischen
+   Seminars der Universität Halle, mit einem Anhang . . herausgegeben
+   von der Graeca Halensis</span> . . , Berlin 1913.</span>
+ <span class=item><span class=title>PHamb.</span> = P. M. Meyer, <span class=title>Griechische Papyrusurkunden der Ham-
+   burger Stadtbibliothek (Staats- und Universitätsbibliothek</span> 1924),
+   Bd. 1, Leipzig etc. 1911-24.</span>
+ <span class=item><span class=title>PHarris = The Rendel Harris Papyri,</span> ed. J. Enoch Powell, Cam-
+   bridge 1936.</span>
+ <span class=item><span class=title>PHaw. = The Hawara Papyri,</span> ed. [Sir] W. M. Flinders Petrie,
+   <span class=title>Hawara, Biahmu, and Arsinoe,</span> 1889: in part re-edited by J. G.
+   Milne, <span class=title>Arch. Pap.</span> v (1913) p. 378: <span class=title>PHaw.</span> 80 and 81 re-edited
+   by U. Wilcken in <span class=title>Genethliakon für C. Robert,</span> Berlin 1910, p. 191.</span>
+ <span class=item><span class=title>PHeid. = Veröffentlichungen aus der Heidelberger Papyrussammlung</span>
+   (vol. i = A. Deissmann, <span class=title>Die Septuaginta-Papyri und andere alt-
+   christliche Texte,</span> 1905; vol. iii (1) = C. H. Becker, <span class=title>Papyri Schott-
+   Reinhardt,</span> i, 1906).</span>
+ <span class=item><span class=title>PHib. = Hibeh Papyri,</span> Part I, ed. B. P. Grenfell &amp; A. S. Hunt,
+   London 1906.</span>
+ <span class=item><span class=title>PHolm. = Papyrus Graecus Holmiensis,</span> ed. O. Lagercrantz, Upp-
+   sala 1913.</span>
+ <span class=item><span class=title>PIand. = Papyri Iandanae: cum discipulis edidit</span> Carolus Kalbfleisch,
+   Leipzig &amp; Berlin 1912-.</span>
+ <span class=item><span class=title>PJena = Jenaer Papyrus-Urkunden,</span> ed. F. Zucker &amp; F. Schneider,
+   Jena 1926.</span>
+ <span class=item><span class=title>PKaran.</span> = E. J. Goodspeed, <span class=title>Papyri from Karanis (Univ. of Chicago:
+   Studies in Classical Philology,</span> vol. iii), Chicago 1902.</span>
+ <span class=item><span class=title>PKlein.Form. = Stud.Pal.</span> (q.v.) iii, viii.</span>
+ <span class=item><span class=title>PLeid.</span> = C. Leemans, <span class=title>Papyri Graeci musei antiquarii publici Lugdu-
+   ni-Batavi,</span> tom. i Leiden 1843; tom. ii 1885.</span>
+ <span class=item><span class=title>PLeid.U. = Somnium Nectanebi,</span> ed. B. Lavagnini, <span class=title>Eroticorum
+   Graecorum Fragmenta Papyracea,</span> Leipzig (T.) 1922, p. 37: =
+   <span class=title>UPZ</span> 81.</span>
+ <span class=item><span class=title>PLeid.V.,</span> v. <span class=title>PMag.Leid.V.
+   ,, W.,</span> v. ,, ,, <span class=title>W.</span></span>
+ <span class=item><span class=title>PLeid.X.</span> = chemical papyrus in <span class=title>PLeid.</span> (q.v.) vol. ii: reprinted in
+   M. Berthelot, <span class=title>Archéologie et Histoire des Sciences</span> (Paris 1906),
+   pp. 269-306 ( = <span class=title>Comptes rendus des séances de l' Acad. des Sciences,</span>
+   tom. xlix): cited by Berthelot's sections.</span>
+ <span class=item><span class=title>PLille = Institut papyrologique de l' université de Lille: Papyrus grecs</span>
+   publiés sous la direction de Pierre Jouguet . . , Paris 1907-28.</span>
+ <span class=item><span class=title>PLips.</span> = L. Mitteis, <span class=title>Griechische Urkunden der Papyrussammlung zu
+   Leipzig.</span> vol. i, 1906.</span>
+ <span class=item><span class=title>PLit.Lond.</span> = H. J. M. Milne, <span class=title>Catalogue of the Literary Papyri in
+   the British Museum,</span> London 1927.</span>
+ <span class=item><span class=title>PLond. = Greek papyri in the British Museum,</span> vols. i and ii ed.
+   F. G. Kenyon, vol. iii ed. F. G. Kenyon &amp; H. I. Bell, vols. iv
+   and v ed. H. I. Bell, London 1893-; unpublished papyri (<span class=title>PLond.
+   ined.</span>) are cited by inventory No.</span>
+ <span class=item><span class=title>PLond.</span> 1821, ed. H. I. Bell &amp; W. E. Crum, <span class=title>Aegyptus</span> vi (1925)
+   pp. 177-226.</span>
+ <span class=item><span class=title>PLond.</span>1912-29 = H. I. Bell, <span class=title>Jews and Christians in Egypt,</span> London
+   1924.</span>
+ <span class=item><span class=title>PMag. = Papyri Graecae Magicae,</span> herausgegeben und übersetzt von
+   K. Preisendanz, 2 vols., Leipzig &amp; Berlin 1928, 1931.</span>
+ <span class=item><span class=title>PMag.Berol.</span> = G. Parthey, <span class=title>Zwei griechische Zauberpapyri des Ber-
+   liner Museums, Abh. Berl. Akad.</span> 1865 pp. 109-80; cf. W. Kroll,
+   <span class=title>Philol.</span> liv (1895) p. 564 ( = <span class=title>PMag.</span> 1, 2).</span>
+ <span class=item><span class=title>PMag.Leid.V. = Papyrus magica musei Lugdunensis Batavi,</span> ed.
+   A. Dieterich, <span class=title>Jahrb. f. kl. Phil.,</span> Suppl. xvi (1888) pp. 793-818;
+   cited by column and line ( = <span class=title>PMag.</span> 12).</span>
+ <span class=item><span class=title>PMag.Leid.W.</span> = Leiden magical papyrus <span class=title>W.,</span> ed. A. Dieterich,
+   <span class=title>Abraxas (Festschrift . . Hermann Usener</span> . . Bonn), Leipzig 1891;
+   cited by page and line of the papyrus, as in Leemans' edition
+   ( = <span class=title>PMag.</span> 13, cited by column and line).</span>
+ <span class=item><span class=title>PMag.Lond. = PLond.</span>1.46, 121, etc.</span>
+ <span class=item><span class=title>PMag.Par.</span>1, 2 = C. Wessely, <span class=title>Wiener Denkschr.</span> xxxvi (2) (1888)
+   pp. 44-126, pp. 139-148; partly in A. Dieterich, <span class=title>Eine Mithras-
+   liturgie,</span> Leipzig 1903, pp. 1 ff., and A. Deissmann, <span class=title>Light from the
+   Ancient East,</span> London 1919, pp. 258 ff. ( = <span class=title>PMag.</span>4, 3).</span>
+ <span class=item><span class=title>PMag.Rain.</span> = C. Wessely, <span class=title>Wiener Denkschr.</span> xlii (2) (1893) p. 65.</span>
+ <span class=item><span class=title>PMagd. = Papyrus de Magdola,</span> rééd . . . par Jean Lesquier, Paris
+   1912 (<span class=title>PLille</span> II 2-4); republished in <span class=title>PEnteux.</span></span>
+ <span class=item><span class=title>PMasp.</span> = Jean Maspéro, <span class=title>Papyrus grecs d' époque byzantine,</span> in <span class=title>Cata-
+   logue général des antiquités égyptiennes du Musée du Caire,</span> I (Nos.
+   67001-67124) 1911, II (Nos. 67125-67278) 1913, III (Nos. 67279-
+   67359) 1916. Digits indicating 67(000) omitted in refs., thus:
+   2 = 67002.</span>
+ <span class=item><span class=title>PMed.Lond. = London Medical Papyrus,</span> No. 155, ed. C. Kalbfleisch
+   in <span class=title>Papyri graecae Musei Britannici et Musei Berolinensis,</span> Rostock
+   1902.</span>
+ <span class=item><span class=title>PMed.Strassb. = Papyri Argentoratenses Graecae,</span> ed. C. Kalbfleisch,
+   <span class=title>Index lectionum in Academia Rostochiensi</span> 1901.</span>
+ <span class=item><span class=title>PMerton</span> = H. Idris Bell &amp; C. H. Roberts, <span class=title>Catalogue of the Greek
+   papyri in the collection of Wilfred Merton,</span> London, vol. i 1939.</span>
+ <span class=item><span class=title>PMeyer</span> = P. M. Meyer, <span class=title>Griechische Texte aus Agypten:</span> 1. <span class=title>Papyri
+   des neutestamentlichen Seminars der Universität Berlin;</span> 2. <span class=title>Ostraka
+   der Sammlung Deissmann,</span> Berlin (Leipzig) 1916.</span>
+ <span class=item><span class=title>PMich. = University of Michigan papyri,</span> published in <span class=title>Trans. Am.
+   Ph. Ass.</span> liii (1922) p. 134.</span>
+ <span class=item><span class=title>PMich.</span>iii = <span class=title>Michigan Papyri</span> vol. iii: Miscellaneous Papyri, edited
+   by J. G. Winter ( = University of Michigan Studies, Humanistic
+   Series, vol. xl), Ann Arbor 1936.</span>
+ <span class=item><span class=title>PMich.Teb. = Michigan Papyri</span> vol. ii: Papyri from Tebtunis, in
+   two volumes, Part I, ed. A. E. R. Boak ( = University of Michigan
+   Studies, Humanistic Series, vol. xxviii), Ann Arbor 1933.</span>
+ <span class=item><span class=title>PMich.Zen. = Zenon papyri in the University of Michigan collection,</span>
+   ed. C. C. Edgar ( = University of Michigan Studies, Humanistic
+   Series, vol. xxiv), Ann Arbor 1931.</span>
+ <span class=item><span class=title>PMilan. = Papiri Milanesi,</span> ed. A. Calderini (Pubbl. di 'Aegyptus',
+   S. Scient., vol. i), Parte i, Collezione Jacovelli-Vita, Milano,
+   Università Cattolica del Sacro Cuore, 1928.</span>
+ <span class=item><span class=title>PMilan.R.Univ. = PUniv.Milan.</span> (q.v.).</span>
+ <span class=item><span class=title>PMilan.</span>17 = Commentario ad Antimaco da Colofone, ed. A.
+   Vogliano, <span class=title>PUniv.Milan.</span> i. 17.</span>
+ <span class=item><span class=title>PMonac.</span> = A. Heisenberg &amp; L. Wenger, <span class=title>Byzantinische Papyri
+   (Veröffentlichungen aus der Papyrus-Sammlung der K. Hof- und
+   Staatsbibliothek zu München</span> I), Leipzig 1914.</span>
+ <span class=item><span class=title>POsl. = Papyri Osloenses,</span> ed. S. Eitrem, Oslo 1925-.</span>
+ <span class=item><span class=title>POxy. = Oxyrhynchus Papyri,</span> ed. B. P. Grenfell &amp; A. S. Hunt,
+   London 1898-.</span>
+ <span class=item><span class=title>PPar.</span> = W. Brunet de Presle, <span class=title>Notices et extraits des papyrus grecs
+   du musée du Louvre et de la bibliothèque impériale</span> xviii (2), Paris
+   1865.</span>
+ <span class=item><span class=title>PPar.Wess.</span> = C. Wessely, <span class=title>Die Pariser Papyri des Fundes von El
+   Faijûm (Wiener Denkschr.</span> xxxvii (2) (1889) pp. 97 ff.).</span>
+ <span class=item><span class=title>PPetr. = The Flinders Petrie Papyri</span> . . , Pt. 1, ed. J. P. Mahaffy (Royal
+   Irish Academy, Cunningham Memoirs, No. 8); Pt. 2, ed. J. P.
+   Mahaffy (ibid., No. 9); Pt. 3, ed. J. P. Mahaffy &amp; J. G. Smyly
+   (ibid., No. 11), Dublin 1891-1905.</span>
+ <span class=item><span class=title>PPrincet. = Papyri in the Princeton University Collections,</span> vol. I ed.
+   A. C. Johnson and H. B. van Hoesen ( = Johns Hopkins Univer-
+   sity Studies in Archaeology No. 10), Baltimore 1931; vol. II ed.
+   E. H. Kase ( = Princeton University Studies in Papyrology No. 1),
+   Princeton 1936.</span>
+ <span class=item><span class=title>PRain. (NS) = Mitteilungen aus der Papyrussammlung der National-
+   bibliothek in Wien (Papyrus Erzherzog Rainer).</span> Neue Serie I i
+   (1932), ed. H. Gerstinger; I ii (1939), ed. H. Oellacher; cf. <span class=title>CPR.</span></span>
+ <span class=item><span class=title>PRein. = Papyrus grecs et démotiques</span> . . , ed. Théodore Reinach,
+   Paris 1905.</span>
+ <span class=item><span class=title>PRev.Laws</span> = B. P. Grenfell, <span class=title>Revenue Laws of Ptolemy Philadelphus,</span>
+   Oxford 1896.</span>
+ <span class=item><span class=title>PRoss.-Georg. = Papyri Russischer und Georgischer Sammlungen,</span>
+   herausgegeben von Gregor Zereteli, bearbeitet von G Zereteli,
+   O. Krüger, P. Jernstedt, Tiflis 1925-35.</span>
+ <span class=item><span class=title>PRyl. = Catalogue of the Greek papyri in the John Rylands Library
+   at Manchester,</span> vol. i 1911, ed. A. S. Hunt; vol. ii 1915, ed.
+   A. S. Hunt, J. de M. Johnson, V. Martin; vol. iii 1938, ed.
+   C. H. Roberts.</span>
+ <span class=item><span class=title>PSI = Papiri greci e latini (Pubblicazioni della Società italiana per la
+   ricerca dei papiri greci e latini in Egitto),</span> Firenze 1912-; cited by
+   No. of vol., papyrus, and line.</span>
+ <span class=item><span class=title>PSorb.</span> (i.e. Papyri in the Sorbonne), v. <span class=title>PGand.</span></span>
+ <span class=item><span class=title>PStrassb.</span> = F. Preisigke, <span class=title>Griechische Papyrus der kaiserlichen Uni-
+   versitäts- und Landesbibliothek zu Strassburg,</span> 2 vols., Strassburg
+   (afterwards Leipzig) 1906-20.</span>
+ <span class=item><span class=title>PTaur.</span> = V. A. Peyron, <span class=title>Papyri graeci regii Taurinensis musei
+   Aegyptii,</span> Turin 1826-7.</span>
+ <span class=item><span class=title>PTeb. = Tebtunis Papyri,</span> ed. B. P. Grenfell, A. S. Hunt, J. G.
+   Smyly, E. J. Goodspeed, London &amp; New York, vol. i 1902,
+   vol. ii 1907, vol. iii pt. i 1933, pt. 2 (ed. A. S. Hunt, J. G. Smyly,
+   C. C. Edgar; London &amp; Univ. of California Press) 1938.</span>
+ <span class=item><span class=title>PThead. = Papyrus de Théadelphie,</span> éd. par Pierre Jouguet, Paris
+   1911.</span>
+ <span class=item><span class=title>PTheb.Bank</span> = U. Wilcken, <span class=title>Aktenstücke aus der Kgl. Bank zu Theben
+   (Abh. Berl. Akad.</span> 1886).</span>
+ <span class=item><span class=title>PUniv.Giss.</span> = H. Kling and others, <span class=title>Mitteilungen aus der Papyrus-
+   sammlung der Giessener Universitätsbibliothek,</span> 1924-.</span>
+ <span class=item><span class=title>PUniv.Milan.</span> = A. Vogliano, <span class=title>Papiri della R. Università di Milano,</span>
+   vol. i, Milan 1937.</span>
+ <span class=item><span class=title>PVarsov.</span> = G. Manteuffel, <span class=title>Papyri Varsovienses,</span> Warsaw 1935.</span>
+ <span class=item><span class=title>PVat.</span> 11 = <span class=title>Il Papiro Vaticano Greco</span> 11 (1. <span class=foreign>Φαβωρίνου περὶ φυγῆς;</span>
+   2. <span class=title>Registri Fondiari della Marmarica</span>), ed. M. Norsa &amp; G. Vitelli,
+   Città del Vaticano, Biblioteca Apostolica Vaticana 1931. (<span class=title>Studi
+   e Testi</span> 53.)</span>
+ <span class=item><span class=title>PWarren = The Warren Papyri,</span> ed. A. S. Hunt, cited from <span class=title>Studi
+   in onore di S. Riccobono</span> ii, Palermo 1932, pp. 521-5, and <span class=title>Aegyptus</span>
+   xiii (1933) pp. 241-6.</span>
+ <span class=item><span class=title>PWürzb. = Mitteilungen aus der Würzburger Papyrussammlung,</span>
+   von Ulrich Wilcken (<span class=title>Abhandlungen der Preussischen Akademie
+   der Wissenschaften,</span> 1933, Phil.-hist. Klasse No. 6), Berlin
+   1934.</span>
+ <span class=item><span class=title>PZen.Col. = Zenon papyri: business papers of the 3rd century B.C.,</span>
+   ed. W. L. Westermann and E. S. Hasenoehrl, New York, vol. i
+   (<span class=title>Columbia Papyri, Greek Series,</span> vol. iii) 1934.</span>
+ <span class=item><span class=title>Raccolta Lumbroso = Raccolta di Scritti in onore di G. Lumbroso,</span>
+   Milan 1925.</span>
+ <span class=item><span class=title>Sammelb. = Sammelbuch griechischer Urkunden aus Agypten</span> (both
+   inscriptions and papyri), Bde. i, ii ed. F. Preisigke, Strassburg
+   (later Berlin &amp; Leipzig) 1913-22; Bd. iii (6001-7269) ed.
+   F. Bilabel, Berlin &amp; Leipzig 1926-7; Bd. iv (7270-7514), Bd. v
+   Heft 1 (7515-7654) ed. F. Bilabel, Heidelberg 1931, 1934.</span>
+ <span class=item><span class=title>Stud.Pal.</span> = C. Wessely, <span class=title>Studien zur Paläographie und Papyrus-
+   kunde,</span> Leipzig 1901-.</span>
+ <span class=item><span class=title>Studi Riccobono,</span> v. <span class=title>PWarren.</span></span>
+ <span class=item><span class=title>Theb.Ostr. = Theban Ostraca</span> . . Pt. iii: <span class=title>Greek texts,</span> by J. G. Milne,
+   Toronto (Oxford) 1913.</span>
+ <span class=item>Thunell <span class=title>Sitologenpapyri</span> = K.Thunell, <span class=title>Sitologen-Papyri aus d. Berliner
+   Museum,</span> Uppsala 1924; republished in <span class=title>P Berl. Leihg.</span></span>
+ <span class=item><span class=title>UPZ</span> = U. Wilcken, <span class=title>Urkunden der Ptolemäerzeit</span>: <span class=hibold>I.</span> <span class=title>Papyri aus
+   Unterägypten,</span> Berlin &amp; Leipzig 1922; <span class=hibold>II.</span> <span class=title>Papyri aus Oberägypten,</span>
+   1935-.</span>
+ <span class=item>Wilcken <span class=title>Chr.,</span> v. Mitteis <span class=title>Chr.</span></span>
+ </list></p></div2>
+ 
+</span>
+</span><table width='95%'><tr><td width='50%' align='left'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:2:4.LSJ">Previous Entry</A><p>
+</td><td width='50%' align='right'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:2:6.LSJ"><p>Next Entry</A><p>
+</td></tr></table><hr noshade><a name="greatscott01"></a>Henry George Liddell; Robert Scott [<b>1940</b>], <i><a href="/cgi-bin/philologic/navigate.pl?LSJ.0
+">A Greek-English Lexicon; Machine readable text</a></i>  (Trustees of Tufts University, Oxford) [<a href="/cgi-bin/philologic/getwordcount.pl?LSJ.0
+">word count</a>] [<b>greatscott01</b>]. <hr noshade>
+<!-- END OF CONTEXT AREA, WE HOPE-->
+</td>
+</tr>
+</table>
+<center>
+<a href="http://philologic.uchicago.edu/">
+<img border="0" src="http://artflx.uchicago.edu/philologic/philopowered.png" alt="Powered by PhiloLogic"></a><br/>
+</center>
+<!-- If you are using PhiloLogic, please be nice and leave the PowerBy ;-) -->
+<!-- but add your own footer stuff as well. -->
+<!-- $Id: Results_Footer.html,v 2.11 2004/05/28 19:21:59 o Exp $ -->
+</body>
+</html>
+

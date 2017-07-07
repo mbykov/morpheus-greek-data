@@ -1,0 +1,25 @@
+{
+    "pos": "name",
+    "var": "part.act.",
+    "descr": "irreg",
+    "dict": "",
+    "gend": "masc",
+    "trn": "",
+    "forms": {
+        "sg.nom": "",
+        "sg.gen": "",
+        "sg.dat": "",
+        "sg.acc": "",
+        "sg.voc": "",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "",
+        "pl.gen": "",
+        "pl.dat": "",
+        "pl.acc": "",
+        "pl.voc": ""
+    }
+}

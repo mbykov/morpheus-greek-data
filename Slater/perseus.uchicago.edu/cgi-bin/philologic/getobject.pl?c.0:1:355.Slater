@@ -1,0 +1,220 @@
+
+<html>
+<head>
+  <title>Slater</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link type="text/css" rel="stylesheet" media="all" href="http://diderot.uchicago.edu/drupalparts/style.css?x" />
+<style type="text/css">
+<!--
+/* The following is PhiloLogic specific CSS to handle TEI encoding */
+/* Edit as you see fit, but you will probably need to modify traps in */
+/* philosubs.pl in the database lib/ directory.  Yes, indeed, it is */
+/* a bit fiddly.  One day, XSLT!  If you do it, please let us know. */
+span.emph {font-weight: bolder; }
+span.emphsc {FONT-SIZE: 12px;}
+span.hi   {font-weight: bolder;}
+span.foreign {font-style: italic;}
+span.bibl {font-style: italic;}
+span.title     {font-style: italic;}
+span.hiitalic  {font-style: italic;}
+span.hiunderline {text-decoration: underline;}
+span.hibold   {font-weight: bolder;}
+span.doctitle {display: block; text-align: center; FONT-SIZE: 24px; LINE-HEIGHT: 1.5;}
+span.byline {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.pubplace {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.docedition {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.publisher {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.docimprint {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.addrline {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.docauthor {display: block; text-align: center; FONT-SIZE: 20px; LINE-HEIGHT: 1.5;}
+span.docdate {display: block; text-align: center; FONT-SIZE: 20px; LINE-HEIGHT: 1.5;}
+span.opener   {display: block; text-align: center;}
+span.label   {display: block; text-align: center;}
+span.signed   {display: block; text-align: right;}
+span.stage    {display: block; text-align: right; font-style: italic; margin-left: 120px;}
+span.speaker  {display: block; text-align: center; FONT-SIZE: 16;}
+span.epigraph {display: block; margin-left: 300px;}
+span.salute   {display: block; text-align: center;}
+span.trailer  {display: block; text-align: center;}
+span.closer   {display: block; text-align: center;}
+span.item     {display: block; text-align: left;}
+span.role     {display: block; text-align: left; margin-left: 100px; margin-right: 100px}
+span.argument {display: block; text-align: left; margin-left: 100px; margin-right: 100px}
+span.roledesc {display: block; text-align: right; margin-right: 100px}
+span.l        {display: block; text-align: left;}
+span.small   {FONT-SIZE: 11px;}
+span.hismallcap {FONT-SIZE: 12px;}
+span.head    {display: block; text-align: center; font-weight: bolder; FONT-SIZE: 18px; LINE-HEIGHT: 1.5;}
+span.notetarget {FONT-SIZE: 12px; text-decoration: underline; vertical-align: super;}
+span.footnote {display: block; FONT-SIZE: 12px; margin-left: 60px; margin-right: 40px;}
+span.marginnote {display: block; FONT-SIZE: 12px; text-align: right;}
+span.inlinenote {display: block; FONT-SIZE: 12px;}
+span.generalnote {display: block; FONT-SIZE: 12px;}
+span.endnote {display: block; FONT-SIZE: 12px;}
+span.refalignright {display: block; text-align: right;}
+span.mstoneid {display: block; FONT-SIZE: 12px; text-align: right;}
+span.mstonen {display: block; FONT-SIZE: 12px; text-align: right;}
+span.mstonetype {display: block; text-align: center;}
+span.mwright {display: block; FONT-SIZE: 12px; text-align: right;}
+span.authfreqindt {display: block; text-align: left; margin-left: 60px;}
+span.perfreqindt {display: block; text-align: left; margin-left: 45px;}
+span.navhead {display: block; text-align: center; font-size: 16; font-weight: bold;}
+span.navbiblio {display: block; font-size: 14;}
+span.navlevel1 {display: block; text-align: left; font-size: 14;}
+span.navlevel2 {display: block; text-align: left; margin-left: 40px; FONT-SIZE: 14;}
+span.navlevel3 {display: block; text-align: left; margin-left: 60px; FONT-SIZE: 12;}
+span.projecthead { text-align: right; font-size: 20; color: #000000;}
+span.sense {display:block; margin:2px;}
+
+/* For pop-in notes */
+.hiddennote {
+        display: none;
+        margin: 5px;
+        border: 1px solid #242e55;
+        background-color: #dde3ef;
+        padding: 2px;
+}
+
+-->
+</style>
+<!-- Needed JavaScript Code -->
+<script language="JavaScript">
+    var cleared = 0;
+
+    function clearField(field)
+    {
+        if (cleared != 1) {
+            field.value = ""
+            cleared = 1
+        } else {
+            cleared = 0
+        }
+    }
+function toggleMenu(currElem,nextPos) {
+        menuObj = (document.all) ? eval("document.all." + currElem + ".style") : eval("document." + currElem)
+        if (toggleMenu.arguments.length == 1)
+                nextPos = (parseInt(menuObj.top) == -5) ? -90 : -5
+                if (document.all)
+                        menuObj.pixelTop = nextPos
+                else
+                        menuObj.top = nextPos
+}
+
+</script>  
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/misc/jquery.js?x"></script>
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/mischttp://encyclopedie.uchicago.edu.js?x"></script>
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/misc/tabledrag.js?x"></script>
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/misc/tableheader.js?x"></script>
+
+	<!--[if lt IE 7]>
+  <style type="text/css" media="all">@import "http://artfl-project.uchicago.edu/sites/all/themes/deco/fix-ie6.css";</style>
+  <![endif]-->
+	<!--[if gt IE 5]>
+  <style type="text/css" media="all">@import "http://artfl-project.uchicago.edu/sites/all/themes/deco/fix-ie.css";</style>
+  <![endif]-->
+</head>
+
+<body  onkeypress="if (dictOn) checkKeyPressed(event);">
+  
+
+	<div id="container" class="clear-block">
+		
+		<div id="header">
+			<div id="top-bar">
+                                                      <div class="region-content">
+<ul class="links secondary-links">
+<li class="menu-124"><a href="http://perseus.uchicago.edu/">HOME</a></li>
+<li class="menu-124"><a href="http://perseus.uchicago.edu/about.html">ABOUT THIS RESOURCE</a></li>
+<li class="menu-124"><a href="http://www.perseus.tufts.edu/">PERSEUS DIGITAL LIBRARY AT TUFTS</a></li>
+<li class="menu-123"><a href="http://artfl.uchicago.edu/" title="">ARTFL PROJECT</a></li>
+<li class="menu-175"><a href="http://humanities.uchicago.edu/depts/classics/" title="">CLASSICS AT CHICAGO</a></li>
+
+</ul>                           </div>
+                        </div>
+
+<div class="region-content">
+<h1><span class="site-name"><a href="http://perseus.uchicago.edu/Reference/Slater.html">Slater</span></a></h1>
+<ul class="links primary-links" style="float:left;">
+<li class="menu-115 first"><a href="http://perseus.uchicago.edu/Reference/Slater.html">search</a></li>
+<li class="menu-288"><a href="http://philologic.uchicago.edu/manual.php" target="blank">help</a></li>
+<li class="menu-197 last"><a href="http://spreadsheets.google.com/viewform?key=pOHHlctnbPqT1dKtC24I2Iw" target="blank">report a problem</a></li>
+<li class="menu-298"><form action="/cgi-bin/philologic/search3torth" style="margin:0px; padding-top:18px; padding-right:16px; padding-left:16px;">
+<input name="dgdivhead" title="Enter unaccented Greek. (Leave out accents, breathings and iota subscripts.)" type="text" size="12"/><input type="hidden" name="dbname" value="Slater" /><input type="submit" value="Headword Lookup" /><input type="hidden" name="ORTHMODE" value="UNACCENTED" /></form> </li>
+<li class="menu-288"><a href="/cgi-bin/philologic/getobject.pl?c.0:2:3.LSJ">abbreviations</a></li>
+
+</ul>
+</div>
+		</div> <!-- /header -->
+
+			<div id="featured">
+                                </div>
+			<div id="main">
+			<div id="content">
+<a name="pindar_dico01"></a>William J. Slater [<b>1969</b>], <i><a href="/cgi-bin/philologic/navigate.pl?Slater.0
+">Lexicon to Pindar</a></i>  (Trustees of Tufts University, Berlin) [<a href="/cgi-bin/philologic/getwordcount.pl?Slater.0
+">word count</a>] [<b>pindar_dico01</b>]. <hr noshade>
+<table width='95%'><tr><td width='50%' align='left'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:1:354.Slater">Previous Entry</A><p>
+</td><td width='50%' align='right'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:1:356.Slater"><p>Next Entry</A><p>
+</td></tr></table><div2 id="crossa)lla/" orig&#772;id="n355" key="a)lla/" opt="n"><span class=head>ἀλλά</span><b>ἀλλά</b> 
+ <span class=mstonen>A</span> not combined with another particle. 
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>1</b> following a neg. sentence, clause; clarifying a previous denial <cit><quote lang="greek">οὐ χθόνα ταράσσοντες  οὐδὲ πόντιον ὕδωρ ἀλλὰ  ἄδακρυν νέμονται βίοτον</quote> <span class=bibl>O. 2.65</span></cit> <cit><quote lang="greek">κόρος, οὐ δίκᾳ συναντόμενος, ἀλλὰ</quote> <span class=bibl>O. 2.96</span></cit> <cit><quote lang="greek">οὐδἔλαθ' Αἴπυτον . ἀλλ ὁ μὲν Πυθῶνάδ  ᾤχετ ἰὼν</quote> <span class=bibl>O. 6.37</span></cit> <cit><quote lang="greek">ἐκέλευσεν  μὴ παρφάμεν, ἀλλὰ Κρόνου σὺν παιδὶ νεῦσαι</quote> <span class=bibl>O. 7.67</span></cit> <cit><quote lang="greek">οὐκ ἄτερ παίδων σέθεν, ἀλλἅμα</quote> <span class=bibl>O. 8.45</span></cit> <cit><quote lang="greek">εὔχομαι  μὴ θέμεν, ἀλλ</quote> <span class=bibl>O. 8.87</span></cit> <cit><quote lang="greek">οὐδὲ γὰρ θεοὶ σεμνᾶν Χαρίτων ἄτερ κοιρανέοντι χοροὺς οὔτε δαῖτας· ἀλλὰ πάντων ταμίαι ἔργων ἐν οὐρανῷ</quote> <span class=bibl>O. 14.9</span></cit> <cit><quote lang="greek">σὐ δύναται νήπιοι κόσμῳ φέρειν ἀλλ' ἀγαθοί</quote> <span class=bibl>P. 3.83</span></cit> <cit><quote lang="greek">μή τινα λειμόμενονμένεινἀλλ</quote> <span class=bibl>P. 4.186</span></cit> <cit><quote lang="greek">ὃς οὐ  ἀφίκετοἀλλ</quote> <span class=bibl>P. 5.30</span></cit> <cit><quote lang="greek">κατέκλασε γὰρ ἐντέων σθένος οὐδέν· ἀλλὰ κρέμαται</quote> <span class=bibl>P. 5.34</span></cit> <cit><quote lang="greek">οὐ θεῶν ἄτερ, ἀλλὰ Μοῖρά τις ἄγεν</quote> <span class=bibl>P. 5.76</span></cit> <cit><quote lang="greek">οὔθἐφίλησεν ὁδοὺς οὔτε δείπνων  τέρψιας ἀλλ</quote> <span class=bibl>P. 9.20</span></cit> <cit><quote lang="greek">τὸ δὲ μόρσιμον οὐ παρφυκτόν  ἀλλ' ἔσται χρόνος οὗτος</quote> <span class=bibl>P. 12.30</span></cit> <cit><quote lang="greek">οὐκ ἔραμαι πολὺν ἐν μεγάρῳ πλοῦτον κατακρύψαις ἔχειν, ἀλλ' ἐόντων εὖ τε παθεῖν</quote> <span class=bibl>N. 1.32</span></cit> <cit><quote lang="greek">οὐ λαθὼνἭραν ἐγκατέβα, ἀλλὰ θεῶν βασίλεα</quote> <span class=bibl>N. 1.39</span></cit> <cit><quote lang="greek">οὐκ ἀνδριαντοποιός εἰμ·ἀλλ' ἐπὶ πάσας ὁλκάδος , γλυκεἶ ἀοιδά, στεῖχ</quote> <span class=bibl>N. 5.2</span></cit> <cit><quote lang="greek">εἴη μή ποτέ μοι τοιοῦτον ἦθος, Ζεῦ πάτερ, ἀλλὰ κελεύθοις ἁπλόαις ζοᾶς ἐφαπτοίμαν</quote> <span class=bibl>N. 8.35</span></cit> <cit><quote lang="greek">οὐδὲ Κρονίων  στείχειν ἐπώτρυν, ἀλλὰ φείσασθαι κελεύθου</quote> <span class=bibl>N. 9.</span></cit> 20. <cit><quote lang="greek">δένδρεά τοὐκ ἐθέλει πάσαις ἐτέων περόδοις ἄνθος εὐῶδες φέρειν πλούτῳ ἴσον, ἀλλ' ἐναμείβοντι</quote> <span class=bibl>N. 11.42</span></cit> <cit><quote lang="greek">σαφὲς οὐχ ἕπεται τέκμαρ· ἀλλ' ἔμπαν μεγαλανορίαις ἐμβαίνομεν</quote> <span class=bibl>N. 11.44</span></cit> <cit><quote lang="greek">οὐ γὰρ ἦν πενταέθλιον, ἀλλἐφἑκάστῳ ἔργματι κεῖτο τέλος</quote> <span class=bibl>I. 1.26</span></cit> <cit><quote lang="greek">οὐδέ ποτε  ὑπέστειλἱστίον . ἀλλἐπέρα</quote> <span class=bibl>I. 2.41</span></cit> <cit><quote lang="greek">οὐ γὰρ φύσιν ὠαριωνείαν ἔλαχεν· ἀλλ' ὀνοτὸς μὲν ἰδέσθαι</quote> <span class=bibl>I. 4.50</span></cit> <quote lang="greek">σφετέρας δ' οὐ φείσατο χέρσιν βαρυφθόγγοιο νευρᾶς Ἡρακλέης· ἀλλ Αἰακίδαν καλέων ἐς πλόον</quote> (<quote lang="greek">νῦν ἄρχεται τῶν ἐπὶ μέρους, ἀκριβῶς τὸ ὅλον προεκθείς. Σ.</quote>) <span class=bibl>I. 6.35</span> <cit><quote lang="greek">τὸν μὲν οὐδὲ θανόντ' ἀοιδαὶ ἔλιπον, ἀλλά οἱ</quote> <span class=bibl>I. 8.57</span></cit> <cit><quote lang="greek">οὕνεκεν οὔ σε παιηόνων ἄδορπον εὐνάξομεν ἀλλ' ἀοιδᾶν ῥόθια δεκομένα κατερεῖς </quote> <span class=bibl>Pae. 6.128</span></cit> <quote lang="greek"> ἔριν οὐ παλίγλωσσον ἀλλὰ δίκας ὁδοὺς π[ις]τὰς ἐφίλη[ς.]ν Παρθ. 2. . οὐ κό]ρῳ ἀλλ ἀρετᾷ</quote> (e <quote lang="greek">Σ</quote> supp. Lobel.) fr. 169. 15. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>2</b> without preceding negative; modifying a previous statement 
+ </span><span class=sense>&nbsp;&nbsp;&nbsp;<b>a</b> <cit><quote lang="greek">ἀλλ' αἶνον ἐπέβα κόρος</quote> <span class=bibl>O. 2.95</span></cit> <cit><quote lang="greek">ἀλλ' οὐ καλὰ δένδρἐ ἔθαλλεν χῶρος</quote> <span class=bibl>O. 3.23</span></cit> <cit><quote lang="greek">ἀλλά μιν οὐκ εἴασεν</quote> <span class=bibl>O. 7.61</span></cit> <cit><quote lang="greek">οὐχ ὑπέμεινεν ὄλβον  ἀλλά νιν ὕβρις εἰς ἀυᾴταν ὑπερᾴφανον ὦρσεν</quote> <span class=bibl>P. 2.28</span></cit> <cit><quote lang="greek">ἀλλ' οὐδὲ ταῦτα νόον ἰαίνει φθονερῶν</quote> <span class=bibl>P. 2.89</span></cit> <cit><quote lang="greek">ἀλλ' ἐπεὶ</quote> <span class=bibl>P. 3.38</span></cit> <cit><quote lang="greek">ἀλλὰ κέρδει καὶ σοφίᾳ δέδεται</quote> <span class=bibl>P. 3.54</span></cit> “<quote lang="greek">οὐδ' ἀπιθησέ νιν, ἀλλ</quote>” <span class=bibl>P. 4.36</span> <cit><quote lang="greek">οὐδὲ κομᾶν πλόκαμοι κερθέντες ᾤχοντ' ἀγλαοί ἀλλ ἅπαν νῶτον καταίθυσσον</quote> <span class=bibl>P. 8.83</span></cit> <cit><quote lang="greek">ἀθρόαις πέντε δραπὼν νύκτεσσιν ἔν θ' ἁμέραις ἱερὸν εὐζοίας ἄωτον. ἀλλἐν ἕκτᾳ</quote> <span class=bibl>P. 4.132</span></cit> “<cit><quote lang="greek">ἔσομαι τοῖος· ἀλλ' ἤδη</quote> <span class=bibl>P. 4.157</span></cit> <cit><quote lang="greek">ἀλλἤδη τελευτὰν κεῖνος αὐταῖς ἡμιθέων πλόος ἄγαγεν</quote> <span class=bibl>P. 4.210</span></cit> <cit><quote lang="greek">σκιᾶς ὄναρ ἄνθρωπος. ἀλλ' ὅταν αἴγλα διόσδοτος ἔλθῃ</quote> <span class=bibl>P. 8.96</span></cit> <cit><quote lang="greek">ἀλλὰ χρονίῳ σὺν Ἄρει πέφνεν τε ματέρα</quote> <span class=bibl>P. 11.36</span></cit> [<quote lang="greek">ἄτᾳ</quote> codd.: <quote lang="greek">ἀλλ</quote> coni. Boeckh. <span class=bibl>P. 11.55</span>] <cit><quote lang="greek">ἀλλἐπεὶ ἐκ τούτων φίλον ἄνδρα πόνων ἐρρύσατο</quote> <span class=bibl>P. 12.18</span></cit> <cit><quote lang="greek">εὗρεν θεός· ἀλλά νιν εὑροῖσ' ἀνδράσι θνατοῖς ἔχειν, ὀνύμασεν κεφαλᾶν πολλᾶν νόμον</quote> <span class=bibl>P. 12.22</span></cit> <quote lang="greek">ἀλλά τι προσφέρομεν ἔμπαν ἢ μέγαν νόον ἤτοι</quote> <cit><quote lang="greek">φύσιν ἀθανάτοις</quote> <span class=bibl>N. 6.4</span></cit> <cit><quote lang="greek">ἀλλὰ τὸ μόρσιμον ἀπέδωκεν</quote> <span class=bibl>N. 7.44</span></cit> <cit><quote lang="greek">ἀλλὰ χαλκὸν μυρίον οὐ δυνατὸν ἐξελέγχειν</quote> <span class=bibl>N. 10.45</span></cit> <cit><quote lang="greek">ἀλλ' οὔ νιν φλάσαν</quote> <span class=bibl>N. 10.68</span></cit> <cit><quote lang="greek">ἀλλὰ βροτῶν τὸν μὲν κενεόφρονες αὖχαι ἐξ ἀγαθῶν ἔβαλον</quote> <span class=bibl>N. 11.29</span></cit> <cit><quote lang="greek">ἀλλ' ἐγὼ Ἡροδότῳ τεύχων τὸ μὲν ἅρματι τεθρίππῳ γέρας</quote> <span class=bibl>I. 1.14</span></cit> <cit><quote lang="greek">ἐν ὕπνῳ γὰρ πέσεν·ἀλλ' ἀνεγειρομένα χρῶτα λάμπει</quote> <span class=bibl>I. 4.23</span></cit> <cit><quote lang="greek">ἔτλαν δὲ πένθος οὐ φατόν· ἀλλὰ νῦν μοι Γαιάοχος εὐδίαν ὄπασσεν ἐκ χειμῶνος</quote> <span class=bibl>I. 7.37</span></cit> <cit><quote lang="greek">ἀλλ' ἐμοὶ δεῖμα μὲν παροιχόμενον καρτερὰν ἔπαυσε μέριμναν</quote> <span class=bibl>I. 8.11</span></cit> <cit><quote lang="greek">ἀλλ' οὔ σφιν ἄμβροτοι τέλεσαν εὐνὰν θεῶν πραπίδες</quote> <span class=bibl>I. 8.30</span></cit> (Delos floated on the waves,) <quote lang="greek">ἀλλἁ Κοιογένης ὁπότ'  ἐπέβα νιν, δὴ τότε τέσσαρες  ἀπώρουσαν  κίονες</quote> fr. 33d. 3. <cit><quote lang="greek">ὄλβον ἐγκατέθηκαν . ἀλλὰ[ ]ἐπέπεσε μοῖρα </quote> <span class=bibl>Pae. 2.63</span></cit> <cit><quote lang="greek"> ἀλλ' οὔτε ματέῤ ἔπειτα κεδνὰν ἔιδεν οὔτε </quote> <span class=bibl>Pae. 6.105</span></cit> <cit><quote lang="greek"> ἀλλά μιν Κρόνου παῖδες  ἔκρυψαν </quote> <span class=bibl>Pae. 8.72</span></cit> <quote lang="greek"> σῶμα δ ἐστὶ θνατόν. ἀλλ ᾧτινι μὴ λιπότεκνος σφαλῇ πάμπαν οἶκος , ζώει Παρθ</quote>. 1. 16. (a description of those that do not love Theoxenos,) <quote lang="greek">ἀλλἐγὼ  τάκομαι</quote> fr. 123. 10. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>b</b> where the qualification provides a climax, cf. 3. b. infra. <cit><quote lang="greek">ἐν μὲν Αἰτωλῶν θυσίαισι φαενναῖς Οἰνείδαι κρατεροί, ἐν δὲ Θήβαις, Περσεὺς δ' ἐν Ἄργει, Κάστορος δ αἰχμὰ Πολυδεύκεός τ ἐπ Εὐρώτα ῥεέθροις. ἀλλ ἐν Οἰνώνᾳ</quote> <span class=bibl>I. 5.34</span></cit> </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>c</b> simply introducing a new attitude <cit><quote lang="greek">ἀλλ' ὥτε παῖς ἐξ ἀλόχου πατρὶ ποθεινὸς</quote> <span class=bibl>O. 10.86</span></cit> <cit><quote lang="greek">ἀλλ' ὅτ Αἰήτας  ἄροτρον σκίμψατο</quote> <span class=bibl>P. 4.224</span></cit> <cit><quote lang="greek">ἀλλεὔχεται</quote> <span class=bibl>P. 4.293</span></cit> </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>3</b> introducing imperative, simm. 
+ </span><span class=sense>&nbsp;&nbsp;&nbsp;<b>a</b> imperative proper. <cit><quote lang="greek">ἀλλὰ Δωρίαν ἀπὸ φόρμιγγα πασσάλου λάμβαν</quote> <span class=bibl>O. 1.17</span></cit> <cit><quote lang="greek">ἀλλὦ Κρόνιε παῖ Ῥέας,  εὔφρων ἄρουραν ἔτι πατρίαν σφίσιν κόμισον λοιπῷ γένει</quote> <span class=bibl>O. 2.12</span></cit> <quote lang="greek">ἀλλὰ Κρόνου παῖ,  Οὐλυμπιονίκαν δέξαι Χαρίτων θ' ἕκατι τόνδε κῶμον</quote> (v. l. <quote lang="greek">ἀλλὦ</quote>.) <span class=bibl>O. 4.6</span> <cit><quote lang="greek">ὦ Φίντις, ἀλλὰ ζεῦξον ἤδη μοι σθένος ἡμιόνων</quote> <span class=bibl>O. 6.22</span></cit> <quote lang="greek">ἀλλ' ὦ Ζεῦ πάτερ, νώτοισιν Ἀταβυρίου μεδέων, τίμα μὲν ὕμνου τε-</quote>  <cit><quote lang="greek">θμὸν</quote> <span class=bibl>O. 7.87</span></cit> <cit><quote lang="greek">ἀλλ' ὦ Πίσας εὔδενδρον ἐπ Ἀλφεῷ ἄλσος, τόνδε κῶμον καὶ στεφαναφορίαν δέξαι</quote> <span class=bibl>O. 8.9</span></cit> <cit><quote lang="greek">ἀλλὰ νῦν ἑκαταβόλων Μοισᾶν ἀπὸ τόξων Δία τε φοινικοστερόπαν σεμνόν τ' ἐπίνειμαι ἀκρωτήριον Ἄλιδος</quote> <span class=bibl>O. 9.5</span></cit> <cit><quote lang="greek">ὦ Μοῖσ, ἀλλὰ σὺ καὶ θυγάτηρ Ἀλάθεια Διός, ὀρθᾷ χερὶ ἐρύκετον ψευδέων ἐνιπὰν</quote> <span class=bibl>O. 10.3</span></cit> <cit><quote lang="greek">ἀλλ' ὅμως, κρέσσων γὰρ οἰκτιρμοῦ φθόνος, μὴ παρίει καλά</quote> <span class=bibl>P. 1.85</span></cit> “<quote lang="greek">ἀλλὰ καὶ σκᾶπτον μόναρχον καὶ θρόνος,  τὰ μὲν ἄνευ ξυνᾶς ἀνίας λῦσον</quote>” <span class=bibl>P. 4.152</span> <cit><quote lang="greek">ἀλλ' ἐπέων γλυκὺν ὕμνον πράσσετε</quote> <span class=bibl>N. 9.3</span></cit> <cit><quote lang="greek">ἀλλ' ἀνὰ μὲν βρομίαν φόρμιγγ, ἀνὰ δ αὐλὸν ἐπ αὐτὰν ὄρσομεν ἱππίων ἀέθλων κορυφάν</quote> <span class=bibl>N. 9.8</span></cit> <cit><quote lang="greek">ἀλλ' ὅμως εὔχορδον ἔγειρε λύραν</quote> <span class=bibl>N. 10.21</span></cit> “<quote lang="greek">ἀλλὰ τὰ μὲν παύσατε· βροτέων δὲ λεχέων τυχοῖσα υἱὸν εἰσιδέτω θανόντ</quote>” <span class=bibl>I. 8.35</span> </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>b</b> where the imperative denotes a climax. cf. 2b supra <quote lang="greek">ἀπὸ Ταυγέτοιο μὲν  Σκυρίαι δὲ . ὅπλα δ' ἀπ Ἄργεος, ἅρμα Θηβαῖον, ἀλλ ἀπὸ τᾶς ἀγλαοκάρπου Σικελίας  ματεύειν</quote> (<quote lang="greek">ἀλλά</quote> om. codd. Athenaei.) fr. 106. 6. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>c</b> where the following sentence has imperative force “<quote lang="greek">ἀλλὰ τούτων μὲν κεφάλαια λόγων ἴστε. λευκίππων δὲ δόμους πατέρων  φράσσατέ μοι σαφέως</quote>.” <span class=bibl>P. 4.116</span> cf. <span class=bibl>I. 8.35</span> </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>d</b> introducing a wish, prayer <quote lang="greek">ἀλλὰ σὺν δόξᾳ τέλος δωδεκάμηνον περᾶσαί νιν ἀτρώτῳ κραδίᾳ</quote> (Dissen: <quote lang="greek">περάσαι σὺν</quote> codd.) <span class=bibl>N. 11.9</span> <cit><quote lang="greek">ἐλαύνεις τι νεώτερον ἢ πάρος; ἀλλά σε πρὸς Διός, ἱπποσόα θοάς, ἱκετεύω, ἀπήμονα εἰς ὄλβον τινὰ τράποιο </quote> <span class=bibl>Pae. 9.7</span></cit> </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>4</b> in various minor uses. 
+ </span><span class=sense>&nbsp;&nbsp;&nbsp;<b>a</b> introducing statement of intent by poet <cit><quote lang="greek">ἀλλἐμὲ χρὴ μναμοσύναν ἀνεγείροντα φράσαι</quote> <span class=bibl>O. 8.74</span></cit>, cf. <span class=bibl>P. 4.141</span> <quote lang="greek">ἀλλὰ  πάνδοξον Αἰολάδα σταθυὸν υἱοῦ τε Παγώνδα ὑμνήσω Παρθ</quote>. 2. 6. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>b</b> introducing oracular utterance “<quote lang="greek">ἀλλὰ μιν ποταμῷ σχεδὸν μολόντα φύρσει</quote>” (elocutionem oraculi propriam agnovit Blass.) <span class=bibl>Pae. 2.73</span> </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>c</b> following a rhetorical question “<quote lang="greek">τά κέ τις ἀνώνυμον γῆρας ἐν σκότῳ καθήμενος ἕψοι μάταν</quote> —; <quote lang="greek">ἀλλ' ἐμοὶ μὲν οὗτος ἄεθλος ὑποκείσεται</quote>” <span class=bibl>O. 1.84</span> <cit><quote lang="greek">τί κομπέω παρὰ καιρόν; ἀλλά με Πυθώ τε καὶ τὸ Πελινναῖον ἀπύει</quote> <span class=bibl>P. 10.4</span></cit> 
+ <span class=mstonen>B</span> compounded with other particles. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>1</b> <quote lang="greek">ἀλλὰ γάρ, ἀλλὰ  γάρ</quote>. 
+ </span><span class=sense>&nbsp;&nbsp;&nbsp;<b>a</b> where both particles preserve their original force: <gloss>yet since</gloss> <quote lang="greek">ἀλλὰ παρθένοι γὰρ  τοῦτον ἔσχετε τεθμόν, κλῦτε νῦν Πα.</quote> 6. 53, cf. <span class=bibl>O. 4.1</span>ff., Wil. on Eur., Her. 138. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>b</b> emphasising a main point in contrast to preceding: <gloss>yet</gloss> <cit><quote lang="greek">εἰ δὲ δή τινἄνδρα θνατὸν Ὀλύμπου σκοποὶ ἐτίμασαν, ἦν Τάνταλος οὗτος· ἀλλὰ γὰρ καταπέψαι μέγαν ὄλβον οὐκ ἐδυνάσθη</quote> <span class=bibl>O. 1.55</span></cit> <cit><quote lang="greek">οὔτ' ἰδεῖν εὔχοντο πεμπταῖον γεγενημένον. ἀλλ ἐν κέκρυπτο γὰρ σχοίνῳ</quote> <span class=bibl>O. 6.53</span></cit> “<quote lang="greek">ἀλλὰ γὰρ νόστου πρόφασις γλυκεροῦ κώλυεν μεῖναι</quote>” <span class=bibl>P. 4.32</span> <cit><quote lang="greek">χαλκέῳ τ' Ἄρει ἅδον. ἀλλἁμέρᾳ γὰρ ἐν μιᾷ τραχεῖα νιφὰς πολέμοιο τεσσάρων ἀνδρῶν ἐρήμωσεν μάκαιραν ἑστίαν</quote> <span class=bibl>I. 4.16</span></cit> (an enumeration of the glories of Thebes,) <quote lang="greek">ἀλλὰ παλαιὰ γὰρ εὕδει χάρις</quote> (v. Schadew. 268&#774;{5}) <span class=bibl>I. 7.16</span> </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>c</b> emphasising a maxim, breaking off narrative. <cit><quote lang="greek">ἀλλὰ κοινὸν γὰρ ἔρχεται κῦμ' Ἀίδα</quote> <span class=bibl>N. 7.30</span></cit> <cit><quote lang="greek">ἀλλὰ γὰρ ἀνάπαυσις ἐν παντὶ γλυκεῖα ἔργῳ</quote> <span class=bibl>N. 7.52</span></cit> </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>d</b> frag. <quote lang="greek">ἀ]λλὰ γὰρ τ</quote>[ fr. 60a. 11. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>2</b> <quote lang="greek">ἀλλά τοι, ἀλλὰ  τοι</quote>: emphatic, <gloss>yet</gloss> <cit><quote lang="greek">ἀλλά τοι ἤρατο τῶν ἀπεόντων</quote> <span class=bibl>P. 3.19</span></cit> “<quote lang="greek">ἀλλ' ἄγε τῶνδέ τοι ἔμπαν αἵρεσιν παρδίδωμ</quote>” <span class=bibl>N. 10.82</span> <cit><quote lang="greek">ἀλλ' Ὅμηρός τοι τετίμακεν δἰἀνθρώπων</quote> <span class=bibl>I. 4.37</span></cit> </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>3</b> <quote lang="greek">ἀλλὰ  μέν</quote>: opposing what precedes. <cit><quote lang="greek">ἀλλ' ἐπεύξασθαι μὲν ἐγὼν ἐθέλω Ματρὶ</quote> <span class=bibl>P. 3.77</span></cit> </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>4</b> <quote lang="greek">ἀλλ' ἦ. ἀλλ ἦ μακ[ρ]ότερον</quote> fr. 6a. e. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>5</b> <cit><quote lang="greek">ἀλλὰ  γε. ἀλλ' ὅ γε Μέλαμπος οὐκ ἤθελεν </quote> <span class=bibl>Pae. 4.28</span></cit> 
+ <span class=mstonen>C</span> 
+ </span><span class=sense>&nbsp;&nbsp;&nbsp;<b>a</b> frag. <quote lang="greek">ἀλλ' οἶος ἄπλατον κεράιζε</quote> fr. 93 <quote lang="greek">ἀλλὰ θαυμάζω</quote> fr. 122. 13. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>b</b> dub. [<quote lang="greek">ἀλλὰ καὶ</quote> (coni. Hermann: <quote lang="greek">ἅμα</quote> codd. contra metr.) <span class=bibl>O. 1.104</span>] [<quote lang="greek">ἀλλὰ</quote> (codd. contra met.: <quote lang="greek">ἄνα</quote> Kayser: <quote lang="greek">ἄγε</quote> Maas.) <span class=bibl>O. 13.114</span>] [<quote lang="greek">ἢ πόντου κενέωσιν ἀλλὰ</quote>  <quote lang="greek">πέδον</quote> (codd. Dion. Hal. contra metr.: &lt;˘&gt; <quote lang="greek">ἂμ</quote> Hermann.) <span class=bibl>Pae. 9.16</span>] </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>c</b> <quote lang="greek">μὲν  ἀλλά</quote> v. <quote lang="greek">μέν</quote>. </span></div2>
+<p><center> -- 33 -- </center><p>
+
+ 
+ 
+</span>
+</span><table width='95%'><tr><td width='50%' align='left'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:1:354.Slater">Previous Entry</A><p>
+</td><td width='50%' align='right'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:1:356.Slater"><p>Next Entry</A><p>
+</td></tr></table><hr noshade><a name="pindar_dico01"></a>William J. Slater [<b>1969</b>], <i><a href="/cgi-bin/philologic/navigate.pl?Slater.0
+">Lexicon to Pindar</a></i>  (Trustees of Tufts University, Berlin) [<a href="/cgi-bin/philologic/getwordcount.pl?Slater.0
+">word count</a>] [<b>pindar_dico01</b>]. <hr noshade>
+<!-- END OF CONTEXT AREA, WE HOPE-->
+</td>
+</tr>
+</table>
+<center>
+<a href="http://philologic.uchicago.edu/">
+<img border="0" src="http://artflx.uchicago.edu/philologic/philopowered.png" alt="Powered by PhiloLogic"></a><br/>
+</center>
+<!-- If you are using PhiloLogic, please be nice and leave the PowerBy ;-) -->
+<!-- but add your own footer stuff as well. -->
+<!-- $Id: Results_Footer.html,v 2.11 2004/05/28 19:21:59 o Exp $ -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10153248-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+

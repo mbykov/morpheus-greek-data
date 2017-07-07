@@ -1,0 +1,53 @@
+#
+
+s. 	1 	βουλεύω
+infinitive 	βουλεύειν
+
+s. 	1 	βουλεύομαι
+	infinitive 	βουλεύεσθαι
+
+Future System (without contraction)
+	act. inf. 	βουλεύσειν
+	middle inf. 	βουλεύσεσθαι
+	pass. inf. 	βουλευθήσεσθαι
+
+Future System (Active and Middle) with contraction in -έω
+s. 	1 	βαλῶ
+	act. inf. 	βαλεῖν
+	middle inf. 	ἀποθανεῖσθαι
+
+Future System (Active) with contraction in -άω
+s. 	1 	ἐλῶ
+	act. inf. 	ἐλᾶν
+
+Strong (2nd) Aorist System Active
+s. 	1 	ἤγαγον
+inf. 	ἀγαγεῖν
+
+Strong (2nd) Aorist System Middle
+s. 	1 	ἠγαγόμην
+	inf. 	ἀγαγέσθαι
+
+Weak (1st) Aorist System Active
+s. 	1 	ἐβούλευσα
+	inf. 	βουλεῦσαι
+
+Weak (1st) Aorist System Middle
+s. 	1 	ἐβουλευσάμην
+	inf. 	βουλεύσασθαι
+
+Aorist Passive System
+s. 	1 	ἐβουλεύθην
+	inf. 	βουλευθῆναι
+
+Perfect Active System
+s. 	1 	λέλυκα
+	inf. 	λελυκέναι; λελοιπέναι
+
+Perfect System Middle-Passive
+	inf. 	πεπρᾶχθαι 	ἠγγέλθαι	πεφάνθαι
+
+Perfect System Middle-Passive:
+
+Future Perfect Indicative
+active inf. 	periphrastic: λελυκὼς ἔσεσθαι; simple (rare): τεθνήξειν

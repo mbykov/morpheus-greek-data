@@ -1,0 +1,23 @@
+{
+    "type":"term",
+    "pos": "pron",
+    "descr": "dem",
+    "var": "dem",
+    "trn": "not one, nobody",
+    "dict": "οὐδείς",
+    "gend": "fem",
+    "forms":{
+        "sg.nom": "οὐδεμία",
+        "sg.gen": "οὐδεμιᾶς",
+        "sg.dat": "οὐδεμιᾷ",
+        "sg.acc": "οὐδεμίαν",
+        "du.nom": "",
+        "du.acc": "",
+        "du.gen": "",
+        "du.dat": "",
+        "pl.nom": "",
+        "pl.gen": "",
+        "pl.dat": "",
+        "pl.acc": ""
+    }
+}

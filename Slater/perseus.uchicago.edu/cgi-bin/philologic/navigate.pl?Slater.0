@@ -1,0 +1,1164 @@
+
+<html>
+<head>
+  <title>Slater</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link type="text/css" rel="stylesheet" media="all" href="http://diderot.uchicago.edu/drupalparts/style.css?x" />
+<style type="text/css">
+<!--
+/* The following is PhiloLogic specific CSS to handle TEI encoding */
+/* Edit as you see fit, but you will probably need to modify traps in */
+/* philosubs.pl in the database lib/ directory.  Yes, indeed, it is */
+/* a bit fiddly.  One day, XSLT!  If you do it, please let us know. */
+span.emph {font-weight: bolder; }
+span.emphsc {FONT-SIZE: 12px;}
+span.hi   {font-weight: bolder;}
+span.foreign {font-style: italic;}
+span.bibl {font-style: italic;}
+span.title     {font-style: italic;}
+span.hiitalic  {font-style: italic;}
+span.hiunderline {text-decoration: underline;}
+span.hibold   {font-weight: bolder;}
+span.doctitle {display: block; text-align: center; FONT-SIZE: 24px; LINE-HEIGHT: 1.5;}
+span.byline {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.pubplace {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.docedition {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.publisher {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.docimprint {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.addrline {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.docauthor {display: block; text-align: center; FONT-SIZE: 20px; LINE-HEIGHT: 1.5;}
+span.docdate {display: block; text-align: center; FONT-SIZE: 20px; LINE-HEIGHT: 1.5;}
+span.opener   {display: block; text-align: center;}
+span.label   {display: block; text-align: center;}
+span.signed   {display: block; text-align: right;}
+span.stage    {display: block; text-align: right; font-style: italic; margin-left: 120px;}
+span.speaker  {display: block; text-align: center; FONT-SIZE: 16;}
+span.epigraph {display: block; margin-left: 300px;}
+span.salute   {display: block; text-align: center;}
+span.trailer  {display: block; text-align: center;}
+span.closer   {display: block; text-align: center;}
+span.item     {display: block; text-align: left;}
+span.role     {display: block; text-align: left; margin-left: 100px; margin-right: 100px}
+span.argument {display: block; text-align: left; margin-left: 100px; margin-right: 100px}
+span.roledesc {display: block; text-align: right; margin-right: 100px}
+span.l        {display: block; text-align: left;}
+span.small   {FONT-SIZE: 11px;}
+span.hismallcap {FONT-SIZE: 12px;}
+span.head    {display: block; text-align: center; font-weight: bolder; FONT-SIZE: 18px; LINE-HEIGHT: 1.5;}
+span.notetarget {FONT-SIZE: 12px; text-decoration: underline; vertical-align: super;}
+span.footnote {display: block; FONT-SIZE: 12px; margin-left: 60px; margin-right: 40px;}
+span.marginnote {display: block; FONT-SIZE: 12px; text-align: right;}
+span.inlinenote {display: block; FONT-SIZE: 12px;}
+span.generalnote {display: block; FONT-SIZE: 12px;}
+span.endnote {display: block; FONT-SIZE: 12px;}
+span.refalignright {display: block; text-align: right;}
+span.mstoneid {display: block; FONT-SIZE: 12px; text-align: right;}
+span.mstonen {display: block; FONT-SIZE: 12px; text-align: right;}
+span.mstonetype {display: block; text-align: center;}
+span.mwright {display: block; FONT-SIZE: 12px; text-align: right;}
+span.authfreqindt {display: block; text-align: left; margin-left: 60px;}
+span.perfreqindt {display: block; text-align: left; margin-left: 45px;}
+span.navhead {display: block; text-align: center; font-size: 16; font-weight: bold;}
+span.navbiblio {display: block; font-size: 14;}
+span.navlevel1 {display: block; text-align: left; font-size: 14;}
+span.navlevel2 {display: block; text-align: left; margin-left: 40px; FONT-SIZE: 14;}
+span.navlevel3 {display: block; text-align: left; margin-left: 60px; FONT-SIZE: 12;}
+span.projecthead { text-align: right; font-size: 20; color: #000000;}
+span.sense {display:block; margin:2px;}
+
+/* For pop-in notes */
+.hiddennote {
+        display: none;
+        margin: 5px;
+        border: 1px solid #242e55;
+        background-color: #dde3ef;
+        padding: 2px;
+}
+
+-->
+</style>
+<!-- Needed JavaScript Code -->
+<script language="JavaScript">
+    var cleared = 0;
+
+    function clearField(field)
+    {
+        if (cleared != 1) {
+            field.value = ""
+            cleared = 1
+        } else {
+            cleared = 0
+        }
+    }
+function toggleMenu(currElem,nextPos) {
+        menuObj = (document.all) ? eval("document.all." + currElem + ".style") : eval("document." + currElem)
+        if (toggleMenu.arguments.length == 1)
+                nextPos = (parseInt(menuObj.top) == -5) ? -90 : -5
+                if (document.all)
+                        menuObj.pixelTop = nextPos
+                else
+                        menuObj.top = nextPos
+}
+
+</script>  
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/misc/jquery.js?x"></script>
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/mischttp://encyclopedie.uchicago.edu.js?x"></script>
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/misc/tabledrag.js?x"></script>
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/misc/tableheader.js?x"></script>
+
+	<!--[if lt IE 7]>
+  <style type="text/css" media="all">@import "http://artfl-project.uchicago.edu/sites/all/themes/deco/fix-ie6.css";</style>
+  <![endif]-->
+	<!--[if gt IE 5]>
+  <style type="text/css" media="all">@import "http://artfl-project.uchicago.edu/sites/all/themes/deco/fix-ie.css";</style>
+  <![endif]-->
+</head>
+
+<body  onkeypress="if (dictOn) checkKeyPressed(event);">
+  
+
+	<div id="container" class="clear-block">
+		
+		<div id="header">
+			<div id="top-bar">
+                                                      <div class="region-content">
+<ul class="links secondary-links">
+<li class="menu-124"><a href="http://perseus.uchicago.edu/">HOME</a></li>
+<li class="menu-124"><a href="http://perseus.uchicago.edu/about.html">ABOUT THIS RESOURCE</a></li>
+<li class="menu-124"><a href="http://www.perseus.tufts.edu/">PERSEUS DIGITAL LIBRARY AT TUFTS</a></li>
+<li class="menu-123"><a href="http://artfl.uchicago.edu/" title="">ARTFL PROJECT</a></li>
+<li class="menu-175"><a href="http://humanities.uchicago.edu/depts/classics/" title="">CLASSICS AT CHICAGO</a></li>
+
+</ul>                           </div>
+                        </div>
+
+<div class="region-content">
+<h1><span class="site-name"><a href="http://perseus.uchicago.edu/Reference/Slater.html">Slater</span></a></h1>
+<ul class="links primary-links" style="float:left;">
+<li class="menu-115 first"><a href="http://perseus.uchicago.edu/Reference/Slater.html">search</a></li>
+<li class="menu-288"><a href="http://philologic.uchicago.edu/manual.php" target="blank">help</a></li>
+<li class="menu-197 last"><a href="http://spreadsheets.google.com/viewform?key=pOHHlctnbPqT1dKtC24I2Iw" target="blank">report a problem</a></li>
+<li class="menu-298"><form action="/cgi-bin/philologic/search3torth" style="margin:0px; padding-top:18px; padding-right:16px; padding-left:16px;">
+<input name="dgdivhead" title="Enter unaccented Greek. (Leave out accents, breathings and iota subscripts.)" type="text" size="12"/><input type="hidden" name="dbname" value="Slater" /><input type="submit" value="Headword Lookup" /><input type="hidden" name="ORTHMODE" value="UNACCENTED" /></form> </li>
+<li class="menu-288"><a href="/cgi-bin/philologic/getobject.pl?c.0:2:3.LSJ">abbreviations</a></li>
+
+</ul>
+</div>
+		</div> <!-- /header -->
+
+			<div id="featured">
+                                </div>
+			<div id="main">
+			<div id="content">
+<span class=navhead>Table of Contents</span><p>
+<span class=navbiblio><a name="pindar_dico01"></a>William J. Slater [<b>1969</b>], <i>Lexicon to Pindar</i>  (Trustees of Tufts University, Berlin) [<a href="/cgi-bin/philologic/getwordcount.pl?Slater.0
+">word count</a>] [<b>pindar_dico01</b>]. </span>
+<p>
+Click <A HREF="/cgi-bin/philologic/select.pl?Slater.0">here</A> to run a search on selected parts of this document.<P>
+<p><span class=navlevel1><a href="/cgi-bin/philologic/getobject.pl?c.0:0.Slater">[header]</a></span>
+<p><span class=navlevel1><a href="/cgi-bin/philologic/getobject.pl?c.0:1.Slater">Α</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:0.Slater">ἀάτα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:1.Slater">ἀβάπτιστος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:2.Slater">Ἄβαρις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:3.Slater">Ἄβας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:4.Slater">ἄβατος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:5.Slater">Ἄβδηρος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:6.Slater">ἀβλαβής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:7.Slater">ἀβοατί</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:8.Slater">ἀβουλία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:9.Slater">ἁβρός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:10.Slater">ἁβρότας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:11.Slater">ἀγά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:12.Slater">ἀγάζομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:13.Slater">ἀγάθεος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:14.Slater">ἀγαθός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:15.Slater">Ἀγαθωνίδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:16.Slater">ἀγακλεής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:17.Slater">ἀγακτίμενος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:18.Slater">ἀγάλλω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:19.Slater">ἄγαλμα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:20.Slater">ἄγαμαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:21.Slater">Ἀγαμεμνόνιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:22.Slater">Ἀγαμήδης</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:23.Slater">ἄγαν</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:24.Slater">ἀγανός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:25.Slater">ἀγανόφρων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:26.Slater">ἀγάνωρ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:27.Slater">ἀγαπάζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:28.Slater">ἀγαπατός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:29.Slater">ἀγαπάω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:30.Slater">Ἀγασικλέης</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:31.Slater">ἀγαυός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:32.Slater">ἀγάφθεγκτος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:33.Slater">ἀγγελία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:34.Slater">ἀγγέλλω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:35.Slater">ἄγγελος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:36.Slater">ἄγγος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:37.Slater">ἄγε</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:38.Slater">ἀγείρω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:39.Slater">ἀγέλα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:40.Slater">ἁγεμονεύω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:41.Slater">ἁγεμών</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:42.Slater">ἀγένειος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:43.Slater">ἁγέομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:44.Slater">ἀγέρωχος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:45.Slater">Ἀγεσίλας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:46.Slater">ἀγήραος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:47.Slater">Ἇγησίας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:48.Slater">Ἁγησίδαμος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:49.Slater">Ἇγησίλας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:50.Slater">Ἁγησίμαχος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:51.Slater">ἁγησίχορος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:52.Slater">ἁγητήρ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:53.Slater">ἁγίζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:54.Slater">ἄγκειμαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:55.Slater">ἀγκομίζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:56.Slater">ἀγκύλος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:57.Slater">ἀγκυλότοξος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:58.Slater">ἄγκυρα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:59.Slater">ἀγκών</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:60.Slater">ἀγλαία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:61.Slater">ἀγλαίζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:62.Slater">ἀγλαόγυιος, ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:63.Slater">ἀγλαόδενδρος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:64.Slater">ἀγλαόθρονος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:65.Slater">ἀγλαόκαρπος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:66.Slater">ἀγλαόκολπος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:67.Slater">ἀγλαόκουρος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:68.Slater">ἀγλαόκρανος, -καρνος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:69.Slater">ἀγλαόκωμος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:70.Slater">ἀγλαός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:71.Slater">ἀγλαοτρίαινα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:72.Slater">ἀγλαοχαίτας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:73.Slater">ἄγλωσσος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:74.Slater">ἁγνός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:75.Slater">ἀγνώμων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:76.Slater">ἀγνώς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:77.Slater">ἄγνωστος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:78.Slater">ἄγνωτος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:79.Slater">ἀγορά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:80.Slater">ἀγοράζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:81.Slater">ἀγός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:82.Slater">ἄγρα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:83.Slater">Ἀγρεύς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:84.Slater">ἄγριος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:85.Slater">ἀγρός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:86.Slater">ἀγρότερος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:87.Slater">ἀγρυξία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:88.Slater">ἄγυια</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:89.Slater">ἀγυιᾶτις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:90.Slater">ἄγχι, ἄγχιστος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:91.Slater">ἀγχίκρημνος,-ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:92.Slater">ἀγχίτοκος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:93.Slater">ἀγχοῦ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:94.Slater">ἄγχω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:95.Slater">ἄγω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:96.Slater">ἀγών</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:97.Slater">ἀγωνία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:98.Slater">ἀγώνιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:99.Slater">ἀδαήμων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:100.Slater">ἀδαής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:101.Slater">ἄδακρυς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:102.Slater">ἀδαμάντινος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:103.Slater">ἀδαμαντοπέδιλος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:104.Slater">ἀδάμας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:105.Slater">ἀδείμαντος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:106.Slater">ἀδελφεά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:107.Slater">ἀδελφεός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:108.Slater">ἀδίαντος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:109.Slater">Ἀδικία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:110.Slater">ἄδικος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:111.Slater">ἀδινός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:112.Slater">Ἄδματος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:113.Slater">ἀδόκητος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:114.Slater">ἄδολος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:115.Slater">ἁδονά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:116.Slater">ἄδορπος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:117.Slater">Ἀδράστειος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:118.Slater">Ἀδραστίδαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:119.Slater">Ἄδραστος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:120.Slater">ἁδύγλωσσος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:121.Slater">ἁδυεπής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:122.Slater">ἁδύλογος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:123.Slater">ἁδυμελής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:124.Slater">ἀδύνατος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:125.Slater">ἁδύπνοος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:126.Slater">ἁδύς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:127.Slater">ἄδυτον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:128.Slater">ἄδυτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:129.Slater">ἀεθλητάς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:130.Slater">ἄεθλον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:131.Slater">ἀεθλονικία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:132.Slater">ἄεθλος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:133.Slater">ἀεθλοφόρος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:134.Slater">ἀεί</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:135.Slater">ἀείδω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:136.Slater">ἀείρω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:137.Slater">ἀέκων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:138.Slater">ἀέλιος, ἅλιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:139.Slater">ἀελλόπους</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:140.Slater">ἀελπεία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:141.Slater">ἀελπτία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:142.Slater">ἀέναος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:143.Slater">ἀεξίγυιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:144.Slater">ἀέξω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:145.Slater">ἄημι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:146.Slater">ἀήρ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:147.Slater">Ἀθαμαντιάδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:148.Slater">Ἀθάμας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:149.Slater">Ἀθάνα, Ἀθαναία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:150.Slater">Ἀθᾶναι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:151.Slater">Ἀθαναία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:152.Slater">Ἀθαναῖος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:153.Slater">ἀθάνατος, -α -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:154.Slater">ἄθεμις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:155.Slater">ἄθεος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:156.Slater">Ἀθόως</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:157.Slater">ἀθρέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:158.Slater">ἀθρόος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:159.Slater">ἄθυρμα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:160.Slater">ἀθύρω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:161.Slater">αἰαῖ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:162.Slater">Αἰακίδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:163.Slater">Αἰακός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:164.Slater">αἰανής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:165.Slater">Αἰάντειος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:166.Slater">Αἴας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:167.Slater">Αἰγᾶθεν</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:168.Slater">Αἰγαῖος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:169.Slater">Αἰγείδαι, Αἰγειδαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:170.Slater">αἰγιβάτας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:171.Slater">Αἰγιμιός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:172.Slater">Αἴγινα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:173.Slater">Αἰγίναθε</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:174.Slater">Αἰγίοχος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:175.Slater">αἰγίς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:176.Slater">Αἴγισθος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:177.Slater">αἴγλα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:178.Slater">αἰγλάεις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:179.Slater">Αἰγύπτιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:180.Slater">Αἴγυπτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:181.Slater">Ἀίδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:182.Slater">αἰδέομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:183.Slater">αἰδοῖος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:184.Slater">ἄιδρις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:185.Slater">ἀιδροδίκας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:186.Slater">αἰδώς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:187.Slater">αἰεί, αἰέν, αεί</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:188.Slater">αἰέναος, ἀέναος,-ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:189.Slater">αἰετός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:190.Slater">Αἰήτας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:191.Slater">αἰθέριος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:192.Slater">αἰθήρ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:193.Slater">Αἰθίοψ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:194.Slater">αἰθός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:195.Slater">αἴθω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:196.Slater">αἴθων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:197.Slater">αἴλινος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:198.Slater">αἷμα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:199.Slater">αἱμακουρία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:200.Slater">αἱμάσσω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:201.Slater">Αἵμονες</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:202.Slater">αἱμύλος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:203.Slater">Αἰνέας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:204.Slater">αἰνέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:205.Slater">Αἰνησίδαμος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:206.Slater">αἰνητός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:207.Slater">αἴνιγμα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:208.Slater">αἰνίσσομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:209.Slater">αἰνοπαθής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:210.Slater">αἶνος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:211.Slater">αἰνός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:212.Slater">αἴξ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:213.Slater">Αἰολάδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:214.Slater">Αἰολεύς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:215.Slater">Αἰοληίς, Αἰολίς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:216.Slater">Αἰολίδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:217.Slater">αἰόλλει</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:218.Slater">αἰολοβρέντας,-βρόντας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:219.Slater">Αἴολος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:220.Slater">αἰόλος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:221.Slater">αἰπεινός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:222.Slater">αἰπύς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:223.Slater">Αἴπυτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:224.Slater">αἵρε σις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:225.Slater">αἱρέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:226.Slater">αἶσα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:227.Slater">αἴσιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:228.Slater">Αἰσονίδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:229.Slater">ἄισος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:230.Slater">ἀίσσω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:231.Slater">ἄιστος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:232.Slater">ἀιστόω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:233.Slater">αἰσχρός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:234.Slater">αἰσχύνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:235.Slater">Αἴσων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:236.Slater">Αἰσωνίς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:237.Slater">αἴτε</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:238.Slater">αἰτέω, αἴτημι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:239.Slater">αἰτία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:240.Slater">αἴτιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:241.Slater">Αἴτνα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:242.Slater">Αἰτναῖος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:243.Slater">Αἰτωλός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:244.Slater">αἰχμά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:245.Slater">αἰχματάς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:246.Slater">αἶψα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:247.Slater">αἰψηρός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:248.Slater">ἀίω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:249.Slater">αἰών</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:250.Slater">ἀιών</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:251.Slater">αἰωρέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:252.Slater">ἀκᾶ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:253.Slater">ἀκαμαντολόγχας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:254.Slater">ἀκαμαντομάχας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:255.Slater">ἀκαμαντόπους</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:256.Slater">ἀκαμαντοχάρμας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:257.Slater">ἀκάμας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:258.Slater">ἄκαμπτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:259.Slater">ἄκασκα]</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:260.Slater">Ἄκαστος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:261.Slater">ἄκατος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:262.Slater">ἀκείομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:263.Slater">ἀκειρεκόμας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:264.Slater">ἀκέντητος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:265.Slater">ἀκέρδεια</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:266.Slater">ἀκερσεκόμας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:267.Slater">ἄκεσμα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:268.Slater">ἀκήρατος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:269.Slater">Ἀκιδαλία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:270.Slater">ἀκίνδυνος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:271.Slater">ἀκίνητος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:272.Slater">ἀκκίζομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:273.Slater">ἀκλάρωτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:274.Slater">ἀκλεής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:275.Slater">ἀκμά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:276.Slater">ἄκμων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:277.Slater">ἄκναμπτος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:278.Slater">ἀκναμπτεί</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:279.Slater">ἀκοά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:280.Slater">ἀκοίτας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:281.Slater">ἄκοιτις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:282.Slater">ἀκόνα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:283.Slater">ἀκοντίζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:284.Slater">ἄκορος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:285.Slater">ἄκος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:286.Slater">ἄκοτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:287.Slater">ἀκούω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:288.Slater">ἄκρα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:289.Slater">Ἀκραγαντῖνος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:290.Slater">Ἀκράγας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:291.Slater">ἄκραντος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:292.Slater">ἀκροθίνιον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:293.Slater">ἀκρόθις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:294.Slater">ἀκρόπολις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:295.Slater">ἄκρος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:296.Slater">ἀκρόσοφος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:297.Slater">ἀκρότομος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:298.Slater">Ἄκρων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:299.Slater">ἀκρωτήριον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:300.Slater">ἀκτά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:301.Slater">ἀκτίς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:302.Slater">Ἄκτωρ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:303.Slater">ἀκύμων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:304.Slater">ἄκων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:305.Slater">ἀλάθεια</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:306.Slater">ἀλαθής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:307.Slater">ἀλαλά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:308.Slater">ἀλαλάζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:309.Slater">ἀλαλατός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:310.Slater">ἀλάομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:311.Slater">ἀλαός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:312.Slater">Ἀλάτας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:313.Slater">ἄλγος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:314.Slater">ἀλεγεινός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:315.Slater">ἀλέγω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:316.Slater">Ἀλεῖος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:317.Slater">Ἄλεκτραι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:318.Slater">ἀλέκτωρ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:319.Slater">Ἀλέξανδρος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:320.Slater">Ἀλεξιβιάδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:321.Slater">Ἀλεξίδαμος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:322.Slater">ἀλεξίμβροτος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:323.Slater">ἀλέξω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:324.Slater">Ἀλέρα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:325.Slater">Ἀλευάδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:326.Slater">Ἀλεύας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:327.Slater">ἀλίβατος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:328.Slater">ἁλιερκής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:329.Slater">ἁλιεύς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:330.Slater">ἀλίθιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:331.Slater">ἁλικία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:332.Slater">ἇλιξ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:333.Slater">ἅλιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:334.Slater">ἁλίπλακτος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:335.Slater">Ἁλιρόθιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:336.Slater">ἅλις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:337.Slater">Ἆλις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:338.Slater">ἁλίσκομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:339.Slater">ἀλιτόξενος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:340.Slater">ἀλιτρός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:341.Slater">ἀλκά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:342.Slater">ἀλκάεις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:343.Slater">Ἀλκάθοος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:344.Slater">Ἀλκαίδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:345.Slater">ἄλκαρ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:346.Slater">Ἀλκιμέδων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:347.Slater">Ἀλκιμίδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:348.Slater">ἄλκιμος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:349.Slater">Ἀλκμάν</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:350.Slater">Ἀλκμανίδαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:351.Slater">Ἀλκμήνα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:352.Slater">ἀλκτήρ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:353.Slater">Ἀλκυονεύς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:354.Slater">ἀλκυών</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:355.Slater">ἀλλά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:356.Slater">ἄλλᾳ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:357.Slater">ἀλλάλους</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:358.Slater">ἀλλαλοφονία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:359.Slater">ἀλλαλοφόνοι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:360.Slater">ἀλλάσσω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:361.Slater">ἀλλοδαπός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:362.Slater">ἄλλοθι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:363.Slater">ἀλλοῖος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:364.Slater">ἆλλος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:365.Slater">ἄλλος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:366.Slater">ἄλλοτε</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:367.Slater">ἀλλότριος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:368.Slater">ἅλμα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:369.Slater">ἅλμα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:370.Slater">ἁλμυρός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:371.Slater">ἇλος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:372.Slater">ἄλοχος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:373.Slater">ἄλπνιστος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:374.Slater">ἅλς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:375.Slater">ἄλσος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:376.Slater">Ἄλτις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:377.Slater">ἁλυσιωτός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:378.Slater">ἀλύσκω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:379.Slater">ἄλυτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:380.Slater">Ἀλφεός, -ειός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:381.Slater">ἀλώπηξ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:382.Slater">ἅλωσις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:383.Slater">ἁμᾶ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:384.Slater">ἅμα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:385.Slater">Ἀμαζονίς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:386.Slater">Ἀμαζών</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:387.Slater">ἀμαιμάκετος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:388.Slater">Ἀμάλθεια</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:389.Slater">ἀμαξιτός, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:390.Slater">ἀμαξοφόρητος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:391.Slater">ἆμαρ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:392.Slater">ἁμαρτάνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:393.Slater">ἀμαυρόω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:394.Slater">ἀμαχανία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:395.Slater">ἀμάχανος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:396.Slater">ἄμαχος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:397.Slater">ἀμβαίνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:398.Slater">ἀμβατός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:399.Slater">ἀμβλύνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:400.Slater">ἀμβλύς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:401.Slater">ἀμβολά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:402.Slater">ἀμβολάδαν</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:403.Slater">ἀμβροσία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:404.Slater">ἀμβρόσιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:405.Slater">ἄμβροτος, -α -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:406.Slater">ἀμείβω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:407.Slater">ἀμείλιχος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:408.Slater">ἀμείρω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:409.Slater">ἄμελξις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:410.Slater">ἀμεμφής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:411.Slater">Ἀμένας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:412.Slater">ἁμέρα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:413.Slater">ἀμέρδω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:414.Slater">ἅμερος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:415.Slater">ἁμερόω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:416.Slater">ἁμέτερος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:417.Slater">ἀμέτρητος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:418.Slater">ἀμεύομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:419.Slater">ἀμευσιεπής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:420.Slater">ἀμευσίπορος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:421.Slater">ἀμίαντος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:422.Slater">ἅμιλλα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:423.Slater">ἁμιλλάομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:424.Slater">ἄμμορος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:425.Slater">Ἄμμων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:426.Slater">ἀμνάμων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:427.Slater">ἀμνασ-</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:428.Slater">ἀμοιβά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:429.Slater">ἀμοιβαῖος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:430.Slater">ἁμός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:431.Slater">ἄμοχθος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:432.Slater">ἄμπαλος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:433.Slater">ἀμπέλινος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:434.Slater">ἀμπελόεις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:435.Slater">ἄμπελος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:436.Slater">ἀμπίπλημι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:437.Slater">ἀμπλακία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:438.Slater">ἀμπλάκιον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:439.Slater">ἀμπλακίσκω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:440.Slater">ἄμπνευμα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:441.Slater">ἀμπνέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:442.Slater">ἀμπνοά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:443.Slater">ἀμπολέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:444.Slater">Ἀμυθάν</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:445.Slater">Ἀμυθαονίδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:446.Slater">Ἀμύκλαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:447.Slater">Ἀμύκλαθεν</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:448.Slater">Ἀμυκλαῖος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:449.Slater">ἀμύμων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:450.Slater">Ἀμύντας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:451.Slater">Ἀμυντορίδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:452.Slater">ἀμύνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:453.Slater">ἀμφαδόν</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:454.Slater">ἀμφαίνω, ἀναφαίνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:455.Slater">ἀμφανδόν</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:456.Slater">ἀμφελίσσω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:457.Slater">ἀμφέπω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:458.Slater">ἀμφέρω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:459.Slater">ἀμφί</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:460.Slater">ἀμφίαλος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:461.Slater">Ἀμφιάρηος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:462.Slater">ἀμφιβαίνω]</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:463.Slater">ἀμφιβάλλω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:464.Slater">ἀμφιθάλασσος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:465.Slater">ἀμφιθαλής]</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:466.Slater">ἀμφίκειμαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:467.Slater">ἀμφικρέμαμαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:468.Slater">ἀμφικτίονες</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:469.Slater">ἀμφικυλίνδω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:470.Slater">ἀμφιλαφής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:471.Slater">Ἀμφίλοχος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:472.Slater">ἀμφινέμω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:473.Slater">ἀμφίπεδος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:474.Slater">ἀμφιπίτνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:475.Slater">ἀμφιπολέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:476.Slater">ἀμφίπολος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:477.Slater">ἀμφίρυτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:478.Slater">ἀμφίς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:479.Slater">ἀμφιτρέχω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:480.Slater">Ἀμφιτρίτα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:481.Slater">Ἀμφιτρύων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:482.Slater">Ἀμφιτρυωνιάδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:483.Slater">ἀμφιψαύω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:484.Slater">ἀμφορεύς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:485.Slater">ἀμφότερος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:486.Slater">ἀμφοτέρωθεν</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:487.Slater">ἄμφω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:488.Slater">ἀμώμητος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:489.Slater">ἄν</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:490.Slater">ἀνά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:491.Slater">ἄνα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:492.Slater">ἀναβαίνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:493.Slater">ἀναβάλλω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:494.Slater">ἀναβωλάκιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:495.Slater">ἀναγέομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:496.Slater">ἀναγινώσκω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:497.Slater">ἀνάγκα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:498.Slater">ἀναγκαῖος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:499.Slater">ἀνάγω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:500.Slater">ἀναδέκομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:501.Slater">ἀναδέρω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:502.Slater">ἀναδέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:503.Slater">ἀναδίδωμι, ἀνδίδωμι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:504.Slater">ἀναείρω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:505.Slater">ἀναιδής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:506.Slater">ἀναίνομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:507.Slater">ἀναιρέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:508.Slater">ἀνάκειμαι, ἄγκειμαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:509.Slater">ἀνακομίζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:510.Slater">ἀνακράζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:511.Slater">ἀνακρίμναμι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:512.Slater">ἀνακρίνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:513.Slater">ἀναλίσκω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:514.Slater">ἄναλκις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:515.Slater">ἀναλύω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:516.Slater">ἀναμένω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:517.Slater">ἀναμιμνᾴσκω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:518.Slater">ἀνάνυτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:519.Slater">ἄναξ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:520.Slater">ἀναξία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:521.Slater">ἀναξιφόρμιγξ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:522.Slater">ἀναπάλλω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:523.Slater">ἀναπάσσω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:524.Slater">ἀνάπαυσις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:525.Slater">ἀναπαύω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:526.Slater">ἀναπέμπω, ἀμπέμπω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:527.Slater">ἀναπίτναμι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:528.Slater">ἀναπλέκω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:529.Slater">ἀναπνέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:530.Slater">ἀναπολίζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:531.Slater">ἀνάπωτις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:532.Slater">ἀναρίθμητος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:533.Slater">ἀνάριθμος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:534.Slater">ἀναρπάζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:535.Slater">ἀναρρήγνυμι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:536.Slater">ἀναρύω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:537.Slater">ἀνασπάω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:538.Slater">ἄνασσα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:539.Slater">ἀνάσσω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:540.Slater">ἀνασχίζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:541.Slater">ἀνατεί</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:542.Slater">ἀνατείνω, ἀντείνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:543.Slater">ἀνατέλλω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:544.Slater">ἀνατίθημι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:545.Slater">ἀνατρέχω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:546.Slater">ἀναφαίνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:547.Slater">ἀναφέρω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:548.Slater">ἀναφροντίζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:549.Slater">ἀναχάζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:550.Slater">Ἀνδαισιστρότα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:551.Slater">ἁνδάνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:552.Slater">ἀνδέκομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:553.Slater">ἀνδέρω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:554.Slater">ἄνδημα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:555.Slater">ἀνδριαντοποιός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:556.Slater">ἀνδριάς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:557.Slater">ἀνδροδάμας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:558.Slater">ἀνδροφθόρος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:559.Slater">ἀνδροφόνος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:560.Slater">ἀνεγείρω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:561.Slater">ἀνεῖπον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:562.Slater">ἀνεκάς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:563.Slater">ἀνεμόεις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:564.Slater">ἄνεμος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:565.Slater">ἀνεμοσφάραγος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:566.Slater">ἀνερέπτομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:567.Slater">ἄνευ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:568.Slater">ἄνευθε</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:569.Slater">ἀνέχω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:570.Slater">ἀνεψιός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:571.Slater">ἀνήρ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:572.Slater">ἀνθεμόεις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:573.Slater">ἄνθεμον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:574.Slater">ἀνθέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:575.Slater">ἄνθος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:576.Slater">ἀνθρακιά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:577.Slater">ἄνθρωπος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:578.Slater">ἁνία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:579.Slater">ἁνία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:580.Slater">ἀνία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:581.Slater">ἀνιαρός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:582.Slater">ἀνίατος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:583.Slater">ἀνίημι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:584.Slater">ἁνίκα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:585.Slater">ἀνίκατος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:586.Slater">ἁνίοχος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:587.Slater">ἄνιππος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:588.Slater">ἀνίσταμι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:589.Slater">ἀνοίγω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:590.Slater">ἀνόμοιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:591.Slater">ἀνορέα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:592.Slater">ἀνόρνυμι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:593.Slater">ἀνορούω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:594.Slater">ἄνοσος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:595.Slater">ἀνσπάω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:596.Slater">ἄντα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:597.Slater">ἀνταγορεύω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:598.Slater">ἀντάεις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:599.Slater">Ἀνταῖος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:600.Slater">ἀνταμοιβά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:601.Slater">Ἀντανορίδαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:602.Slater">ἀνταύω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:603.Slater">ἀντάω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:604.Slater">ἀντείνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:605.Slater">ἀντερείδω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:606.Slater">ἀντέχω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:607.Slater">ἀντί</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:608.Slater">ἀντιάζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:609.Slater">ἀντιάνειρα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:610.Slater">Ἀντίας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:611.Slater">ἀντιβολέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:612.Slater">ἀντίθεος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:613.Slater">ἀντίκειμαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:614.Slater">ἀντικύρω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:615.Slater">Ἀντίλοχος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:616.Slater">ἀντιξοέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:617.Slater">Ἀντιόπα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:618.Slater">ἀντίος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:619.Slater">ἀντία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:620.Slater">ἀντίπαλος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:621.Slater">ἀντιτείνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:622.Slater">ἀντίτομος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:623.Slater">ἀντιτυγχάνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:624.Slater">ἀντιφερίζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:625.Slater">ἀντιφθέγγομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:626.Slater">ἀντίφθογγος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:627.Slater">ἀντιφλέγω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:628.Slater">ἀντλέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:629.Slater">ἄντλος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:630.Slater">ἄντομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:631.Slater">ἄντρον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:632.Slater">ἀνύω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:633.Slater">ἄνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:634.Slater">ἄνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:635.Slater">ἀνώνυμος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:636.Slater">Ἄξεινος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:637.Slater">ἄξιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:638.Slater">ἀξιόω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:639.Slater">ἀοιδά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:640.Slater">ἀοίδιμος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:641.Slater">ἀοιδός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:642.Slater">Ἀοσφόρος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:643.Slater">ἀπαγγέλλω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:644.Slater">ἀπάγω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:645.Slater">ἀπαθής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:646.Slater">ἀπάλαιστος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:647.Slater">ἀπαλαμνος, -ον, απάλαμος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:648.Slater">ἀπαλέξω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:649.Slater">ἀπαμβλύνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:650.Slater">ἀπαναίνομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:651.Slater">ἀπάορος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:652.Slater">ἀπάρχω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:653.Slater">ἅπας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:654.Slater">ἀπάτα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:655.Slater">ἀπατάω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:656.Slater">ἀπάτερθε</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:657.Slater">ἀπέδιλος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:658.Slater">ἀπειθής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:659.Slater">ἄπειμι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:660.Slater">ἀπέραντος, ἀπείραντος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:661.Slater">ἀπείρατος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:662.Slater">ἀπείργω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:663.Slater">ἀπείριτος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:664.Slater">ἀπειρομάχας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:665.Slater">ἄπειρος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:666.Slater">ἄπειρος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:667.Slater">ἄπειρος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:668.Slater">ἀπείρων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:669.Slater">ἄπεπλος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:670.Slater">ἀπέραντος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:671.Slater">Ἀπέσαις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:672.Slater">ἀπεχθάνομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:673.Slater">ἀπέχω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:674.Slater">ἀπήμαντος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:675.Slater">ἀπήμων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:676.Slater">ἀπήνα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:677.Slater">ἀπιθέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:678.Slater">ἀπιομήδης</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:679.Slater">ἄπιστος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:680.Slater">ἀπλακ-</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:681.Slater">ἄπλατος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:682.Slater">ἄπλετος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:683.Slater">ἁπλόος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:684.Slater">ἀπνευ-</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:685.Slater">ἀπό</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:686.Slater">ἀποβαίνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:687.Slater">ἀποβλάπτω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:688.Slater">ἀποδαμέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:689.Slater">ἀπόδαμος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:690.Slater">ἀποδατέομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:691.Slater">ἀποδείκνυμι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:692.Slater">ἀποδίδωμι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:693.Slater">ἀποδρέπω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:694.Slater">ἀποθνᾴσκω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:695.Slater">ἀποίητος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:696.Slater">ἀποικέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:697.Slater">ἀποικία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:698.Slater">ἄποινα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:699.Slater">ἀποίχομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:700.Slater">ἀπόκειμαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:701.Slater">ἀπόκλαρος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:702.Slater">ἀπολείπω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:703.Slater">ἀπόλεμος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:704.Slater">Ἀπόλλων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:705.Slater">Ἀπολλωνιάς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:706.Slater">Ἀπολλωνίδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:707.Slater">Ἀπολλώνιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:708.Slater">ἀπομνύω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:709.Slater">ἀπονέμω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:710.Slater">ἄπονος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:711.Slater">ἀπονοστέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:712.Slater">ἀποπέμπω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:713.Slater">ἀποπλέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:714.Slater">ἀποπνέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:715.Slater">ἄποπτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:716.Slater">ἀπορήγνυμι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:717.Slater">ἀπορία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:718.Slater">ἄπορος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:719.Slater">ἀπορούω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:720.Slater">ἀπορρήγνυμι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:721.Slater">ἀπορρίπτω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:722.Slater">ἀποσκίμπτω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:723.Slater">ἀποσπάω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:724.Slater">ἀποστάζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:725.Slater">ἀποςυλάω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:726.Slater">ἀποτίθημι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:727.Slater">ἀποτρέπω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:728.Slater">ἀπότροπος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:729.Slater">ἀπούρας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:730.Slater">ἀποφαίνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:731.Slater">ἀποφέρω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:732.Slater">ἀποφεύγω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:733.Slater">ἀποφθίνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:734.Slater">ἀποφλαυρίζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:735.Slater">ἄπρακτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:736.Slater">ἀπρίατος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:737.Slater">ἀπρόσικτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:738.Slater">ἀπροσόρατος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:739.Slater">ἅπτω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:740.Slater">ἀπτωτί</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:741.Slater">ἄπυρος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:742.Slater">ἀπύω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:743.Slater">ἀπωθέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:744.Slater">ἆρα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:745.Slater">ἄρα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:746.Slater">ἀρά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:747.Slater">ἀραβέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:748.Slater">ἀραιός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:749.Slater">ἀραρίσκω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:750.Slater">ἀράσσω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:751.Slater">ἀράχνας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:752.Slater">ἀργάεις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:753.Slater">Ἀργεῖος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:754.Slater">ἀργεννόεις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:755.Slater">ἀργιβρέντας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:756.Slater">ἀργικέραυνος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:757.Slater">ἀργίλοφος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:758.Slater">ἀργινόεις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:759.Slater">Ἄργος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:760.Slater">ἀργύρεος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:761.Slater">ἀργυρίς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:762.Slater">ἀργυρόπεζα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:763.Slater">ἀργυρόω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:764.Slater">Ἀργώ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:765.Slater">ἄρδω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:766.Slater">Ἀρέα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:767.Slater">Ἀρέθοισα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:768.Slater">Ἀρεία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:769.Slater">ἀρείων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:770.Slater">ἀρετά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:771.Slater">ἀρήγω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:772.Slater">ἀρήιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:773.Slater">ἀρηΐφιλος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:774.Slater">Ἄρης</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:775.Slater">ἀριγνώς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:776.Slater">ἀρίγνωτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:777.Slater">ἀρίζηλος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:778.Slater">ἀριθμέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:779.Slater">ἀριθμός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:780.Slater">Ἄριμα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:781.Slater">ἀρισθάρματος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:782.Slater">Ἀρισταγόρας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:783.Slater">Ἀρισταῖος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:784.Slater">Ἀριστέας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:785.Slater">ἀριστεύς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:786.Slater">ἀριστεύω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:787.Slater">ἀριστόγονος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:788.Slater">Ἀριστοκλείδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:789.Slater">ἀριστόμαχος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:790.Slater">Ἀριστομένης</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:791.Slater">ἀριστόπονος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:792.Slater">ἀριστόποσις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:793.Slater">ἄριστος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:794.Slater">Ἀριστοτέλης</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:795.Slater">ἀριστοτέχνας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:796.Slater">Ἀριστοφάνης</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:797.Slater">Ἀρκαδία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:798.Slater">Ἀρκάς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:799.Slater">Ἀρκεσίλας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:800.Slater">ἀρκέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:801.Slater">ἅρμα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:802.Slater">ἁρμασίδουπος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:803.Slater">ἁρματηλάτας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:804.Slater">ἄρμενος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:805.Slater">ἁρμόδιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:806.Slater">ἁρμόζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:807.Slater">ἁρμοῖ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:808.Slater">ἁρμονία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:809.Slater">ἄρνυμαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:810.Slater">ἀρότας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:811.Slater">ἄροτρον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:812.Slater">ἄρουρα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:813.Slater">ἀρόω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:814.Slater">ἁρπάζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:815.Slater">ἁρπαλέος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:816.Slater">ἄρρηκτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:817.Slater">Ἀρσινόα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:818.Slater">ἀρτεμία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:819.Slater">Ἄρτεμις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:820.Slater">ἄρτι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:821.Slater">ἀρτιεπής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:822.Slater">ἄρτιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:823.Slater">ἀρχά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:824.Slater">ἀρχαγέτας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:825.Slater">ἀρχαῖος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:826.Slater">ἀρχεδίκας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:827.Slater">ἀρχέπολις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:828.Slater">Ἀρχέστρατος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:829.Slater">Ἀρχίλοχος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:830.Slater">ἀρχός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:831.Slater">ἄρχω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:832.Slater">ἀρωγός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:833.Slater">ἇς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:834.Slater">ἄσβεστος, ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:835.Slater">ἀσθενής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:836.Slater">ἆσθμα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:837.Slater">ἀσθμαίνω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:838.Slater">Ἀσία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:839.Slater">ἀσκέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:840.Slater">Ἀσκλαπιός, Ἀσκληπιός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:841.Slater">ἀσκός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:842.Slater">ἄσμενος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:843.Slater">ἆσσον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:844.Slater">ἄσοφος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:845.Slater">ἀσπάζομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:846.Slater">ἀσπιδόδουπος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:847.Slater">ἀσπίς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:848.Slater">ᾄσσω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:849.Slater">Ἀστερία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:850.Slater">ἀστεροπά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:851.Slater">ἀστήρ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:852.Slater">ἀστός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:853.Slater">ἀστραβής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:854.Slater">ἄστρον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:855.Slater">ἄστυ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:856.Slater">Ἀστυδάμεια</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:857.Slater">ἀστύνομος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:858.Slater">ἁσυχ-</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:859.Slater">ἀσφαλής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:860.Slater">ἀσχολία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:861.Slater">ἄσχολος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:862.Slater">Ἀσωπίδες</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:863.Slater">Ἀσώπιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:864.Slater">Ἀσώπιχος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:865.Slater">Ἀσωπόδωρος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:866.Slater">Ἀσωπός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:867.Slater">ἄτα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:868.Slater">Ἀταβύριον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:869.Slater">Ἀταλάντα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:870.Slater">ἀτάλλω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:871.Slater">ἀταλός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:872.Slater">ἀτάρ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:873.Slater">ἀτάρβακτος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:874.Slater">ἀταρβής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:875.Slater">ἀτασθαλία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:876.Slater">ἅτε</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:877.Slater">ἀτειρής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:878.Slater">ἀτέκμαρτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:879.Slater">ἀτελής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:880.Slater">ἀτενής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:881.Slater">ἄτερ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:882.Slater">ἄτερθε, ἄτερθεν</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:883.Slater">ἀτιμάζω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:884.Slater">ἀτιμάω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:885.Slater">ἀτιμία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:886.Slater">ἄτιμος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:887.Slater">ἀτιτάλλω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:888.Slater">Ἄτλας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:889.Slater">ἄτλατος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:890.Slater">ἀτόλματος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:891.Slater">ἄτολμος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:892.Slater">ἀτραπός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:893.Slater">Ἀτρείδας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:894.Slater">ἀτρέκεια</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:895.Slater">ἀτρεκής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:896.Slater">ἀτρεμία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:897.Slater">Ἀτρεύς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:898.Slater">ἄτροπος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:899.Slater">ἄτρυτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:900.Slater">ἄτρωτος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:901.Slater">ἀτύζομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:902.Slater">αὖ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:903.Slater">ἀυάτα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:904.Slater">αὐγά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:905.Slater">Αὐγέας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:906.Slater">αὐδά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:907.Slater">αὐδάεις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:908.Slater">αὐδάω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:909.Slater">αὐερύω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:910.Slater">αὖθι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:911.Slater">αὐλά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:912.Slater">αὖλαξ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:913.Slater">αὔλειος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:914.Slater">Αὐλίς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:915.Slater">αὐλίσκος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:916.Slater">αὐλός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:917.Slater">αὐξανω, αὔξω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:918.Slater">αὔρα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:919.Slater">Αὐσόνιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:920.Slater">ἀυτά</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:921.Slater">αὐταρχέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:922.Slater">αὖτε</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:923.Slater">αὐτίκα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:924.Slater">αὖτις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:925.Slater">αὐτόθεν</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:926.Slater">αὐτόθι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:927.Slater">αὐτόματος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:928.Slater">αὐτόρυτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:929.Slater">αὐτός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:930.Slater">αὐτοῦ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:931.Slater">αὐτόφυτος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:932.Slater">αὔχα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:933.Slater">αὔχημα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:934.Slater">αὐχήν</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:935.Slater">ἀύω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:936.Slater">Ἀφαία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:937.Slater">ἀφαιρέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:938.Slater">Ἅφαιστος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:939.Slater">ἀφάνεια</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:940.Slater">ἀφανής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:941.Slater">ἄφαντος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:942.Slater">ἄφαρ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:943.Slater">Ἀφαρητίδαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:944.Slater">ἄφατος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:945.Slater">ἀφαυρός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:946.Slater">ἄφθιτος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:947.Slater">ἀφθόνητος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:948.Slater">ἀφθονία</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:949.Slater">ἄφθονος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:950.Slater">ἀφίημι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:951.Slater">ἀφικνέομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:952.Slater">ἀφίσταμι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:953.Slater">ἀφνεός, ἀφνειός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:954.Slater">ἄφνος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:955.Slater">ἄφοβος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:956.Slater">ἀφορμάομαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:957.Slater">Ἀφροδίσιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:958.Slater">Ἀφροδίτα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:959.Slater">ἀφροσύνα</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:960.Slater">ἄφρων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:961.Slater">ἄφυκτος, -α -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:962.Slater">ἀφώνητος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:963.Slater">ἄφωνος, -ον</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:964.Slater">ἀχάεις</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:965.Slater">Ἀχαιός</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:966.Slater">Ἀχάρναι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:967.Slater">Ἀχελώιος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:968.Slater">Ἀχέρων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:969.Slater">ἀχέτας</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:970.Slater">ἀχέω</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:971.Slater">ἄχθος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:972.Slater">Ἀχιλλεύς, Ἀχιλεύς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:973.Slater">ἄχνυμαι</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:974.Slater">ἄχος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:975.Slater">ἀχρεῖος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:976.Slater">ἀχρήμων</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:977.Slater">ἀχώ</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:978.Slater">ἀψευδής</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:979.Slater">ἀώς</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:980.Slater">Ἀωσφόρος</a></span>
+<span class=navlevel2><a href="/cgi-bin/philologic/getobject.pl?c.0:1:981.Slater">ἄωτος</a></span>
+<hr><!-- END OF CONTEXT AREA, WE HOPE-->
+</td>
+</tr>
+</table>
+<center>
+<a href="http://philologic.uchicago.edu/">
+<img border="0" src="http://artflx.uchicago.edu/philologic/philopowered.png" alt="Powered by PhiloLogic"></a><br/>
+</center>
+<!-- If you are using PhiloLogic, please be nice and leave the PowerBy ;-) -->
+<!-- but add your own footer stuff as well. -->
+<!-- $Id: Results_Footer.html,v 2.11 2004/05/28 19:21:59 o Exp $ -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10153248-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+

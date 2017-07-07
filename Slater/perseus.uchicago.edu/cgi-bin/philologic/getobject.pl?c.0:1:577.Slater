@@ -1,0 +1,198 @@
+
+<html>
+<head>
+  <title>Slater</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link type="text/css" rel="stylesheet" media="all" href="http://diderot.uchicago.edu/drupalparts/style.css?x" />
+<style type="text/css">
+<!--
+/* The following is PhiloLogic specific CSS to handle TEI encoding */
+/* Edit as you see fit, but you will probably need to modify traps in */
+/* philosubs.pl in the database lib/ directory.  Yes, indeed, it is */
+/* a bit fiddly.  One day, XSLT!  If you do it, please let us know. */
+span.emph {font-weight: bolder; }
+span.emphsc {FONT-SIZE: 12px;}
+span.hi   {font-weight: bolder;}
+span.foreign {font-style: italic;}
+span.bibl {font-style: italic;}
+span.title     {font-style: italic;}
+span.hiitalic  {font-style: italic;}
+span.hiunderline {text-decoration: underline;}
+span.hibold   {font-weight: bolder;}
+span.doctitle {display: block; text-align: center; FONT-SIZE: 24px; LINE-HEIGHT: 1.5;}
+span.byline {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.pubplace {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.docedition {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.publisher {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.docimprint {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.addrline {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.docauthor {display: block; text-align: center; FONT-SIZE: 20px; LINE-HEIGHT: 1.5;}
+span.docdate {display: block; text-align: center; FONT-SIZE: 20px; LINE-HEIGHT: 1.5;}
+span.opener   {display: block; text-align: center;}
+span.label   {display: block; text-align: center;}
+span.signed   {display: block; text-align: right;}
+span.stage    {display: block; text-align: right; font-style: italic; margin-left: 120px;}
+span.speaker  {display: block; text-align: center; FONT-SIZE: 16;}
+span.epigraph {display: block; margin-left: 300px;}
+span.salute   {display: block; text-align: center;}
+span.trailer  {display: block; text-align: center;}
+span.closer   {display: block; text-align: center;}
+span.item     {display: block; text-align: left;}
+span.role     {display: block; text-align: left; margin-left: 100px; margin-right: 100px}
+span.argument {display: block; text-align: left; margin-left: 100px; margin-right: 100px}
+span.roledesc {display: block; text-align: right; margin-right: 100px}
+span.l        {display: block; text-align: left;}
+span.small   {FONT-SIZE: 11px;}
+span.hismallcap {FONT-SIZE: 12px;}
+span.head    {display: block; text-align: center; font-weight: bolder; FONT-SIZE: 18px; LINE-HEIGHT: 1.5;}
+span.notetarget {FONT-SIZE: 12px; text-decoration: underline; vertical-align: super;}
+span.footnote {display: block; FONT-SIZE: 12px; margin-left: 60px; margin-right: 40px;}
+span.marginnote {display: block; FONT-SIZE: 12px; text-align: right;}
+span.inlinenote {display: block; FONT-SIZE: 12px;}
+span.generalnote {display: block; FONT-SIZE: 12px;}
+span.endnote {display: block; FONT-SIZE: 12px;}
+span.refalignright {display: block; text-align: right;}
+span.mstoneid {display: block; FONT-SIZE: 12px; text-align: right;}
+span.mstonen {display: block; FONT-SIZE: 12px; text-align: right;}
+span.mstonetype {display: block; text-align: center;}
+span.mwright {display: block; FONT-SIZE: 12px; text-align: right;}
+span.authfreqindt {display: block; text-align: left; margin-left: 60px;}
+span.perfreqindt {display: block; text-align: left; margin-left: 45px;}
+span.navhead {display: block; text-align: center; font-size: 16; font-weight: bold;}
+span.navbiblio {display: block; font-size: 14;}
+span.navlevel1 {display: block; text-align: left; font-size: 14;}
+span.navlevel2 {display: block; text-align: left; margin-left: 40px; FONT-SIZE: 14;}
+span.navlevel3 {display: block; text-align: left; margin-left: 60px; FONT-SIZE: 12;}
+span.projecthead { text-align: right; font-size: 20; color: #000000;}
+span.sense {display:block; margin:2px;}
+
+/* For pop-in notes */
+.hiddennote {
+        display: none;
+        margin: 5px;
+        border: 1px solid #242e55;
+        background-color: #dde3ef;
+        padding: 2px;
+}
+
+-->
+</style>
+<!-- Needed JavaScript Code -->
+<script language="JavaScript">
+    var cleared = 0;
+
+    function clearField(field)
+    {
+        if (cleared != 1) {
+            field.value = ""
+            cleared = 1
+        } else {
+            cleared = 0
+        }
+    }
+function toggleMenu(currElem,nextPos) {
+        menuObj = (document.all) ? eval("document.all." + currElem + ".style") : eval("document." + currElem)
+        if (toggleMenu.arguments.length == 1)
+                nextPos = (parseInt(menuObj.top) == -5) ? -90 : -5
+                if (document.all)
+                        menuObj.pixelTop = nextPos
+                else
+                        menuObj.top = nextPos
+}
+
+</script>  
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/misc/jquery.js?x"></script>
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/mischttp://encyclopedie.uchicago.edu.js?x"></script>
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/misc/tabledrag.js?x"></script>
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/misc/tableheader.js?x"></script>
+
+	<!--[if lt IE 7]>
+  <style type="text/css" media="all">@import "http://artfl-project.uchicago.edu/sites/all/themes/deco/fix-ie6.css";</style>
+  <![endif]-->
+	<!--[if gt IE 5]>
+  <style type="text/css" media="all">@import "http://artfl-project.uchicago.edu/sites/all/themes/deco/fix-ie.css";</style>
+  <![endif]-->
+</head>
+
+<body  onkeypress="if (dictOn) checkKeyPressed(event);">
+  
+
+	<div id="container" class="clear-block">
+		
+		<div id="header">
+			<div id="top-bar">
+                                                      <div class="region-content">
+<ul class="links secondary-links">
+<li class="menu-124"><a href="http://perseus.uchicago.edu/">HOME</a></li>
+<li class="menu-124"><a href="http://perseus.uchicago.edu/about.html">ABOUT THIS RESOURCE</a></li>
+<li class="menu-124"><a href="http://www.perseus.tufts.edu/">PERSEUS DIGITAL LIBRARY AT TUFTS</a></li>
+<li class="menu-123"><a href="http://artfl.uchicago.edu/" title="">ARTFL PROJECT</a></li>
+<li class="menu-175"><a href="http://humanities.uchicago.edu/depts/classics/" title="">CLASSICS AT CHICAGO</a></li>
+
+</ul>                           </div>
+                        </div>
+
+<div class="region-content">
+<h1><span class="site-name"><a href="http://perseus.uchicago.edu/Reference/Slater.html">Slater</span></a></h1>
+<ul class="links primary-links" style="float:left;">
+<li class="menu-115 first"><a href="http://perseus.uchicago.edu/Reference/Slater.html">search</a></li>
+<li class="menu-288"><a href="http://philologic.uchicago.edu/manual.php" target="blank">help</a></li>
+<li class="menu-197 last"><a href="http://spreadsheets.google.com/viewform?key=pOHHlctnbPqT1dKtC24I2Iw" target="blank">report a problem</a></li>
+<li class="menu-298"><form action="/cgi-bin/philologic/search3torth" style="margin:0px; padding-top:18px; padding-right:16px; padding-left:16px;">
+<input name="dgdivhead" title="Enter unaccented Greek. (Leave out accents, breathings and iota subscripts.)" type="text" size="12"/><input type="hidden" name="dbname" value="Slater" /><input type="submit" value="Headword Lookup" /><input type="hidden" name="ORTHMODE" value="UNACCENTED" /></form> </li>
+<li class="menu-288"><a href="/cgi-bin/philologic/getobject.pl?c.0:2:3.LSJ">abbreviations</a></li>
+
+</ul>
+</div>
+		</div> <!-- /header -->
+
+			<div id="featured">
+                                </div>
+			<div id="main">
+			<div id="content">
+<a name="pindar_dico01"></a>William J. Slater [<b>1969</b>], <i><a href="/cgi-bin/philologic/navigate.pl?Slater.0
+">Lexicon to Pindar</a></i>  (Trustees of Tufts University, Berlin) [<a href="/cgi-bin/philologic/getwordcount.pl?Slater.0
+">word count</a>] [<b>pindar_dico01</b>]. <hr noshade>
+<table width='95%'><tr><td width='50%' align='left'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:1:576.Slater">Previous Entry</A><p>
+</td><td width='50%' align='right'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:1:578.Slater"><p>Next Entry</A><p>
+</td></tr></table><div2 id="crossa)/nqrwpos" orig&#772;id="n577" key="a)/nqrwpos" opt="n"><span class=head>ἄνθρωπος</span><b>ἄνθρωπος</b> (<quote lang="greek">-ος</quote> v. l., <quote lang="greek">-ῳ; -οι, -ων, -οις, -οισι</quote>（<quote lang="greek">ν</quote>), <quote lang="greek">-ους</quote>) <span class=sense>&nbsp;&nbsp;&nbsp;<b>1</b><gloss>man</gloss>, pl., <gloss>mankind</gloss> 
+ </span><span class=sense>&nbsp;&nbsp;&nbsp;<b>a</b> <cit><quote lang="greek">σκιαρόν τε φύτευμα ξυνὸν ἀνθρώποις</quote> <span class=bibl>O. 3.18</span></cit> <cit><quote lang="greek">ἀμφὶ δ' ἀνθρώπων φρασὶν ἀμπλακίαι ἀναρίθμητοι κρέμανται</quote> <span class=bibl>O. 7.24</span></cit> <cit><quote lang="greek">ἐν δ' ἀρετὰν ἔβαλεν καὶ χάρματ ἀνθρώποισι προμαθέος αἰδώς</quote> <span class=bibl>O. 7.44</span></cit> <cit><quote lang="greek">φαντὶ δ' ἀνθρώπων παλαιαὶ ῥήσιες</quote> <span class=bibl>O. 7.54</span></cit> <cit><quote lang="greek">παραπειρῶνται Διὸς ἀργικεραύνου εἴ τιν' ἔχει λόγον ἀνθρώπων πέρι</quote> <span class=bibl>O. 8.4</span></cit> <cit><quote lang="greek">Αἴγιναν  ἔνθα  ἀσκεῖται Θέμις ἔξοχ' ἀνθρώπων</quote> <span class=bibl>O. 8.23</span></cit> <cit><quote lang="greek">τερπνὸν δ' ἐν ἀνθρώποις ἴσον ἔσσεται οὐδέν</quote> <span class=bibl>O. 8.53</span></cit> <cit><quote lang="greek">πολλοὶ δὲ διδακταῖς ἀνθρώπων ἀρεταῖς κλέος ὤρουσαν ἀρέσθαι</quote> <span class=bibl>O. 9.101</span></cit> <cit><quote lang="greek">ἔστιν ἀνθρώποις ἀνέμων ὅτε πλεῖστα χρῆσις</quote> <span class=bibl>O. 11.1</span></cit> <cit><quote lang="greek">πολλὰ δ' ἀνθρώποις παρὰ γνώμαν ἔπεσεν</quote> <span class=bibl>O. 12.10</span></cit> <cit><quote lang="greek">ἔτυμον λόγον ἀνθρώπων</quote> <span class=bibl>P. 1.68</span></cit> <cit><quote lang="greek">μείων ἕπεται μῶμος ἀνθρώπων</quote> <span class=bibl>P. 1.82</span></cit> <cit><quote lang="greek">ἐν ἀνθρώποισι</quote> <span class=bibl>P. 3.21</span></cit> <cit><quote lang="greek">πολυπήμονας ἀνθρώποισιν ἰᾶσθαι νόσους</quote> <span class=bibl>P. 3.46</span></cit> <cit><quote lang="greek">εἴ τιν' ἀνθρώπων</quote> <span class=bibl>P. 3.86</span></cit> <quote lang="greek">Νέστορα καὶ Λύκιον Σαρπηδόν, ἀνθρώπων φάτις</quote>, —  <cit><quote lang="greek">γινώσκομεν</quote> <span class=bibl>P. 3.112</span></cit> <cit><quote lang="greek">ὄρνιν Κυπρογένεια φέρεν πρῶτον ἀνθρώποισι</quote> <span class=bibl>P. 4.217</span></cit> <cit><quote lang="greek">ὁ γὰρ καιρὸς πρὸς ἀνθρώπων βραχὺ μέτρον ἔχει</quote> <span class=bibl>P. 4.286</span></cit> <quote lang="greek">σκιᾶς ὄναρ ἄνθρωπος</quote> (v. l. <quote lang="greek">ἄνθρωποι</quote>) <span class=bibl>P. 8.96</span> <cit><quote lang="greek">εἰ δέ τις ὄλβος ἐν ἀνθρώποισιν, ἄνευ καμάτου οὐ φαίνεται</quote> <span class=bibl>P. 12.28</span></cit> <cit><quote lang="greek">ἔστι δέ τις λόγος ἀνθρώπων</quote> <span class=bibl>N. 9.6</span></cit> <cit><quote lang="greek">ἔνθ' Ἀρείας πόρον ἄνθρωποι καλέοισι</quote> <span class=bibl>N. 9.41</span></cit> <cit><quote lang="greek">ἔστι δὲ καὶ κόρος ἀνθρώπων βαρὺς ἀντιάσαι</quote> <span class=bibl>N. 10.20</span></cit> <cit><quote lang="greek">χαλεπὰ δ' ἔρις ἀνθρώποις ὁμιλεῖν κρεσσόνων</quote> <span class=bibl>N. 10.72</span></cit> <cit><quote lang="greek">τὸ δ' ἐκ Διὸς ἀνθρώποις σαφὲς οὐχ ἕπεται τέκμαρ</quote> <span class=bibl>N. 11.43</span></cit> <cit><quote lang="greek">μισθὸς γὰρ ἄλλοις ἄλλος ἐπ' ἔργμασιν ἀνθρώποις γλυκύς</quote> <span class=bibl>I. 1.47</span></cit> <cit><quote lang="greek">ὅσον ὀργὰν λτ;γτ;εινοκράτης ὑπὲρ ἀνθρώπων γλυκεῖαν ἔσχεν</quote> <span class=bibl>I. 2.36</span></cit> <cit><quote lang="greek">ἄλλοτε δ' ἀλλοῖος οὖρος πάντας ἀνθρώπους ἐπαίσσων ἐλαύνει</quote> <span class=bibl>I. 4.6</span></cit> <cit><quote lang="greek">ὅσσα δ' ἐπ ἀνθρώπους ἄηται μαρτύρια φθιμένων ζωῶν τε φωτῶν ἀπλέτου δόξας</quote> <span class=bibl>I. 4.9</span></cit> <cit><quote lang="greek">ἀλλ' Ὅμηρός τοι τετίμακεν δἰ ἀνθρώπων</quote> <span class=bibl>I. 4.37</span></cit> <cit><quote lang="greek">Θεία, σέο ἕκατι καὶ μεγασθενῆ νόμισαν χρυσὸν ἄνθρωποι περιώσιον ἄλλων</quote> <span class=bibl>I. 5.3</span></cit> <quote lang="greek">φ]έρτατος ἀνθρώπων Πα.</quote> 13b. 5. ]<cit><quote lang="greek">ἄνθρωπ[ο </quote> <span class=bibl>Pae. 21.18</span></cit> <quote lang="greek"> πρὶν μὲν ἕρπε  τὸ σὰν κίβδηλον ἀνθρώποισιν ἀπὸ στομάτων Δ. 2. 3. ἁνίκ' ἀνθρώπων καματώδεες οἴχονται μέριμναι στηθέων ἔξω</quote> fr. 124. 5. <quote lang="greek">ἀν]θρώποις[ Θρ.</quote> 4. 9. — </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>b</b> as opposed to 
+ </span><span class=sense>&nbsp;&nbsp;&nbsp;<b>I</b> gods. — <cit><quote lang="greek">θεόμοροι νίσοντ' ἐπ ἀνθρώπους ἀοιδαί</quote> <span class=bibl>O. 3.10</span></cit> “<quote lang="greek">ἔν τε θεοῖς τοῦτο κἀνθρώποις ὁμῶς αἰδέοντ</quote>” <span class=bibl>P. 9.40</span> <cit><quote lang="greek">Ἄπολλον, γλυκὺ δ' ἀνθρώπων τέλος ἀρχά τε δαίμονος ὀρνύντος αὔξεται</quote> <span class=bibl>P. 10.10</span></cit> <cit><quote lang="greek">σὺν θεῷ γάρ τοι φυτευθεὶς ὄλβος ἀνθρώποισι παρμονώτερος</quote> <span class=bibl>N. 8.17</span></cit> <cit><quote lang="greek">εἰ γάρ τις ἀνθρώπων  πράσσει θεοδμάτους ἀρετὰς</quote> <span class=bibl>I. 6.10</span></cit> <quote lang="greek">εἰ δέ τις ἀνθρώποισι θεόσδοτος ἀτληκηκοτας προστύχῃ</quote> fr. 42. 5. ]<quote lang="greek">ἀνθρώπο[ις</quote> (supp. Bury) <quote lang="greek">Δ. 2. 3. θεῶν καὶ κατ' ἀνθρώπων ἀγυιάς</quote> fr. 194. 6. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>II</b> heroes. <quote lang="greek">ἥροες ἁγνοὶ πρὸς ἀνθρώπων καλέονται</quote> fr. 133. 6. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>III</b> animals. <cit><quote lang="greek">πολύβοσκον γαῖαν ἀνθρώποισι καὶ εὔφρονα μήλοις</quote> <span class=bibl>O. 7.63</span></cit> </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>c</b> <gloss>a man, anyone</gloss> <quote lang="greek">καὶ τὸ σιγᾶν πολλάκις ἐστὶ σοφώτατον ἀνθρώπῳ</quote> <cit><quote lang="greek">νοῆσαι</quote> <span class=bibl>N. 5.18</span></cit> </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>d</b> <gloss>woman</gloss> “<quote lang="greek">καὶ τίς ἀνθρώπων σε χαμαιγενέων πολιᾶς ἐξανῆκεν γαστρός</quote>;” <span class=bibl>P. 4.98</span> “<quote lang="greek">τίς νιν ἀνθρώπων τέκεν</quote>;” <span class=bibl>P. 9.33</span> </span></div2>
+<p><center> -- 55 -- </center><p>
+
+ 
+ 
+</span>
+</span><table width='95%'><tr><td width='50%' align='left'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:1:576.Slater">Previous Entry</A><p>
+</td><td width='50%' align='right'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:1:578.Slater"><p>Next Entry</A><p>
+</td></tr></table><hr noshade><a name="pindar_dico01"></a>William J. Slater [<b>1969</b>], <i><a href="/cgi-bin/philologic/navigate.pl?Slater.0
+">Lexicon to Pindar</a></i>  (Trustees of Tufts University, Berlin) [<a href="/cgi-bin/philologic/getwordcount.pl?Slater.0
+">word count</a>] [<b>pindar_dico01</b>]. <hr noshade>
+<!-- END OF CONTEXT AREA, WE HOPE-->
+</td>
+</tr>
+</table>
+<center>
+<a href="http://philologic.uchicago.edu/">
+<img border="0" src="http://artflx.uchicago.edu/philologic/philopowered.png" alt="Powered by PhiloLogic"></a><br/>
+</center>
+<!-- If you are using PhiloLogic, please be nice and leave the PowerBy ;-) -->
+<!-- but add your own footer stuff as well. -->
+<!-- $Id: Results_Footer.html,v 2.11 2004/05/28 19:21:59 o Exp $ -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10153248-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+

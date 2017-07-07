@@ -1,0 +1,203 @@
+
+<html>
+<head>
+  <title>Slater</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link type="text/css" rel="stylesheet" media="all" href="http://diderot.uchicago.edu/drupalparts/style.css?x" />
+<style type="text/css">
+<!--
+/* The following is PhiloLogic specific CSS to handle TEI encoding */
+/* Edit as you see fit, but you will probably need to modify traps in */
+/* philosubs.pl in the database lib/ directory.  Yes, indeed, it is */
+/* a bit fiddly.  One day, XSLT!  If you do it, please let us know. */
+span.emph {font-weight: bolder; }
+span.emphsc {FONT-SIZE: 12px;}
+span.hi   {font-weight: bolder;}
+span.foreign {font-style: italic;}
+span.bibl {font-style: italic;}
+span.title     {font-style: italic;}
+span.hiitalic  {font-style: italic;}
+span.hiunderline {text-decoration: underline;}
+span.hibold   {font-weight: bolder;}
+span.doctitle {display: block; text-align: center; FONT-SIZE: 24px; LINE-HEIGHT: 1.5;}
+span.byline {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.pubplace {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.docedition {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.publisher {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.docimprint {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.addrline {display: block; text-align: center; FONT-SIZE: 16px; LINE-HEIGHT: 1.5;}
+span.docauthor {display: block; text-align: center; FONT-SIZE: 20px; LINE-HEIGHT: 1.5;}
+span.docdate {display: block; text-align: center; FONT-SIZE: 20px; LINE-HEIGHT: 1.5;}
+span.opener   {display: block; text-align: center;}
+span.label   {display: block; text-align: center;}
+span.signed   {display: block; text-align: right;}
+span.stage    {display: block; text-align: right; font-style: italic; margin-left: 120px;}
+span.speaker  {display: block; text-align: center; FONT-SIZE: 16;}
+span.epigraph {display: block; margin-left: 300px;}
+span.salute   {display: block; text-align: center;}
+span.trailer  {display: block; text-align: center;}
+span.closer   {display: block; text-align: center;}
+span.item     {display: block; text-align: left;}
+span.role     {display: block; text-align: left; margin-left: 100px; margin-right: 100px}
+span.argument {display: block; text-align: left; margin-left: 100px; margin-right: 100px}
+span.roledesc {display: block; text-align: right; margin-right: 100px}
+span.l        {display: block; text-align: left;}
+span.small   {FONT-SIZE: 11px;}
+span.hismallcap {FONT-SIZE: 12px;}
+span.head    {display: block; text-align: center; font-weight: bolder; FONT-SIZE: 18px; LINE-HEIGHT: 1.5;}
+span.notetarget {FONT-SIZE: 12px; text-decoration: underline; vertical-align: super;}
+span.footnote {display: block; FONT-SIZE: 12px; margin-left: 60px; margin-right: 40px;}
+span.marginnote {display: block; FONT-SIZE: 12px; text-align: right;}
+span.inlinenote {display: block; FONT-SIZE: 12px;}
+span.generalnote {display: block; FONT-SIZE: 12px;}
+span.endnote {display: block; FONT-SIZE: 12px;}
+span.refalignright {display: block; text-align: right;}
+span.mstoneid {display: block; FONT-SIZE: 12px; text-align: right;}
+span.mstonen {display: block; FONT-SIZE: 12px; text-align: right;}
+span.mstonetype {display: block; text-align: center;}
+span.mwright {display: block; FONT-SIZE: 12px; text-align: right;}
+span.authfreqindt {display: block; text-align: left; margin-left: 60px;}
+span.perfreqindt {display: block; text-align: left; margin-left: 45px;}
+span.navhead {display: block; text-align: center; font-size: 16; font-weight: bold;}
+span.navbiblio {display: block; font-size: 14;}
+span.navlevel1 {display: block; text-align: left; font-size: 14;}
+span.navlevel2 {display: block; text-align: left; margin-left: 40px; FONT-SIZE: 14;}
+span.navlevel3 {display: block; text-align: left; margin-left: 60px; FONT-SIZE: 12;}
+span.projecthead { text-align: right; font-size: 20; color: #000000;}
+span.sense {display:block; margin:2px;}
+
+/* For pop-in notes */
+.hiddennote {
+        display: none;
+        margin: 5px;
+        border: 1px solid #242e55;
+        background-color: #dde3ef;
+        padding: 2px;
+}
+
+-->
+</style>
+<!-- Needed JavaScript Code -->
+<script language="JavaScript">
+    var cleared = 0;
+
+    function clearField(field)
+    {
+        if (cleared != 1) {
+            field.value = ""
+            cleared = 1
+        } else {
+            cleared = 0
+        }
+    }
+function toggleMenu(currElem,nextPos) {
+        menuObj = (document.all) ? eval("document.all." + currElem + ".style") : eval("document." + currElem)
+        if (toggleMenu.arguments.length == 1)
+                nextPos = (parseInt(menuObj.top) == -5) ? -90 : -5
+                if (document.all)
+                        menuObj.pixelTop = nextPos
+                else
+                        menuObj.top = nextPos
+}
+
+</script>  
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/misc/jquery.js?x"></script>
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/mischttp://encyclopedie.uchicago.edu.js?x"></script>
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/misc/tabledrag.js?x"></script>
+<script type="text/javascript" src="http://artfl-project.uchicago.edu/misc/tableheader.js?x"></script>
+
+	<!--[if lt IE 7]>
+  <style type="text/css" media="all">@import "http://artfl-project.uchicago.edu/sites/all/themes/deco/fix-ie6.css";</style>
+  <![endif]-->
+	<!--[if gt IE 5]>
+  <style type="text/css" media="all">@import "http://artfl-project.uchicago.edu/sites/all/themes/deco/fix-ie.css";</style>
+  <![endif]-->
+</head>
+
+<body  onkeypress="if (dictOn) checkKeyPressed(event);">
+  
+
+	<div id="container" class="clear-block">
+		
+		<div id="header">
+			<div id="top-bar">
+                                                      <div class="region-content">
+<ul class="links secondary-links">
+<li class="menu-124"><a href="http://perseus.uchicago.edu/">HOME</a></li>
+<li class="menu-124"><a href="http://perseus.uchicago.edu/about.html">ABOUT THIS RESOURCE</a></li>
+<li class="menu-124"><a href="http://www.perseus.tufts.edu/">PERSEUS DIGITAL LIBRARY AT TUFTS</a></li>
+<li class="menu-123"><a href="http://artfl.uchicago.edu/" title="">ARTFL PROJECT</a></li>
+<li class="menu-175"><a href="http://humanities.uchicago.edu/depts/classics/" title="">CLASSICS AT CHICAGO</a></li>
+
+</ul>                           </div>
+                        </div>
+
+<div class="region-content">
+<h1><span class="site-name"><a href="http://perseus.uchicago.edu/Reference/Slater.html">Slater</span></a></h1>
+<ul class="links primary-links" style="float:left;">
+<li class="menu-115 first"><a href="http://perseus.uchicago.edu/Reference/Slater.html">search</a></li>
+<li class="menu-288"><a href="http://philologic.uchicago.edu/manual.php" target="blank">help</a></li>
+<li class="menu-197 last"><a href="http://spreadsheets.google.com/viewform?key=pOHHlctnbPqT1dKtC24I2Iw" target="blank">report a problem</a></li>
+<li class="menu-298"><form action="/cgi-bin/philologic/search3torth" style="margin:0px; padding-top:18px; padding-right:16px; padding-left:16px;">
+<input name="dgdivhead" title="Enter unaccented Greek. (Leave out accents, breathings and iota subscripts.)" type="text" size="12"/><input type="hidden" name="dbname" value="Slater" /><input type="submit" value="Headword Lookup" /><input type="hidden" name="ORTHMODE" value="UNACCENTED" /></form> </li>
+<li class="menu-288"><a href="/cgi-bin/philologic/getobject.pl?c.0:2:3.LSJ">abbreviations</a></li>
+
+</ul>
+</div>
+		</div> <!-- /header -->
+
+			<div id="featured">
+                                </div>
+			<div id="main">
+			<div id="content">
+<a name="pindar_dico01"></a>William J. Slater [<b>1969</b>], <i><a href="/cgi-bin/philologic/navigate.pl?Slater.0
+">Lexicon to Pindar</a></i>  (Trustees of Tufts University, Berlin) [<a href="/cgi-bin/philologic/getwordcount.pl?Slater.0
+">word count</a>] [<b>pindar_dico01</b>]. <hr noshade>
+<table width='95%'><tr><td width='50%' align='left'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:1:570.Slater">Previous Entry</A><p>
+</td><td width='50%' align='right'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:1:572.Slater"><p>Next Entry</A><p>
+</td></tr></table><div2 id="crossa)nh/r" orig&#772;id="n571" key="a)nh/r" opt="n"><span class=head>ἀνήρ</span><b>ᾰνήρ</b> (<quote lang="greek">ἀνήρ, ἀνδρός, ἀνδρί, ἄνδρα; ἄνδρες, ἀνδρῶν, ἄνδρεσσι, ἀνδράσι</quote>（<quote lang="greek">ν</quote>): <quote lang="greek">ἆνέρι, ἆνέρα; ἆνέρες, ἆνέρων</quote>) <span class=sense>&nbsp;&nbsp;&nbsp;<b>1</b><gloss>man</gloss> 
+ </span><span class=sense>&nbsp;&nbsp;&nbsp;<b>1</b> man in his prime. 
+ </span><span class=sense>&nbsp;&nbsp;&nbsp;<b>a</b> <cit><quote lang="greek">παίζομεν φίλαν ἄνδρες ἀμφὶ θαμὰ τράπεζαν</quote> <span class=bibl>O. 1.17</span></cit> <quote lang="greek">ἀγῶνα νέμειν ἀνδρῶν τ' ἀρετᾶς πέρι καὶ</quote> — <cit><quote lang="greek">διφρηλασίας</quote> <span class=bibl>O. 3.37</span></cit> “<quote lang="greek">φύονται δὲ καὶ νέοις ἐν ἀνδράσιν πολιαὶ</quote>” <span class=bibl>O. 4.26</span> <cit><quote lang="greek">ἀκίνδυνοι δ' ἀρεταὶ οὔτε παῤ ἀνδράσιν οὔτ ἐν ναυσὶ κοίλαις τίμιαι</quote> <span class=bibl>O. 6.10</span></cit> <quote lang="greek">ἀνδράσιν αἰχματαῖσι πλέκων ποικίλον ὕμνον</quote> (<quote lang="greek">τῷ τε Ἁγησίᾳ καὶ τοῖς τούτου προγόνοις. Σ.</quote>) <span class=bibl>O. 6.86</span> <cit><quote lang="greek">ἀεθλοφόροις ἀνδράσιν</quote> <span class=bibl>O. 7.8</span></cit> <cit><quote lang="greek">τὰν δ' ἔπειτ ἀνδρῶν μάχας ἐκ παγκρατίου</quote> <span class=bibl>O. 8.58</span></cit> <cit><quote lang="greek">Ἄργει τ' ἔσχεθε κῦδος ἀνδρῶν, παῖς δ ἐν Ἀθάναις</quote> <span class=bibl>O. 9.88</span></cit> <cit><quote lang="greek">νέων οὐλίαις αἰχμαῖσιν ἀνδρῶν</quote> <span class=bibl>O. 13.23</span></cit> <quote lang="greek">ἐν ἱπποσόαισιν ἄνδρεσσι μαρνάμενον</quote> (Hermann: <quote lang="greek">ἀνδράσι</quote> codd.) <span class=bibl>P. 2.65</span> “<quote lang="greek">ἀνδρὸς αἰδοίου</quote>” <span class=bibl>P. 4.29</span> <cit><quote lang="greek">δέδεξαι τόνδε κῶμον ἀνέρων</quote> <span class=bibl>P. 5.22</span></cit> <cit><quote lang="greek">δέκονται θυσίαισιν ἄνδρες οἰχνέοντές σφε δωροφόροι</quote> <span class=bibl>P. 5.86</span></cit> <cit><quote lang="greek">τὰν μάλα πολλοὶ ἀριστῆες ἀνδρῶν αἴτεον σύγγονοι, πολλοὶ δὲ καὶ ξείνων</quote> <span class=bibl>P. 9.107</span></cit> <quote lang="greek">ἁρμόζων κόρᾳ νυμφίον ἄνδρα</quote> (i. e. husband) <span class=bibl>P. 9.118</span> <cit><quote lang="greek">Ἱπποκλέᾳ θέλοντες ἀγαγεῖν ἐπικωμίαν ἀνδρῶν κλυτὰν ὄπα</quote> <span class=bibl>P. 10.6</span></cit> <cit><quote lang="greek">κοιναὶ γὰρ ἔρχοντ' ἐλπίδες πολυπόνων ἀνδρῶν</quote> <span class=bibl>N. 1.33</span></cit> <cit><quote lang="greek">ἐν παισὶ νέοισι παῖς, ἐν ἀνδράσιν ἀνήρ, τρίτον ἐν παλαιτέροισι</quote> <span class=bibl>N. 3.72</span></cit> <cit><quote lang="greek">ἐπαοιδαῖς δ' ἀνὴρ νώδυνον καί τις κάματον θῆκεν</quote> <span class=bibl>N. 8.49</span></cit> <cit><quote lang="greek">νέαισί θ' ἑορταῖς ἰσχύος τ ἀνδρῶν ἁμίλλαις</quote> <span class=bibl>N. 9.12</span></cit> <cit><quote lang="greek">ἄγαγον στρατὸν ἀνδρῶν</quote> <span class=bibl>N. 9.18</span></cit> <cit><quote lang="greek">ἐντί τοι φίλιπποί τ' αὐτόθι  ἄνδρες</quote> <span class=bibl>N. 9.33</span></cit> <cit><quote lang="greek">ποτὶ δυσμενέων ἀνδρῶν στίχας</quote> <span class=bibl>N. 9.38</span></cit> <cit><quote lang="greek">ἐν Κέῳ ἀμφιρύτᾳ σὺν ποντίοις ἀνδράσιν</quote> <span class=bibl>I. 1.9</span></cit> <cit><quote lang="greek">τραχεῖα νιφὰς πολέμοιο τεσσάρων ἀνδρῶν ἐρήμωσεν μάκαιραν ἑστίαν</quote> <span class=bibl>I. 4.17</span></cit> <cit><quote lang="greek">ἀναρίθμων ἀνδρῶν χαλαζάεντι φόνῳ</quote> <span class=bibl>I. 5.50</span></cit> <cit><quote lang="greek">θάλλοντος ἀνδρῶν ὡς ὅτε συμποσίου</quote> <span class=bibl>I. 6.1</span></cit> <cit><quote lang="greek">περικτίονας ἐνίκασε  ἄνδρας</quote> <span class=bibl>I. 8.65</span></cit> <quote lang="greek">κεἴ μοί τιν' ἄνδρα τῶν θανόντων</quote> fr. 4. <quote lang="greek">Σπαρτῶν ἱερὸν γένος ἀνδρῶν</quote> fr. 29. 2. <cit><quote lang="greek">ἀλκαὶ δὲ τεῖχος ἀνδρῶν [ὕψιστον ἵστατ]αι </quote> <span class=bibl>Pae. 2.37</span></cit> <cit><quote lang="greek"> χρὴ δ' ἄνδρα τοκεῦσιν φέρειν βαθύδοξον αἶσαν </quote> <span class=bibl>Pae. 2.57</span></cit> <cit><quote lang="greek"> ψοφὸν ἀιὼν Κασταλίας ὀρφανὸν ἀνδρῶν χορεύσιος ἦλθον </quote> <span class=bibl>Pae. 6.9</span></cit> <quote lang="greek"> Ἀλαλά  ᾇ θύεται ἄνδρες ὑπὲρ πόλιος</quote> fr. 78. 3. (<quote lang="greek">ψυχὰς</quote>) <quote lang="greek">ἐκ τᾶν βασιλῆες ἀγαυοὶ καὶ  μέγιστοι ἄνδρες αὔξοντ</quote> fr. 133. 5. <quote lang="greek">πέφνε δὲ τρεῖς καὶ</quote>  <quote lang="greek">δέκ' ἄνδρας</quote> fr. 135. <quote lang="greek">νέων ἀνδρῶν ἀριστεύοισιν αἰχμαί</quote> fr. 199. 2. <quote lang="greek">ἄγαν φιλοτιμίαν μνώμενοι ἐν πόλεσιν ἄνδρες</quote> (fort. non omnia haec sunt Pindari, nott. Wil.) fr. 210. <quote lang="greek">νικώμενοι γὰρ ἄνδρες ἀγρυξίᾳ δέδενται</quote> fr. 229. <cit><quote lang="greek">ὦ Συράκοσαι,  ἀνδρῶν ἵππων τε σιδαροχαρμᾶν δαιμόνιαι τροφοί</quote> <span class=bibl>P. 2.2</span></cit> <cit><quote lang="greek">ἄνδρεσσι καὶ γυναιξὶ</quote> <span class=bibl>P. 5.64</span></cit> <quote lang="greek">ἀνδρὸς δ' οὔτε γυναικὸς Παρθ. 2. 3. ἄνδρες θήν τινες ἀκκιζόμενοι νεκρὸν ἵππον στυγέοισι</quote> (oxymoron intell. Schr.) fr. 203. 1. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>b</b> specifically, men or heroes <quote lang="greek">τὸ καὶ ἀνδρὶ κώμου δεσπότᾳ πάρεστι Συρακοσίῳ</quote> Hagesias <span class=bibl>O. 6.18</span> <quote lang="greek">ἵκωμαί τε πρὸς ἀνδρῶν καὶ γένος</quote> Iamidai <span class=bibl>O. 6.24</span> <quote lang="greek">εὐθυμάχαν  πελώριον ἄνδρα</quote> Diagoras <span class=bibl>O. 7.15</span> <quote lang="greek">τεθμὸν Ὀλυμπιονίκαν ἄνδρα τε</quote> Diagoras <span class=bibl>O. 7.89</span> <quote lang="greek">ἀνδρὸς ἀμφὶ παλαίσμασιν</quote> Epharmostos <span class=bibl>O. 9.13</span> <quote lang="greek">ὑπέρφατον ἄνδρα μορφᾷ τε καὶ ἔργοισι</quote> Opous <span class=bibl>O. 9.65</span> <quote lang="greek">ἄνδρα δ' ἐγὼ κεῖνον αἰνῆσαι μενοινῶν</quote> Hieron <span class=bibl>P. 1.42</span> <quote lang="greek">ἀνὴρ ἐξαίρετον ἕλε μόχθον</quote> Ixion <span class=bibl>P. 2.29</span> <quote lang="greek">ἄιδρις ἀνήρ</quote> (Ixion = <quote lang="greek">ἥρως</quote> v. 31) <span class=bibl>P. 2.37</span> <quote lang="greek">σάμερον μὲν χρή σε παρ' ἀνδρὶ φίλῳ στᾶμεν</quote> Arkesilas <span class=bibl>P. 4.1</span> <quote lang="greek">ἀνὴρ ἔκπαγλος</quote> Jason <span class=bibl>P. 4.79</span> <quote lang="greek">ἀνὴρ συγγενέσιν παρεκοινᾶθ</quote> Jason <span class=bibl>P. 4.132</span> <quote lang="greek">γόνον ἰδὼν κάλλιστον ἀνδρῶν</quote> Jason <span class=bibl>P. 4.123</span> <quote lang="greek">δοιοὶ δ' ὑψιχαῖται ἀνέρες</quote> Euphamos and Periklymenos <span class=bibl>P. 4.173</span> <cit><quote lang="greek">Ζήταν Κάλαίν τε  ἄνδρας πτεροῖσιν νῶτα πεφρίκοντας</quote> <span class=bibl>P. 4.182</span></cit> <quote lang="greek">βιατὰς  ἀνὴρ</quote> Jason <span class=bibl>P. 4.236</span> <quote lang="greek">καρτερὸν ἄνδρα</quote> Jason <span class=bibl>P. 4.239</span> <quote lang="greek">ἄνδρα κεῖνον ἐπαινέοντι συνετοί</quote> Arkesilas <span class=bibl>P. 5.107</span> <quote lang="greek">ὁ θεῖος ἀνὴρ</quote> Antilochos <span class=bibl>P. 6.38</span> <cit><quote lang="greek">Τελεσικράτη  γεγωνεῖν ὄλβιον ἄνδρα διωξίππου στεφάνωμα Κυράνας</quote> <span class=bibl>P. 9.4</span></cit> <quote lang="greek">ἐς ἀνδρῶν μακάρων ὅμιλον</quote> Hyperboreans <span class=bibl>P. 10.46</span> <quote lang="greek">ἐκ τούτων φίλον ἄνδρα πόνων ἐρρύσατο</quote> Perseus <span class=bibl>P. 12.18</span> <quote lang="greek">ἔσταν δ' ἐπ αὐλείαις θύραις ἀνδρὸς φιλοξείνου</quote> Chromios <span class=bibl>N. 1.20</span> <quote lang="greek">καὶ ὅδ' ἀνὴρ καταβολὰν ἱερῶν ἀγώνων νικαφορίας δέδεκται πρῶτον</quote> Timodemos <span class=bibl>N. 2.3</span> <quote lang="greek">καί τις ἄνδρας ἀλκίμους δαίμων ἀπ' Οἰνώνας ἔλασεν</quote> Peleus and Telamon <span class=bibl>N. 5.15</span> <quote lang="greek">φίλον ἐς</quote> <quote lang="greek">ἄνδρ' ἄγων κλέος ἐτήτυμον</quote> Thearion? <span class=bibl>N. 7.62</span> <quote lang="greek">ἄνδρα δ' ἐγὼ μακαρίζω μὲν πατέῤ Ἀρκεσίλαν</quote> Aristagoras <span class=bibl>N. 11.11</span> <quote lang="greek">τοῦδ' ἀνδρὸς ἐν τιμαῖσιν</quote> Herodotos <span class=bibl>I. 1.34</span> <quote lang="greek">εὐάρματον ἄνδρα γεραίρων</quote> Xenokrates <span class=bibl>I. 2.17</span> <quote lang="greek">ἦλθ' ἀνὴρ τὰν πυροφόρον Λιβύαν  υἱὸς Ἀλκμήνας</quote> Herakles v. Fraenkel on Agam. 719. <span class=bibl>I. 4.53</span> <quote lang="greek">λευκωθεὶς κάρα μύρτοῖς ὅδ' ἀνὴρ</quote> Melissos <span class=bibl>I. 4.70</span> <quote lang="greek">κλυταῖς ἀνδρὸς φίλου  ἐφετμαῖς</quote> Lampon <span class=bibl>I. 6.18</span> “<quote lang="greek">λίσσομαι παῖδα θρασύν ἐξ Ἐριβοίας ἀνδρὶ τῷδε  τελέσαι</quote>” Telamon <span class=bibl>I. 6.46</span> <quote lang="greek">φαίης κέ νιν ἄνδρ' ἐν ἀεθληταῖσιν ἔμμεν Ναξίαν πέτραις ἐν ἄλλαις χαλκοδάμαντ ἀκόναν</quote> Lampon (<quote lang="greek">ἀνδράσιν ἀεθληταῖσιν</quote> coni. Heyne) <span class=bibl>I. 6.72</span> “<quote lang="greek">ὑπὸ σπλάγχ[νοις] φέροισα τόνδ' ἀνέῤ</quote>” Paris. <quote lang="greek">Πα.</quote> 8A. 19. ]<quote lang="greek">τῶνδ' ἀνδρῶν ἕνεκεν μερίμνας σώφρονος</quote> Aioladas and Pagondas. <quote lang="greek">Παρθ. 2. . Πολυμνάστου Κολοφωνίου ἀνδρός</quote> fr. 188. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>2</b> generally = <quote lang="greek">ἄνθρωπος</quote>. 
+ </span><span class=sense>&nbsp;&nbsp;&nbsp;<b>a</b> <cit><quote lang="greek">ῥοαὶ δ' ἄλλοτ ἄλλαι  ἐς ἄνδρας ἔβαν</quote> <span class=bibl>O. 2.34</span></cit> <cit><quote lang="greek">αἵ γε μὲν ἀνδρῶν  κυλίνδοντ' ἐλπίδες</quote> <span class=bibl>O. 12.5</span></cit> <cit><quote lang="greek">ὄλβος οὐκ ἐς μακρὸν ἀνδρῶν ἔρχεται</quote> <span class=bibl>P. 3.105</span></cit> <cit><quote lang="greek">τὰ δὲ καὶ ἀνδράσιν ἐμπρέπει</quote> <span class=bibl>P. 8.28</span></cit> <cit><quote lang="greek">λαμπρὸν φέγγος ἔπεστιν ἀνδρῶν καὶ μείλιχος αἰών</quote> <span class=bibl>P. 8.97</span></cit> <quote lang="greek">καί τινα σὺν πλαγίῳ ἀνδρῶν κόρῳ στείχοντα τὸν ἐχθρότατον φᾶσέ νιν δώσειν μόρῳ</quote> (<quote lang="greek">ἀνδρῶν</quote> cum <quote lang="greek">τινα Σ</quote>: “<quote lang="greek">ἀνδρῶν γιγάντων</quote> intellego” Schr.: v. Radt, Mnem., 1966, 169f.) <span class=bibl>N. 1.65</span> (<quote lang="greek">ἄρουραι</quote>) <quote lang="greek">βίον ἀνδράσιν ἐπηετανὸν ἐκ πεδίων ἔδοσαν</quote> (Hermann: <quote lang="greek">ἄνδρεσσιν</quote> codd.) <span class=bibl>N. 6.10</span> <cit><quote lang="greek">παροιχομένων γὰρ ἀνέρων ἀοιδαὶ καὶ λόγοι τὰ καλά σφιν ἔργ' ἐκόμισαν</quote> <span class=bibl>N. 6.29</span></cit> <cit><quote lang="greek">τυφλὸν δ' ἔχει ἦτορ ὅμιλος ἀνδρῶν ὁ πλεῖστος</quote> <span class=bibl>N. 7.24</span></cit> <cit><quote lang="greek">ἀρετὰ  ἐν σοφοῖς ἀνδρῶν ἀερθεῖσ' ἐν δικαίοις τε πρὸς ὑγρὸν αἰθέρα</quote> <span class=bibl>N. 8.41</span></cit> <cit><quote lang="greek">ἀρχαῖαι δ' ἀρεταὶ ἀμφέροντ ἀλλασσόμεναι γενεαῖς ἀνδρῶν σθένος</quote> <span class=bibl>N. 11.38</span></cit> “<quote lang="greek">χρήματα χρήματ' ἀνήρ</quote>” <span class=bibl>I. 2.11</span> <cit><quote lang="greek">εἴ τις ἀνδρῶν  κατέχει φρασὶν αἰανῆ κόρον</quote> <span class=bibl>I. 3.1</span></cit> <quote lang="greek">ἀνδρῶν δ' ἀρετὰν σύμφυτον οὐ κατελέγχει</quote> (i. e. <quote lang="greek">τῶν προγόνων</quote>) <span class=bibl>I. 3.13</span> <quote lang="greek">οὔτοι τετύφλωται μακρὸς μόχθος ἀν-</quote>  <cit><quote lang="greek">δρῶν</quote> <span class=bibl>I. 5.57</span></cit> <cit><quote lang="greek">δόλιος γὰρ αἰὼν ἐπ' ἀνδράσι κρέμαται</quote> <span class=bibl>I. 8.14</span></cit> <quote lang="greek">τυφλα[ὶ γὰ]ρ ἀνδρῶν φρένες, ὅστις Πα.</quote> 7B. 18. <cit><quote lang="greek">ἔθηκας ἀμάχανον ἰσχύν τ' ἀνδράσι καὶ σοφίας ὁδόν </quote> <span class=bibl>Pae. 9.4</span></cit> <cit><quote lang="greek"> ἀνδρῶν νέον ἐξ ἀρχᾶς γένος </quote> <span class=bibl>Pae. 9.20</span></cit> <quote lang="greek"> ἐπιχθόνιον γένος ἀνδρῶν</quote> (v. l. <quote lang="greek">ἀνθρώπων</quote>) fr. 213. 3. <quote lang="greek">σφετέραν δ' αἰνεῖ δίκαν ἀνδρῶν ἕκαστος</quote> fr. 215. 3. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>b</b> contrasted with the gods <cit><quote lang="greek">ἔστι δ' ἀνδρὶ φάμεν ἐοικὸς ἀμφὶ δαιμόνων καλά</quote> <span class=bibl>O. 1.35</span></cit> <cit><quote lang="greek">εἰ δὲ δή τιν' ἄνδρα θνατὸν Ὀλύμπου σκοποὶ ἐτίμασαν</quote> <span class=bibl>O. 1.54</span></cit> <cit><quote lang="greek">εἰ δὲ θεὸν ἀνήρ τις ἔλπεται  λαθέμεν</quote> <span class=bibl>O. 1.64</span></cit> <cit><quote lang="greek">προῆκαν υἱὸν ἀθάνατοι  μετὰ τὸ ταχύποτμον αὖτις ἀνέρων ἔθνος</quote> <span class=bibl>O. 1.66</span></cit> <quote lang="greek">τίνα θεόν, τίν' ἥρωα, τίνα δ ἄνδρα κελαδήσομεν</quote>; <span class=bibl>O. 2.2</span> <cit><quote lang="greek">ἄνεται δὲ πρὸς χάριν εὐσεβίας ἀνδρῶν λιταῖς</quote> <span class=bibl>O. 8.8</span></cit> <cit><quote lang="greek">ἀγαθοὶ δὲ καὶ σοφοὶ κατὰ δαίμον' ἄνδρες ἐγένοντ</quote> <span class=bibl>O. 9.28</span></cit> <cit><quote lang="greek">τόνδ' ἀνέρα δαιμονίᾳ γεγάμεν</quote> <span class=bibl>O. 9.110</span></cit> cf. <span class=bibl>O. 10.22</span>, <span class=bibl>O. 11.10</span> <cit><quote lang="greek">τάμἰ ἀνδράσι πλούτου</quote> <span class=bibl>O. 13.7</span></cit> <cit><quote lang="greek">πολλὰ δ' ἐν καρδίαις ἀνδρῶν ἔβαλον ὧραι</quote> <span class=bibl>O. 13.16</span></cit> <cit><quote lang="greek">οὔτ' ἐν ἀνδράσι γερασφόρον οὔτ ἐν θεῶν νόμοις</quote> <span class=bibl>P. 2.43</span></cit> (<quote lang="greek">Χίρωνα</quote>) <cit><quote lang="greek">νόον ἔχοντ' ἀνδρῶν φίλον</quote> <span class=bibl>P. 3.5</span></cit> “<quote lang="greek">θεῷ ἀνέρι εἰδομένῳ</quote>” <span class=bibl>P. 4.21</span> <quote lang="greek">μάκαρ μὲν ἀνδρῶν μέτα ἔναιεν, ἥρως δ' ἔπειτα λαοσεβής</quote> sc. Battos <span class=bibl>P. 5.94</span> <cit><quote lang="greek">Διός τοι νόος μέγας κυβερνᾷ δαίμον' ἀνδρῶν φίλων</quote> <span class=bibl>P. 5.123</span></cit> <cit><quote lang="greek">τὰ δ' οὐκ ἐπ ἀνδράσι κεῖται· δαίμων δὲ παρίσχει</quote> <span class=bibl>P. 8.76</span></cit> <cit><quote lang="greek">θήσονταί τέ νιν ἀθάνατον  ἀνδράσι χάρμα φίλοις</quote> <span class=bibl>P. 9.64</span></cit> <cit><quote lang="greek">θεὸς εἴη ἀπήμων κέαρ· εὐδαίμων δὲ καὶ ὑμνητὸς οὗτος ἀνὴρ γίνεται σοφοῖς, ὃς</quote> <span class=bibl>P. 10.22</span></cit> <cit><quote lang="greek">ἀθάνατων ἀνδρῶν τε σὺν εὐμενίᾳ</quote> <span class=bibl>P. 12.4</span></cit> <cit><quote lang="greek">κείνου σὺν ἀνδρὸς δαιμονίαις ἀρεταῖς</quote> <span class=bibl>N. 1.9</span></cit> <cit><quote lang="greek">ἓν ἀνδρῶν, ἓν θεῶν γένος</quote> <span class=bibl>N. 6.1</span></cit> <quote lang="greek">μάλα μὲν ἀνδρῶν δικαίων περικαδόμενοι</quote> (sc. <quote lang="greek">Διόσκουροι</quote>). <cit><quote lang="greek">καὶ μὰν θεῶν πιστὸν γένος</quote> <span class=bibl>N. 10.54</span></cit> <cit><quote lang="greek">κρίνεται δ' ἀλκὰ διὰ δαίμονας ἀνδρῶν</quote> <span class=bibl>I. 5.11</span></cit> <quote lang="greek">ἴσον μὲν θεὸν ἄνδρα τε φίλον</quote> (&lt;<quote lang="greek">θεῷ</quote>&gt; supp. Heyne: sc. <quote lang="greek">ὑποτρέσαι</quote>) fr. 224. <quote lang="greek">ὁπόταν θεὸς ἀνδρὶ χάρμα πέμψῃ</quote> fr. 225. ]<quote lang="greek">Ἀπόλλωνι μὲν θ[εῶν] ἀτὰρ ἀνδρῶν Ἐχεκ[ρά]τει</quote> ?fr. 333a. 5. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>3</b> generally, <gloss>a man, anyone</gloss> <quote lang="greek">ὁ μὰν</quote> <cit><quote lang="greek">πλοῦτος  ἐτυμώτατον ἀνδρὶ φέγγος</quote> <span class=bibl>O. 2.56</span></cit> <cit><quote lang="greek">αὐδάσομαι  τεκεῖν μή τιν'  πόλιν  ἄνδρα μᾶλλον εὐεργέταν</quote> <span class=bibl>O. 2.93</span></cit> <cit><quote lang="greek">τοῦτο δ' ἀμάχανον εὑρεῖν, ὅτι  φέρτατον ἀνδρὶ τυχεῖν</quote> <span class=bibl>O. 7.26</span></cit> <cit><quote lang="greek">κεῖνος ἂν εἴποι  τίς τρόπος ἄνδρα προβάσει</quote> <span class=bibl>O. 8.63</span></cit> <cit><quote lang="greek">Ἀίδα τοι λάθεται ἄρμενα πράξαις ἀνήρ</quote> <span class=bibl>O. 8.73</span></cit> <cit><quote lang="greek">θάξαις δέ κε φύντ' ἀρετᾷ ποτὶ πελώριον ὁρμάσαι κλέος ἀνὴρ θεοῦ σὺν παλάμᾳ</quote> <span class=bibl>O. 10.21</span></cit> <cit><quote lang="greek">ὅταν  εἰς Ἀίδα σταθμὸν ἀνὴρ ἵκηται</quote> <span class=bibl>O. 10.93</span></cit> <cit><quote lang="greek">ἐκ θεοῦ δ' ἀνὴρ σοφαῖς ἀνθεῖ πραπίδεσσιν ὁμοίως</quote> <span class=bibl>O. 11.10</span></cit> <cit><quote lang="greek">ἀμφοτέροισι δ' ἀνὴρ ὃς ἂν ἐγκύρσῃ καὶ ἕλῃ, στέφανον ὕψιστον δέδεκται</quote> <span class=bibl>P. 1.99</span></cit> <cit><quote lang="greek">ἄνδρ' ἐκ θανάτου κομίσαι ἤδη ἁλωκότα</quote> <span class=bibl>P. 3.56</span></cit> <cit><quote lang="greek">οὕτω κ' ἀνδρὶ παρμονίμαν θάλλοισαν εὐδαιμονίαν</quote> <span class=bibl>P. 7.20</span></cit> <cit><quote lang="greek">οὐδ' ἀλλοτρίων ἔρωτες ἀνδρὶ φέρειν κρέσσονες</quote> <span class=bibl>N. 3.30</span></cit> <cit><quote lang="greek">φθονερὰ δ' ἄλλος ἀνὴρ βλέπων γνώμαν κενεὰν σκότῳ κυλίνδει</quote> <span class=bibl>N. 4.39</span></cit> <cit><quote lang="greek">ἵνα κρεῶν νιν ὕπερ μάχας ἔλασεν ἀντιτυχόντ' ἀνὴρ μαχαίρᾳ</quote> <span class=bibl>N. 7.42</span></cit> <cit><quote lang="greek">εἰ δὲ γεύεται ἀνδρὸς ἀνήρ τι</quote> <span class=bibl>N. 7.87</span></cit> <cit><quote lang="greek">κρέσσων δὲ καππαύει δίκαν τὰν πρόσθεν ἀνήρ</quote> <span class=bibl>N. 9.15</span></cit> <cit><quote lang="greek">χρὴ δ' ἀγαθὰν ἐλπίδ ἀνδρὶ μέλειν</quote> <span class=bibl>I. 8.15</span></cit> <cit><quote lang="greek">καὶ συγγένεἰ ἀνδρὶ φ[  ]στέρξαι </quote> <span class=bibl>Pae. 4.33</span></cit> <quote lang="greek"> τί ἔλπεαι σοφίαν ἔμμεν, ἃν ὀλίγον τοι ἀνὴρ ὑπὲρ ἀνδρὸς ἴσχει</quote>; fr. 61. 2. <quote lang="greek">παντὶ δ' ἐπὶ φθόνος ἀνδρὶ κεῖται ἀρετᾶς Παρθ. 1. . πολύ τοι φέριστον ἀνδρὶ τερπνὸς αἰών</quote> fr. 126. 2. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>4</b> where the accompanying adj. or subs. bears the emphasis. 
+ </span><span class=sense>&nbsp;&nbsp;&nbsp;<b>a</b> c. subs. <cit><quote lang="greek">ἄνδρας ὀλέσαις μναστῆρας</quote> <span class=bibl>O. 1.79</span></cit> <cit><quote lang="greek">μάτρωες ἄνδρες</quote> <span class=bibl>O. 6.77</span></cit> <cit><quote lang="greek">μάντιες ἄνδρες</quote> <span class=bibl>O. 8.2</span></cit> <cit><quote lang="greek">ἁγητὴρ ἀνὴρ</quote> <span class=bibl>P. 1.69</span></cit> <cit><quote lang="greek">ὥσπερ κυβερνάτας ἀνὴρ</quote> <span class=bibl>P. 1.91</span></cit> <cit><quote lang="greek">ἅτε μάντις ἀνήρ</quote> <span class=bibl>I. 6.51</span></cit> cf. <span class=bibl>P. 9.118</span> </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>b</b> c. adj. <cit><quote lang="greek">οὐ δίκᾳ συναντόμενος ἀλλὰ μαργῶν ὑπ' ἀνδρῶν</quote> <span class=bibl>O. 2.96</span></cit> <cit><quote lang="greek">Αἰτωλὸς ἀνὴρ</quote> <span class=bibl>O. 3.12</span></cit> <cit><quote lang="greek">τίνα κεν φύγοι ὕμνον κεῖνος ἀνήρ</quote> <span class=bibl>O. 6.7</span></cit> <cit><quote lang="greek">ἀνδρῶν Ἀρκάδων</quote> <span class=bibl>O. 6.34</span></cit> <cit><quote lang="greek">ἐπὶ προτέρων ἀνδρῶν</quote> <span class=bibl>O. 7.72</span></cit> <cit><quote lang="greek">ναυσιφορήτοις δ' ἀνδράσι</quote> <span class=bibl>P. 1.33</span></cit> <cit><quote lang="greek">πολεμίων ἀνδρῶν καμόντων</quote> <span class=bibl>P. 1.80</span></cit> <cit><quote lang="greek">ἀποιχομένων ἀνδρῶν δίαιταν</quote> <span class=bibl>P. 1.93</span></cit> <cit><quote lang="greek">εὐθύγλωσσος ἀνὴρ προφέρει</quote> <span class=bibl>P. 2.86</span></cit> <cit><quote lang="greek">ἐσλοῖσι  ἀνδράσιν</quote> <span class=bibl>P. 3.66</span></cit> <quote lang="greek">Λακεδαι-</quote>  <cit><quote lang="greek">μονίων  ἀνδρῶν</quote> <span class=bibl>P. 4.257</span></cit> <cit><quote lang="greek">βροτήσιος ἀνὴρ</quote> <span class=bibl>P. 5.3</span></cit> <cit><quote lang="greek">ἀλλά νιν εὑροῖσ' ἀνδράσι θνατοῖς ἔχειν</quote> <span class=bibl>P. 12.22</span></cit> <cit><quote lang="greek">ὃς δὲ διδάκτ' ἔχει, ψεφεννὸς ἀνὴρ ἄλλοτ ἄλλα πνέων</quote> <span class=bibl>N. 3.41</span></cit> <cit><quote lang="greek">Ἀχαιὸς οὐ μέμψεταί μ' ἀνὴρ</quote> <span class=bibl>N. 7.64</span></cit> <cit><quote lang="greek">χρεῖαι δὲ παντοῖαι φίλων ἀνδρῶν</quote> <span class=bibl>N. 8.42</span></cit> <cit><quote lang="greek">καὶ Κλεωναίων πρὸς ἀνδρῶν</quote> <span class=bibl>N. 10.42</span></cit> <cit><quote lang="greek">κούφα δόσις ἀνδρὶ σοφῷ  ξυνὸν ὀρθῶσαι καλόν</quote> <span class=bibl>I. 1.45</span></cit> <cit><quote lang="greek">τὸ τεὸν δ' ἀνδρῶν Ἀχαιῶν ἐν Φυλάκᾳ τέμενος συμβάλλομαι</quote> <span class=bibl>I. 1.58</span></cit> <cit><quote lang="greek">εἴ τις εὐδόξων ἐς ἀνδρῶν ἄγοι τιμὰς Ἑλικωνιάδων</quote> <span class=bibl>I. 2.34</span></cit> <cit><quote lang="greek">καὶ κρέσσον' ἀνδρῶν χειρόνων ἔσφαλε τέχνα καταμάρψαισ</quote> <span class=bibl>I. 4.34</span></cit> [<quote lang="greek">ἀνδ]ρὶ σοφῷ</quote> (supp. Lobel.) <quote lang="greek">Πα. 1. 3. ἀνδρῶν δικαίων</quote> fr. 159. <quote lang="greek">κενεοφρόνων ἑταῖρον ἀνδρῶν</quote> fr. 212. </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>c</b> c. <cit><quote lang="greek">τις, ἄλλος τις. ἀντεβόλησεν τῶν ἀνὴρ θνατὸς οὔπω τις πρότερον</quote> <span class=bibl>O. 13.31</span></cit> <cit><quote lang="greek">εἰ σοφός, εἰ καλός, εἴ τις ἀγλαὸς ἀνήρ</quote> <span class=bibl>O. 14.7</span></cit> <cit><quote lang="greek">ἄλλοις δέ τις ἐτέλεσσεν ἄλλος ἀνὴρ εὐαχέα βασιλεῦσιν ὕμνον</quote> <span class=bibl>P. 2.13</span></cit> <cit><quote lang="greek">κωφὸς ἀνήρ τις, ὃς Ἡρακλεῖ στόμα μὴ περιβάλλει</quote> <span class=bibl>P. 9.87</span></cit> </span>
+ <span class=sense>&nbsp;&nbsp;&nbsp;<b>5</b> frag. ]<cit><quote lang="greek">φυγον ἄνδρα[ </quote> <span class=bibl>Pae. 12.22</span></cit> <cit><quote lang="greek"> ]ἔτι δ' ἄνδρ[ </quote> <span class=bibl>Pae. 21.21</span></cit> <quote lang="greek"> κἀ]νδρῶν</quote> (supp. Snell.) <quote lang="greek">Δ.</quote> 4. e. 4. ]<quote lang="greek">ἀλαον ἀνδρὸς λ</quote>[ fr. 173. 3. </span></div2>
+<p><center> -- 54 -- </center><p>
+
+ 
+ 
+</span>
+</span><table width='95%'><tr><td width='50%' align='left'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:1:570.Slater">Previous Entry</A><p>
+</td><td width='50%' align='right'><A HREF="/cgi-bin/philologic/getobject.pl?c.0:1:572.Slater"><p>Next Entry</A><p>
+</td></tr></table><hr noshade><a name="pindar_dico01"></a>William J. Slater [<b>1969</b>], <i><a href="/cgi-bin/philologic/navigate.pl?Slater.0
+">Lexicon to Pindar</a></i>  (Trustees of Tufts University, Berlin) [<a href="/cgi-bin/philologic/getwordcount.pl?Slater.0
+">word count</a>] [<b>pindar_dico01</b>]. <hr noshade>
+<!-- END OF CONTEXT AREA, WE HOPE-->
+</td>
+</tr>
+</table>
+<center>
+<a href="http://philologic.uchicago.edu/">
+<img border="0" src="http://artflx.uchicago.edu/philologic/philopowered.png" alt="Powered by PhiloLogic"></a><br/>
+</center>
+<!-- If you are using PhiloLogic, please be nice and leave the PowerBy ;-) -->
+<!-- but add your own footer stuff as well. -->
+<!-- $Id: Results_Footer.html,v 2.11 2004/05/28 19:21:59 o Exp $ -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10153248-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+

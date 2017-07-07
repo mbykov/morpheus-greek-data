@@ -1,0 +1,25 @@
+{
+    "pos": "part",
+    "var": "act.pf",
+    "descr": "irreg",
+    "dict": "οἶδα",
+    "gend": "neut",
+    "trn": "to know",
+    "forms": {
+        "sg.nom": "ἐγνωκός",
+        "sg.gen": "ἐγνωκότος",
+        "sg.dat": "ἐγνωκότι",
+        "sg.acc": "ἐγνωκός",
+        "sg.voc": "ἐγνωκός",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "ἐγνωκότα",
+        "pl.gen": "ἐγνωκότων",
+        "pl.dat": "ἐγνωκόσι ἐγνωκόσιν",
+        "pl.acc": "ἐγνωκότα",
+        "pl.voc": "ἐγνωκότα"
+    }
+}

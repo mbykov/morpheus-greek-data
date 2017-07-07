@@ -1,0 +1,26 @@
+{
+    "type":"greek-flex",
+    "pos":"name",
+    "descr": "stem s",
+    "var": "os-ous",
+    "gend": "neut",
+    "dict": "ος",
+    "ex": "μέρος, --ους, τό",
+    "flexes":{
+        "sg.nom": "ος",
+        "sg.gen": "ους",
+        "sg.dat": "ει",
+        "sg.acc": "ος",
+        "sg.voc": "ος",
+        "du.nom": "ει",
+        "du.gen": "οῖν",
+        "du.dat": "οῖν",
+        "du.acc": "ει",
+        "du.voc": "ει",
+        "pl.nom": "η",
+        "pl.gen": "ῶν",
+        "pl.dat": "εσι εσιν",
+        "pl.acc": "η εα",
+        "pl.voc": "η"
+    }
+}

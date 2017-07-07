@@ -1,0 +1,23 @@
+{
+    "type":"term",
+    "pos": "pron",
+    "descr": "τίς, τίς, τί, who? which? what?",
+    "var": "int",
+    "trn": "who? which? what?",
+    "dict": "τίς",
+    "gend": "neut",
+    "forms":{
+        "sg.nom": "τί",
+        "sg.gen": "τίνος",
+        "sg.dat": "τίνι",
+        "sg.acc": "τί",
+        "du.nom": "τίνε",
+        "du.acc": "τίνε",
+        "du.gen": "τινοιν",
+        "du.dat": "τινοιν",
+        "pl.nom": "τίνα",
+        "pl.gen": "τίνων",
+        "pl.dat": "τίσι",
+        "pl.acc": "τίνα"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type":"flex",
+    "pos":"name",
+    "descr": "stem s",
+    "var": "hs-es",
+    "gend": "neut",
+    "dict": "ές",
+    "add": "ής",
+    "flexes":{
+        "sg.nom": "ές",
+        "sg.gen": "οῦς",
+        "sg.dat": "εῖ",
+        "sg.acc": "ές",
+        "sg.voc": "ές",
+        "du.nom": "εῖ",
+        "du.gen": "οῖν",
+        "du.dat": "οῖν",
+        "du.acc": "εῖ",
+        "du.voc": "εῖ",
+        "pl.nom": "ῆ έα",
+        "pl.gen": "ῶν",
+        "pl.dat": "έσι έσιν",
+        "pl.acc": "ῆ έα",
+        "pl.voc": "ῆ έα"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "pos":"name",
+    "descr": "cons",
+    "var": "ous",
+    "gend": "masc",
+    "dict": "οῦς ους",
+    "ex": "ὁ νοῦς ὁ χρυσοῦς fm εὔνους",
+    "flexes":{
+        "sg.nom": "οῦς ους",
+        "sg.gen": "οῦ ου",
+        "sg.dat": "ῷ ῳ",
+        "sg.acc": "οῦν ουν",
+        "sg.voc": "οῦ",
+        "du.nom": "ώ ω",
+        "du.gen": "οῖν οιν",
+        "du.dat": "οῖν οιν",
+        "du.acc": "ώ ω",
+        "du.voc": "ώ ω",
+        "pl.nom": "οῖ οι",
+        "pl.gen": "ῶν ων",
+        "pl.dat": "οῖς οις",
+        "pl.acc": "οῦς ους",
+        "pl.voc": "οῖ οι"
+    }
+}

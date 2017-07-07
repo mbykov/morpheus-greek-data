@@ -1,0 +1,25 @@
+{
+    "pos": "part",
+    "var": "act.pres",
+    "descr": "irreg",
+    "dict": "εἰμί",
+    "gend": "masc",
+    "trn": "to be",
+    "forms": {
+        "sg.nom": "ὤν",
+        "sg.gen": "ὄντος",
+        "sg.dat": "ὄντι",
+        "sg.acc": "ὄντα",
+        "sg.voc": "ὤν",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "ὄντες",
+        "pl.gen": "ὄντων",
+        "pl.dat": "οὖσι οὖσιν",
+        "pl.acc": "ὄντας",
+        "pl.voc": "ὄντες"
+    }
+}

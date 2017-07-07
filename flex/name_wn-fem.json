@@ -1,0 +1,26 @@
+{
+    "pos":"name",
+    "descr": "liquid stems",
+    "var": "wn",
+    "gend": "fem",
+    "dict": "οῦσα",
+    "add": "ων ών",
+    "example": "ἡ ἑκοῦσα",
+    "flexes":{
+        "sg.nom": "οῦσα",
+        "sg.gen": "ούσης",
+        "sg.dat": "ούσῃ",
+        "sg.acc": "οῦσαν",
+        "sg.voc": "οῦσα",
+        "du.nom": "ούσᾱ",
+        "du.gen": "ούσαιν",
+        "du.dat": "ούσαιν",
+        "du.acc": "ούσᾱ",
+        "du.voc": "ούσᾱ",
+        "pl.nom": "οῦσαι",
+        "pl.gen": "ουσῶν",
+        "pl.dat": "ούσαις",
+        "pl.acc": "ούσᾱς",
+        "pl.voc": "οῦσαι"
+    }
+}

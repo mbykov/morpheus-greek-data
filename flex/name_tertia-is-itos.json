@@ -1,0 +1,25 @@
+{
+    "type":"flex",
+    "pos":"name",
+    "descr": "cons",
+    "var": "is-itos",
+    "gend": "fem masc",
+    "dict": "ις",
+    "flexes":{
+        "sg.nom": "ις",
+        "sg.gen": "ιθος ιτος",
+        "sg.dat": "ιθι ιτι",
+        "sg.acc": "ιν",
+        "sg.voc": "ις",
+        "du.nom": "ιθε ιτε",
+        "du.gen": "ίθοιν ίτοιν",
+        "du.dat": "ίθοιν ίτοιν",
+        "du.acc": "ιθε ιτε",
+        "du.voc": "ιθε ιτε",
+        "pl.nom": "ιθες ιτες",
+        "pl.gen": "ίθων ίτων",
+        "pl.dat": "ισι ισιν",
+        "pl.acc": "ιθας ιτας",
+        "pl.voc": "ιθες ιτες"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type":"flex",
+    "pos":"name",
+    "descr": "cons",
+    "var": "ws-otos",
+    "gend": "masc",
+    "dict": "ως ώς",
+    "flexes":{
+        "sg.nom": "ως ώς",
+        "sg.gen": "ωτος ῶτος ωος",
+        "sg.dat": "ωτι ῶτι ωι",
+        "sg.acc": "ωτα ῶτα ωα",
+        "sg.voc": "ως ώς",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "ωτες ῶτες ωες",
+        "pl.gen": "ώτων ώων",
+        "pl.dat": "ωσι ωσιν ῶσι ῶσιν",
+        "pl.acc": "ωτας ῶτας ωας",
+        "pl.voc": "ωτες ῶτες ωες"
+    }
+}

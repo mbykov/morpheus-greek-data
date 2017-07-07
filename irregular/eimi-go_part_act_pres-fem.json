@@ -1,0 +1,25 @@
+{
+    "pos": "part",
+    "var": "act.pres",
+    "descr": "irreg",
+    "dict": "εἶμι",
+    "gend": "fem",
+    "trn": "to go",
+    "forms": {
+        "sg.nom": "ἰοῦσα",
+        "sg.gen": "ἰούσης",
+        "sg.dat": "ἰούσῃ",
+        "sg.acc": "ἰοῦσαν",
+        "sg.voc": "ἰοῦσα",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "ἰοῦσαι",
+        "pl.gen": "ἰουσῶν",
+        "pl.dat": "ἰούσαις",
+        "pl.acc": "ἰούσας",
+        "pl.voc": "ἰοῦσαι"
+    }
+}

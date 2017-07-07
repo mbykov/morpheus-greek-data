@@ -1,0 +1,26 @@
+{
+    "type":"flex",
+    "pos":"name",
+    "descr": "cons",
+    "var": "ws-otos",
+    "gend": "neut",
+    "dict": "ῶς",
+    "ex": "τό φῶς",
+    "flexes":{
+        "sg.nom": "ῶς",
+        "sg.gen": "ωτός",
+        "sg.dat": "ωτί",
+        "sg.acc": "ῶς",
+        "sg.voc": "ῶς",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "ῶτα",
+        "pl.gen": "ώτων",
+        "pl.dat": "ωσί ωσίν",
+        "pl.acc": "ῶτα",
+        "pl.voc": "ῶτα"
+    }
+}

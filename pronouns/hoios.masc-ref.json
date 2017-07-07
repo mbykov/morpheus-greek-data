@@ -1,0 +1,23 @@
+{
+    "type":"term",
+    "pos": "pron",
+    "descr": "ref",
+    "var": "ref",
+    "trn": "such as, of what sort",
+    "dict": "οἷος",
+    "gend": "masc",
+    "forms":{
+        "sg.nom": "οἷος",
+        "sg.gen": "οἵου",
+        "sg.dat": "οἵῳ",
+        "sg.acc": "οἷον",
+        "du.nom": "",
+        "du.acc": "",
+        "du.gen": "",
+        "du.dat": "",
+        "pl.nom": "οἷοι",
+        "pl.gen": "οἵων",
+        "pl.dat": "οἵοις",
+        "pl.acc": "οἵους"
+    }
+}

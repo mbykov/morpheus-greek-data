@@ -1,0 +1,14 @@
+{
+    "type":"term",
+    "pos": "pron",
+    "descr": "1st pers, ἐμαυτοῦ, of myself",
+    "var": "ref",
+    "trn": "of my, of myself, 1st pers",
+    "dict": "αὐτός",
+    "gend": "fem",
+    "forms":{
+        "sg.gen": "ἐμαυτῆς",
+        "sg.dat": "ἐμαυτῇ",
+        "sg.acc": "ἐμαυτήν"
+    }
+}

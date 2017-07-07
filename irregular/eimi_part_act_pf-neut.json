@@ -1,0 +1,25 @@
+{
+    "pos": "part",
+    "var": "act.pf",
+    "descr": "irreg",
+    "dict": "εἰμί",
+    "gend": "neut",
+    "trn": "to be",
+    "forms": {
+        "sg.nom": "γεγονός",
+        "sg.gen": "γεγονότος",
+        "sg.dat": "γεγονότι",
+        "sg.acc": "γεγονός",
+        "sg.voc": "γεγονός",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "γεγονότα",
+        "pl.gen": "γεγονότων",
+        "pl.dat": "γεγονόσι γεγονόσιν",
+        "pl.acc": "γεγονότα",
+        "pl.voc": "γεγονότα"
+    }
+}

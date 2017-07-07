@@ -1,0 +1,16 @@
+{
+    "pos":"name",
+    "descr": "num",
+    "var": "ioi",
+    "dict": "ιοι",
+    "pl": true,
+    "gend": "neut",
+    "ex": "διακόσιοι",
+    "flexes":{
+        "pl.nom": "ια",
+        "pl.gen": "ίων",
+        "pl.dat": "ίοις",
+        "pl.acc": "ια",
+        "pl.voc": "ια"
+    }
+}

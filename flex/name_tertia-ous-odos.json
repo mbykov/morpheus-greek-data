@@ -1,0 +1,25 @@
+{
+    "type":"flex",
+    "pos":"name",
+    "descr": "cons",
+    "var": "ous-odos",
+    "gend": "masc",
+    "dict": "ούς",
+    "flexes":{
+        "sg.nom": "ούς",
+        "sg.gen": "οδός όντος",
+        "sg.dat": "οδί όντι",
+        "sg.acc": "όδα όντα",
+        "sg.voc": "ούς",
+        "du.nom": "όντε",
+        "du.gen": "όντοιν",
+        "du.dat": "όντοιν",
+        "du.acc": "όντε",
+        "du.voc": "όντε",
+        "pl.nom": "όδες όντες",
+        "pl.gen": "οδῶν όντων",
+        "pl.dat": "οσί οσίν οῦσι οῦσιν",
+        "pl.acc": "όδας όντας",
+        "pl.voc": "όδες όντες"
+    }
+}

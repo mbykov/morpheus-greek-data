@@ -1,0 +1,14 @@
+{
+    "type":"term",
+    "pos": "pron",
+    "descr": "ἐμαυτοῦ, of myself",
+    "var": "ref",
+    "trn": "of my, of myself, 1st pers",
+    "dict": "αὐτός",
+    "gend": "masc",
+    "forms":{
+        "sg.gen": "ἐμαυτοῦ",
+        "sg.dat": "ἐμαυτῷ",
+        "sg.acc": "ἐμαυτόν"
+    }
+}

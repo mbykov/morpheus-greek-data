@@ -1,0 +1,23 @@
+{
+    "type":"term",
+    "pos": "pron",
+    "descr": "",
+    "var": "indef",
+    "trn": "both",
+    "dict": "ἄμφω",
+    "gend": "neut",
+    "forms":{
+        "sg.nom": "",
+        "sg.gen": "",
+        "sg.dat": "",
+        "sg.acc": "",
+        "du.nom": "",
+        "du.acc": "",
+        "du.gen": "",
+        "du.dat": "",
+        "pl.nom": "ἀμφότερα",
+        "pl.gen": "ἀμφοτέρων",
+        "pl.dat": "ἀμφοτέροις",
+        "pl.acc": "ἀμφότερα"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type":"flex",
+    "pos":"name",
+    "descr": "cons",
+    "var": "ps",
+    "gend": "masc fem",
+    "dict": "ψ",
+    "flexes":{
+        "sg.nom": "ψ",
+        "sg.gen": "πός βός",
+        "sg.dat": "πί βί",
+        "sg.acc": "πα βα",
+        "sg.voc": "ψ",
+        "du.nom": "πε βε",
+        "du.gen": "ποῖν βοῖν",
+        "du.dat": "ποῖν βοῖν",
+        "du.acc": "πε βε",
+        "du.voc": "πε βε",
+        "pl.nom": "πες βες",
+        "pl.gen": "πῶν βῶν",
+        "pl.dat": "ψί ψίν",
+        "pl.acc": "πας βας",
+        "pl.voc": "πες βες"
+    }
+}

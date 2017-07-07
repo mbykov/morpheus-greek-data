@@ -1,0 +1,27 @@
+{
+    "type":"greek-flex",
+    "pos":"name",
+    "descr": "stem s",
+    "var": "hs-es",
+    "gend": "masc",
+    "dict": "ης ής",
+    "ex": "ὁ Σωκράτης fm ἀληθής",
+    "comm": "eos means uos",
+    "flexes":{
+        "sg.nom": "ης ής",
+        "sg.gen": "ους οῦς",
+        "sg.dat": "ει εῖ",
+        "sg.acc": "η ῆ έα",
+        "sg.voc": "ες ές",
+        "du.nom": "ει εῖ",
+        "du.gen": "οιν οῖν",
+        "du.dat": "οινοῖν",
+        "du.acc": "ει εῖ",
+        "du.voc": "ει εῖ",
+        "pl.nom": "εις εῖς",
+        "pl.gen": "ων ῶν",
+        "pl.dat": "εσι εσιν έσι έσιν",
+        "pl.acc": "εις εῖς",
+        "pl.voc": "εις εῖς"
+    }
+}

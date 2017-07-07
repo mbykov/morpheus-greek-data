@@ -1,0 +1,23 @@
+{
+    "type":"term",
+    "pos": "pron",
+    "descr": "1st person",
+    "var": "pers",
+    "trn": "I",
+    "dict": "ἐγώ",
+    "gend": "",
+    "forms":{
+        "sg.nom": "ἐγώ",
+        "sg.gen": "ἐμοῦ μοῦ μου",
+        "sg.dat": "ἐμοί μοί μοι",
+        "sg.acc": "ἐμέ μέ με",
+        "du.nom": "νώ",
+        "du.acc": "νώ",
+        "du.gen": "νῷν",
+        "du.dat": "νῷν",
+        "pl.nom": "ἡμεῖς",
+        "pl.gen": "ἡμῶν",
+        "pl.dat": "ἡμῖν",
+        "pl.acc": "ἡμᾶς"
+    }
+}

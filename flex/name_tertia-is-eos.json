@@ -1,0 +1,26 @@
+{
+    "type":"flex",
+    "pos":"name",
+    "descr": "stem-iu",
+    "var": "is-eos",
+    "gend": "fem masc",
+    "dict": "ις",
+    "ex": "ὁ μάντις",
+    "flexes":{
+        "sg.nom": "ις",
+        "sg.gen": "εως",
+        "sg.dat": "ει",
+        "sg.acc": "ιν",
+        "sg.voc": "ι",
+        "du.nom": "ει",
+        "du.gen": "έοιν",
+        "du.dat": "έοιν",
+        "du.acc": "ει",
+        "du.voc": "ει",
+        "pl.nom": "εις",
+        "pl.gen": "εων",
+        "pl.dat": "εσι εσιν",
+        "pl.acc": "εις",
+        "pl.voc": "εις"
+    }
+}

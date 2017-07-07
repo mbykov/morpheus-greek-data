@@ -1,0 +1,24 @@
+{
+    "pos":"name",
+    "descr": "secunda",
+    "var": "os",
+    "gend": "masc",
+    "dict": "ος ός",
+    "flexes":{
+        "sg.nom": "ος ός",
+        "sg.gen": "ου οῦ",
+        "sg.dat": "ῳ ῷ",
+        "sg.acc": "ον όν",
+        "sg.voc": "ε έ",
+        "du.nom": "ω ώ",
+        "du.gen": "οιν οῖν",
+        "du.dat": "οιν οῖν",
+        "du.acc": "ω ώ",
+        "du.voc": "ω ώ",
+        "pl.nom": "οι οί",
+        "pl.gen": "ων ῶν",
+        "pl.dat": "οις οῖς",
+        "pl.acc": "ους ούς",
+        "pl.voc": "οι οί"
+    }
+}

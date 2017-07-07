@@ -1,0 +1,25 @@
+{
+    "pos": "part",
+    "var": "fut.pres",
+    "descr": "irreg",
+    "dict": "φημί",
+    "gend": "neut",
+    "trn": "to say",
+    "forms": {
+        "sg.nom": "φῆσον",
+        "sg.gen": "φήσοντος",
+        "sg.dat": "φήσοντι",
+        "sg.acc": "φῆσον",
+        "sg.voc": "φῆσον",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "φήσοντα",
+        "pl.gen": "φησόντων",
+        "pl.dat": "φήσουσι φήσουσιν",
+        "pl.acc": "φήσοντα",
+        "pl.voc": "φήσοντα"
+    }
+}

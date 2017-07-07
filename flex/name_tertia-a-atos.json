@@ -1,0 +1,26 @@
+{
+    "type":"flex",
+    "pos":"name",
+    "descr": "cons",
+    "var": "a-atos",
+    "gend": "neut",
+    "dict": "α υ ωρ",
+    "example": "γόνυ ὕδωρ, τό πρᾶγμα",
+    "flexes":{
+        "sg.nom": "α υ ωρ",
+        "sg.gen": "ατος",
+        "sg.dat": "ατι",
+        "sg.acc": "α υ",
+        "sg.voc": "α υ",
+        "du.nom": "ατε",
+        "du.gen": "άτοιν",
+        "du.dat": "άτοιν",
+        "du.acc": "ατε",
+        "du.voc": "ατε",
+        "pl.nom": "ατα",
+        "pl.gen": "άτων",
+        "pl.dat": "ασι ασιν ησι ησιν ῃσι ῃσιν",
+        "pl.acc": "ατα",
+        "pl.voc": "ατα"
+    }
+}

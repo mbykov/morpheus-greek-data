@@ -1,0 +1,25 @@
+{
+    "pos": "part",
+    "var": "act.fut",
+    "descr": "irreg",
+    "dict": "εἰμί",
+    "gend": "fem",
+    "trn": "to be",
+    "forms": {
+        "sg.nom": "ἐσομένη",
+        "sg.gen": "ἐσομένης",
+        "sg.dat": "ἐσομένῃ",
+        "sg.acc": "ἐσομένην",
+        "sg.voc": "ἐσομένη",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "ἐσόμεναι",
+        "pl.gen": "ἐσομένων",
+        "pl.dat": "ἐσομέναις",
+        "pl.acc": "ἐσομένας",
+        "pl.voc": "ἐσόμεναι"
+    }
+}

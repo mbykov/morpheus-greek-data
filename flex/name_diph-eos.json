@@ -1,0 +1,26 @@
+{
+    "type":"flex",
+    "pos":"name",
+    "descr": "cons-diph",
+    "var": "diph-eos",
+    "gend": "masc",
+    "dict": "εύς",
+    "example": "βασιλεύς",
+    "flexes":{
+        "sg.nom": "εύς",
+        "sg.gen": "έως",
+        "sg.dat": "εῖ",
+        "sg.acc": "έᾱ",
+        "sg.voc": "εῦ",
+        "du.nom": "έε ῆ",
+        "du.gen": "έοιν",
+        "du.dat": "έοιν",
+        "du.acc": "έε ῆ",
+        "du.voc": "έε ῆ",
+        "pl.nom": "εῖς ῆς",
+        "pl.gen": "έων",
+        "pl.dat": "εῦσι εῦσιν",
+        "pl.acc": "έᾱς",
+        "pl.voc": "εῖς ῆς"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type":"flex",
+    "pos":"name",
+    "descr": "liquid syams",
+    "var": "wr-oros",
+    "gend": "masc",
+    "dict": "ωρ",
+    "flexes":{
+        "sg.nom": "ωρ",
+        "sg.gen": "ορος",
+        "sg.dat": "ορι",
+        "sg.acc": "ορα",
+        "sg.voc": "ορ",
+        "du.nom": "ορε",
+        "du.gen": "όροιν",
+        "du.dat": "όροιν",
+        "du.acc": "ορε",
+        "du.voc": "ορε",
+        "pl.nom": "ορες",
+        "pl.gen": "όρων",
+        "pl.dat": "ορσι",
+        "pl.acc": "ορας",
+        "pl.voc": "ορες"
+    }
+}

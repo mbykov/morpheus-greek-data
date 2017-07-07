@@ -1,0 +1,24 @@
+{
+    "pos":"name",
+    "descr": "prima",
+    "var": "as",
+    "dict": "ας",
+    "gend": "masc",
+    "flexes":{
+        "sg.nom": "ας",
+        "sg.gen": "ου",
+        "sg.dat": "ᾳ",
+        "sg.acc": "αν",
+        "sg.voc": "α",
+        "du.nav": "α",
+        "du.gen": "αιν",
+        "du.dat": "αιν",
+        "du.acc": "α",
+        "du.voc": "α",
+        "pl.nom": "αι",
+        "pl.gen": "ῶν",
+        "pl.dat": "αις",
+        "pl.acc": "ας",
+        "pl.voc": "αι"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "pos": "part",
+    "var": "act.aor",
+    "descr": "irreg",
+    "dict": "οἶδα",
+    "gend": "neut",
+    "trn": "to know",
+    "forms": {
+        "sg.nom": "γνόν",
+        "sg.gen": "γνόντος",
+        "sg.dat": "γνόντι",
+        "sg.acc": "γνόν",
+        "sg.voc": "γνόν",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "γνόντα",
+        "pl.gen": "γνόντων",
+        "pl.dat": "γνοῦσι γνοῦσιν",
+        "pl.acc": "γνόντα",
+        "pl.voc": "γνόντα"
+    }
+}
