@@ -1,0 +1,15 @@
+{
+  "verb": true,
+  "tense": "act.pres.imp",
+  "irreg": true,
+  "dict": "εἶμι",
+  "trn": "to go",
+  "forms": {
+    "sg.2": "ἴθι",
+    "sg.3": "ἴτω",
+    "pl.2": "ἴτε",
+    "pl.3": "ἰόντων",
+    "du.2": "ἴτον",
+    "du.3": "ἴτων"
+  }
+}

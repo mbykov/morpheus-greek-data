@@ -1,0 +1,12 @@
+{
+  "verb": true,
+  "tense": "act.pres.sub",
+  "irreg": true,
+  "dict": "εἰμί",
+  "trn": "to be - epic",
+  "forms": {
+    "sg.1": "ἔω",
+    "sg.3": "ἔῃ ἔῃσι ᾖσι",
+    "pl.3": "ἔωσι"
+  }
+}

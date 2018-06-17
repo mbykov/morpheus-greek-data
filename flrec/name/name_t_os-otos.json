@@ -1,0 +1,22 @@
+{
+    "name": true,
+    "dicts": "ός-ότος",
+    "gend": "neut",
+    "flexes": {
+        "sg.nom": "ός",
+        "sg.gen": "ότος",
+        "sg.dat": "ότι",
+        "sg.acc": "ός",
+        "sg.voc": "ός",
+        "du.nom": "ότε",
+        "du.gen": "ότοιν",
+        "du.dat": "ότοιν",
+        "du.acc": "ότε",
+        "du.voc": "ότε",
+        "pl.nom": "ότα",
+        "pl.gen": "ότων",
+        "pl.dat": "όσι όσιν",
+        "pl.acc": "ότα",
+        "pl.voc": "ότα"
+    }
+}

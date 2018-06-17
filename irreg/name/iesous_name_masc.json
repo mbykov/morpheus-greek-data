@@ -1,0 +1,14 @@
+{
+  "name": true,
+  "irreg": true,
+    "dict": "Ἰησοῦς",
+    "gend": "masc",
+    "trn": "Jesus",
+    "forms": {
+        "sg.nom": "Ἰησοῦς",
+        "sg.gen": "Ἰησοῦ",
+        "sg.dat": "Ἰησοῦ",
+        "sg.acc": "Ἰησοῦν",
+        "sg.voc": "Ἰησοῦ"
+    }
+}

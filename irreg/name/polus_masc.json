@@ -1,0 +1,24 @@
+{
+  "name": true,
+  "irreg": true,
+  "dict": "πολύς",
+  "gend": "masc",
+  "trn": "many, much, very, great",
+  "forms": {
+        "sg.nom": "πολύς",
+        "sg.gen": "πολλού πολλοῦ",
+        "sg.dat": "πολλῷ",
+        "sg.acc": "πολύν",
+        "sg.voc": "πολύ",
+        "du.nom": "πολλώ",
+        "du.gen": "πολλοῖν",
+        "du.dat": "πολλοῖν",
+        "du.acc": "πολλώ",
+        "du.voc": "πολλώ",
+        "pl.nom": "πολλοί",
+        "pl.gen": "πολλῶν",
+        "pl.dat": "πολλοῖς",
+        "pl.acc": "πολλούς",
+        "pl.voc": "πολλοί"
+    }
+}

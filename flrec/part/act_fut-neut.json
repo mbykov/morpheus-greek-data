@@ -1,0 +1,24 @@
+{
+  "part": true,
+  "tense": "act.fut.part",
+  "acts": "ω",
+  "gend": "neut",
+  "ex": "λύσων",
+  "flexes": {
+        "sg.nom": "σον",
+        "sg.gen": "σοντος",
+        "sg.dat": "σοντι",
+        "sg.acc": "σον",
+        "sg.voc": "σον",
+        "du.nom": "σοντε",
+        "du.gen": "σόντοιν",
+        "du.dat": "σόντοιν",
+        "du.acc": "σοντε",
+        "du.voc": "σοντε",
+        "pl.nom": "σοντα",
+        "pl.gen": "σόντων",
+        "pl.dat": "σουσι σουσιν",
+        "pl.acc": "σοντα",
+        "pl.voc": "σοντα"
+    }
+}

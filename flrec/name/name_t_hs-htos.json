@@ -1,0 +1,22 @@
+{
+  "name": true,
+    "gend": "masc fem",
+    "dicts": "ης-ητος",
+    "flexes": {
+        "sg.nom": "ης",
+        "sg.gen": "ητος",
+        "sg.dat": "ητι",
+        "sg.acc": "ητα",
+        "sg.voc": "ης",
+        "du.nom": "ητε",
+        "du.gen": "ήτοιν",
+        "du.dat": "ήτοιν",
+        "du.acc": "ητε",
+        "du.voc": "ητε",
+        "pl.nom": "ητες",
+        "pl.gen": "ήτων",
+        "pl.dat": "ησι ησιν",
+        "pl.acc": "ητας",
+        "pl.voc": "ητες"
+    }
+}

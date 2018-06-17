@@ -1,0 +1,21 @@
+{
+    "name": true,
+    "dicts": "ως-ω ώς-ώ",
+    "flexes": {
+        "sg.nom": "ως ώς",
+        "sg.gen": "ω ώ",
+        "sg.dat": "ῳ ῴ",
+        "sg.acc": "ω ων ώ ών",
+        "sg.voc": "ως ώς",
+        "du.nom": "ω ώ",
+        "du.gen": "ῳν ῴν",
+        "du.dat": "ῳν ῴν",
+        "du.acc": "ω ώ",
+        "du.voc": "ω ώ",
+        "pl.nom": "ῳ ῴ",
+        "pl.gen": "ων ών",
+        "pl.dat": "ῳς ῴς",
+        "pl.acc": "ως ώς",
+        "pl.voc": "ῳ ῴ"
+    }
+}

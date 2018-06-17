@@ -1,0 +1,23 @@
+{
+    "name": true,
+    "dicts": "ης-ου",
+    "gend_": "masc",
+    "ex": "ὁ στρατιώτης, ὁ Ἑρμῆς, ὁ πελταστής",
+    "flexes":{
+        "sg.nom": "ης",
+        "sg.gen": "ου",
+        "sg.dat": "ῃ",
+        "sg.acc": "ην",
+        "sg.voc": "α η",
+        "du.nom": "α",
+        "du.gen": "αιν",
+        "du.dat": "αιν",
+        "du.acc": "α",
+        "du.voc": "α",
+        "pl.nom": "αι",
+        "pl.gen": "ῶν",
+        "pl.dat": "αις",
+        "pl.acc": "ας",
+        "pl.voc": "αι"
+    }
+}

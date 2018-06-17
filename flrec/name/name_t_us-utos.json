@@ -1,0 +1,22 @@
+{
+    "name": true,
+    "dicts": "υς-υθος",
+    "gend": "fem",
+    "flexes": {
+        "sg.nom": "υς",
+        "sg.gen": "υθος",
+        "sg.dat": "υθι",
+        "sg.acc": "υθα",
+        "sg.voc": "υς",
+        "du.nom": "υθε",
+        "du.gen": "ύθοιν",
+        "du.dat": "ύθοιν",
+        "du.acc": "υθε",
+        "du.voc": "υθε",
+        "pl.nom": "υθες",
+        "pl.gen": "ύθων",
+        "pl.dat": "υσι υσιν",
+        "pl.acc": "υθας",
+        "pl.voc": "υθες"
+    }
+}

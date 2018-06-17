@@ -1,0 +1,22 @@
+{
+    "name": true,
+    "dicts": "ύς-ύδος",
+    "gend": "fem",
+    "flexes": {
+        "sg.nom": "ύς",
+        "sg.gen": "ύδος",
+        "sg.dat": "ύδι",
+        "sg.acc": "ύδα",
+        "sg.voc": "ύς",
+        "du.nom": "ύδε",
+        "du.gen": "ύδοιν",
+        "du.dat": "ύδοιν",
+        "du.acc": "ύδε",
+        "du.voc": "ύδε",
+        "pl.nom": "ύδες",
+        "pl.gen": "ύδων",
+        "pl.dat": "ύσι ύσιν",
+        "pl.acc": "ύδας",
+        "pl.voc": "ύδες"
+    }
+}

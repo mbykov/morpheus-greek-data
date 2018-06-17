@@ -1,0 +1,18 @@
+{
+  "verb": true,
+  "tense": "act.impf.ind",
+  "dicts": "α",
+  "acts": "ον",
+  "mps": "",
+  "com": "ἄνωγα - only pf., but not pres",
+  "flexes": {
+        "sg.1": "ον",
+        "sg.2": "ες",
+        "sg.3": "ε εν",
+        "pl.1": "ομεν",
+        "pl.2": "ετε",
+        "pl.3": "ον",
+        "du.2": "ετον",
+        "du.3": "έτην"
+    }
+}

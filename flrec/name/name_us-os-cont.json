@@ -1,0 +1,22 @@
+{
+  "name": true,
+  "gend": "masc fem",
+  "dicts": "ῦς-ός",
+  "flexes": {
+      "sg.nom": "ῦς",
+        "sg.gen": "ός",
+        "sg.dat": "ΐ",
+        "sg.acc": "ῦν",
+        "sg.voc": "ῦ",
+        "du.nom": "ε",
+        "du.gen": "οῖν",
+        "du.dat": "οῖν",
+        "du.acc": "ε",
+        "du.voc": "ε",
+        "pl.nom": "ες",
+        "pl.gen": "ῶν",
+        "pl.dat": "υσί υσίν",
+        "pl.acc": "ῦς",
+        "pl.voc": "ες"
+    }
+}

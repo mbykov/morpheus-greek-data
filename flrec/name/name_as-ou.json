@@ -1,0 +1,22 @@
+{
+  "name": true,
+  "dicts": "ας-ου ας-α ᾶς-ᾶ",
+  "gend_": "masc",
+  "flexes": {
+        "sg.nom": "ας ᾶς",
+        "sg.gen": "ου α ᾶ",
+        "sg.dat": "ᾳ ᾷ",
+        "sg.acc": "αν ᾶν",
+        "sg.voc": "α ᾶ",
+        "du.nom": "α ᾶ",
+        "du.gen": "αιν αῖν",
+        "du.dat": "αιν αῖν",
+        "du.acc": "α ᾶ",
+        "du.voc": "α ᾶ",
+        "pl.nom": "αι αῖ",
+        "pl.gen": "ῶν",
+        "pl.dat": "αις αῖς",
+        "pl.acc": "ας ᾶς",
+        "pl.voc": "αι αῖ"
+    }
+}

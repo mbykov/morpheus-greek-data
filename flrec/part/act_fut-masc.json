@@ -1,0 +1,24 @@
+{
+  "part": true,
+  "tense": "act.fut.part",
+  "acts": "ω",
+  "gend": "masc",
+  "ex": "λύσων",
+  "flexes": {
+        "sg.nom": "σων",
+        "sg.gen": "σοντος",
+        "sg.dat": "σοντι",
+        "sg.acc": "σοντα",
+        "sg.voc": "σων",
+        "du.nom": "σοντε",
+        "du.gen": "σόντοιν",
+        "du.dat": "σόντοιν",
+        "du.acc": "σοντε",
+        "du.voc": "σοντε",
+        "pl.nom": "σοντες",
+        "pl.gen": "σόντων",
+        "pl.dat": "σουσι σουσιν",
+        "pl.acc": "σοντας",
+        "pl.voc": "σοντες"
+    }
+}

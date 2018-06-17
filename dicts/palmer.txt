@@ -106,7 +106,7 @@
 
 βασιλεύς, βασιλέως, ὁ = king (Compare βασιλεἰα)
 
-βασιλεύω, βασιλεύσω, ἐβασίλευσα = to rule; to be king
+βασιλεύω, βασιλεύσω, ἐβασίλευσα, x, x, x = to rule; to be king
 
 βιβλίον, -ου, τό = book, scroll
 
@@ -148,13 +148,13 @@
 
 δ᾿= conj. δέ, but, and
 
-δεῖ = indecl. Act. pres. It is necessary, It must
+# δεῖ = indecl. Act. pres. It is necessary, It must
 
-ἔδει = indecl. Act. impf. It was necessary, It must
+# ἔδει = indecl. Act. impf. It was necessary, It must
 
-δεήσει = indecl. Act.fut. It will be necessary, It must
+# δεήσει = indecl. Act.fut. It will be necessary, It must
 
-ἐδέησε = indecl. Act.aor. It was necessary, It must
+# ἐδέησε = indecl. Act.aor. It was necessary, It must
 
 δεξιός, -ά, -όν = right (as opposed to left)
 
@@ -374,7 +374,7 @@
 
 καθώς = conj. just as
 
-καιρός, -ου, ὁ = time, opportunity, occasion
+καιρός, -οῦ, ὁ = time, opportunity, occasion
 
 κακός, -ή, -όν = bad
 
@@ -448,7 +448,7 @@
 
 Μ, μ
 
-μαθητής, -ου, ὁ = student, disciple
+μαθητής, -οῦ, ὁ = student, disciple
 
 μακάριος, -α, -ον = blessed, happy, fortunate
 
@@ -490,7 +490,7 @@
 
 Ο, ο
 
-οἱκία, -ας, ἡ = house, household
+οἰκία, -ας, ἡ = house, household
 
 οἶκος, -ου, ὁ = house, home, family, lineage
 
@@ -554,7 +554,7 @@
 
 παραλαμβάνω, παραλήμψομαι, παρέλαβον, ______, ______, ______ = to take, take along; to bring along with me
 
-πᾶς, πᾶσα, πᾶν = all, whole
+πᾶς, πᾶσα, πᾶν = pron. all, whole
 
 πατήρ, πατρός, ὁ = father
 
@@ -600,7 +600,7 @@
 
 πολλά = adv. much, many things
 
-πονηρός, -ά, -άν = evil, bad, wicked
+πονηρός, -ά, -όν = evil, bad, wicked
 
 πορεύομαι, πορεύσομαι, ________, ________, ________, ἐπορεύθην = to go, travel, proceed
 

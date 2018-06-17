@@ -1,0 +1,24 @@
+{
+  "part": true,
+  "tense": "act.aor.part",
+  "acts": "ω",
+  "gend": "fem",
+  "ex": "λύσασα",
+  "flexes":{
+        "sg.nom": "σασα",
+        "sg.gen": "σάσης",
+        "sg.dat": "σάσῃ",
+        "sg.acc": "σασαν",
+        "sg.voc": "σασα",
+        "du.nom": "σάσα",
+        "du.gen": "σάσαιν",
+        "du.dat": "σάσαιν",
+        "du.acc": "σάσα",
+        "du.voc": "σάσα",
+        "pl.nom": "σασαι",
+        "pl.gen": "σασῶν",
+        "pl.dat": "σάσαις",
+        "pl.acc": "σάσας",
+        "pl.voc": "σασαι"
+    }
+}

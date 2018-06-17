@@ -1,0 +1,23 @@
+{
+  "name": true,
+    "gend": "neut",
+    "dicts": "ας-αος",
+    "ex": "μέρος, --ους, τό",
+    "flexes":{
+        "sg.nom": "ας",
+        "sg.gen": "αος",
+        "sg.dat": "αϊ",
+        "sg.acc": "ας",
+        "sg.voc": "ας",
+        "du.nom": "αε",
+        "du.gen": "άοιν",
+        "du.dat": "άοιν",
+        "du.acc": "αε",
+        "du.voc": "αε",
+        "pl.nom": "αα",
+        "pl.gen": "άων",
+        "pl.dat": "ασι ασιν",
+        "pl.acc": "αα",
+        "pl.voc": "αα"
+    }
+}

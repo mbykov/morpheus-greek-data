@@ -1,0 +1,12 @@
+{
+  "verb": true,
+  "tense": "mid.fut.ind",
+  "irreg": true,
+  "dict": "εἰμί",
+  "trn": "to be - epic",
+  "forms": {
+    "sg.1": "ἔσσομαι",
+    "sg.2": "ἔσῃ",
+    "sg.3": "ἔσεται ἔσσεται ἐσσεῖται"
+  }
+}

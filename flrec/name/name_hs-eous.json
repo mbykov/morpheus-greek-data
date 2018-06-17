@@ -1,0 +1,23 @@
+{
+    "name": true,
+    "gend_": "masc",
+    "dicts": "ῆς-έους",
+    "ex": "Καλλικλῆς",
+    "flexes":{
+        "sg.nom": "ῆς",
+        "sg.gen": "έους",
+        "sg.dat": "εῖ",
+        "sg.acc": "έα",
+        "sg.voc": "εις",
+        "du.nom": "",
+        "du.gen": "",
+        "du.dat": "",
+        "du.acc": "",
+        "du.voc": "",
+        "pl.nom": "",
+        "pl.gen": "",
+        "pl.dat": "",
+        "pl.acc": "",
+        "pl.voc": ""
+    }
+}

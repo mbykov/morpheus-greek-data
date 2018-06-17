@@ -1,0 +1,22 @@
+{
+  "name": true,
+  "dicts": "άς-άδος",
+  "gend": "masc fem",
+  "flexes":{
+        "sg.nom": "άς",
+        "sg.gen": "άδος",
+        "sg.dat": "άδι",
+        "sg.acc": "άδα",
+        "sg.voc": "άς",
+        "du.nom": "άδε",
+        "du.gen": "άδοιν",
+        "du.dat": "άδοιν",
+        "du.acc": "άδε",
+        "du.voc": "άδε",
+        "pl.nom": "άδες",
+        "pl.gen": "άδων",
+        "pl.dat": "άσι άσιν άδεσσιν",
+        "pl.acc": "άδας",
+        "pl.voc": "άδες"
+    }
+}

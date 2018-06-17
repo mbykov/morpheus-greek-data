@@ -1,0 +1,23 @@
+{
+    "name": true,
+    "gend": "masc fem",
+    "dicts": "ους-ου",
+    "ex": "εὔνους",
+    "flexes": {
+        "sg.nom": "ους",
+        "sg.gen": "ου",
+        "sg.dat": "ῳ",
+        "sg.acc": "ουν",
+        "sg.voc": "ους",
+        "du.nom": "ω",
+        "du.gen": "οιν",
+        "du.dat": "οιν",
+        "du.acc": "ω",
+        "du.voc": "ω",
+        "pl.nom": "οι οί",
+        "pl.gen": "ων ῶν",
+        "pl.dat": "οις οῖς",
+        "pl.acc": "ους ούς",
+        "pl.voc": "οι οί"
+    }
+}

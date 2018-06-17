@@ -1,0 +1,24 @@
+{
+  "part": true,
+  "tense": "act.fpf.part",
+    "acts": "ω",
+    "gend": "masc",
+    "ex": "λυθέν",
+    "flexes": {
+        "sg.nom": "θέν",
+        "sg.gen": "θέντος",
+        "sg.dat": "θέντι",
+        "sg.acc": "θέν",
+        "sg.voc": "θέν",
+        "du.nom": "θέντε",
+        "du.gen": "θέντοιν",
+        "du.dat": "θέντοιν",
+        "du.acc": "θέντε",
+        "du.voc": "θέντε",
+        "pl.nom": "θέντα",
+        "pl.gen": "θέντων",
+        "pl.dat": "θεῖσι",
+        "pl.acc": "θέντα",
+        "pl.voc": "θέντα"
+    }
+}

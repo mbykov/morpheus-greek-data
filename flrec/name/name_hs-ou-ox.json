@@ -1,0 +1,23 @@
+{
+  "name": true,
+  "dicts": "ής-οῦ",
+  "gend_": "masc",
+  "ex": "πελταστής",
+  "flexes":{
+        "sg.nom": "ής",
+        "sg.gen": "οῦ",
+        "sg.dat": "ῇ",
+        "sg.acc": "ήν",
+        "sg.voc": "ά",
+        "du.nom": "ά",
+        "du.gen": "αῖν",
+        "du.dat": "αῖν",
+        "du.acc": "ά",
+        "du.voc": "ά",
+        "pl.nom": "αί",
+        "pl.gen": "ῶν",
+        "pl.dat": "αῖς",
+        "pl.acc": "άς",
+        "pl.voc": "αί"
+    }
+}

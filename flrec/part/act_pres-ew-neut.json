@@ -1,0 +1,23 @@
+{
+  "part": true,
+  "tense": "act.pres.part",
+  "acts": "έω",
+  "gend": "neut",
+  "flexes": {
+        "sg.nom": "ῶν",
+        "sg.gen": "ῶντος",
+        "sg.dat": "ῶντι",
+        "sg.acc": "ῶν",
+        "sg.voc": "ῶν",
+        "du.nom": "ῶντε",
+        "du.gen": "ώντοιν",
+        "du.dat": "ώντοιν",
+        "du.acc": "ῶντε",
+        "du.voc": "ῶντε",
+        "pl.nom": "ῶντα",
+        "pl.gen": "ώντων",
+        "pl.dat": "ῶσι ῶσιν",
+        "pl.acc": "ῶντα",
+        "pl.voc": "ῶντα"
+    }
+}

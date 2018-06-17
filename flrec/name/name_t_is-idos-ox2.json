@@ -1,0 +1,22 @@
+{
+    "name": true,
+    "dicts": "ίς-ιδός",
+    "gend": "fem",
+    "flexes": {
+        "sg.nom": "ίς",
+        "sg.gen": "ιδός",
+        "sg.dat": "ιδί",
+        "sg.acc": "ῖδα ῖν",
+        "sg.voc": "ίς",
+        "du.nom": "ῖδε",
+        "du.gen": "ιδοῖν",
+        "du.dat": "ιδοῖν",
+        "du.acc": "ῖδε",
+        "du.voc": "ῖδε",
+        "pl.nom": "ῖδες ῖς",
+        "pl.gen": "ιδῶν",
+        "pl.dat": "ισί ισίν",
+        "pl.acc": "ῖδας ῖς",
+        "pl.voc": "ῖδες ῖς"
+    }
+}

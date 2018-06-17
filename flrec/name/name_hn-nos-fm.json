@@ -1,0 +1,22 @@
+{
+  "name": true,
+  "gend": "masc fem",
+  "dicts": "ήν-νός",
+  "flexes": {
+        "sg.nom": "ήν",
+        "sg.gen": "νός",
+        "sg.dat": "νί",
+        "sg.acc": "νά",
+        "sg.voc": "ήν",
+        "du.nom": "νέ",
+        "du.gen": "νοίν",
+        "du.dat": "νοίν",
+        "du.acc": "νέ",
+        "du.voc": "νέ",
+        "pl.nom": "νές",
+        "pl.gen": "νών",
+        "pl.dat": "νάσι νάσιν",
+        "pl.acc": "νάς",
+        "pl.voc": "νές"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": true,
+    "gend": "neut",
+    "dicts": "ι-εως",
+    "ex": "ὁ μάντις",
+    "flexes": {
+        "sg.nom": "ι",
+        "sg.gen": "εως",
+        "sg.dat": "ει",
+        "sg.acc": "ι",
+        "sg.voc": "ι",
+        "du.nom": "ει",
+        "du.gen": "έοιν",
+        "du.dat": "έοιν",
+        "du.acc": "ει",
+        "du.voc": "ει",
+        "pl.nom": "η εα",
+        "pl.gen": "εων",
+        "pl.dat": "εσι εσιν",
+        "pl.acc": "η εα",
+        "pl.voc": "η εα"
+    }
+}

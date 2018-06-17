@@ -1,0 +1,22 @@
+{
+    "name": true,
+    "dicts": "ι-ιτος",
+    "gend": "neut",
+    "flexes":{
+        "sg.nom": "ι",
+        "sg.gen": "ιτος",
+        "sg.dat": "ιτι",
+        "sg.acc": "ι",
+        "sg.voc": "ι",
+        "du.nom": "ιτε",
+        "du.gen": "ίτοιν",
+        "du.dat": "ίτοιν",
+        "du.acc": "ιτε",
+        "du.voc": "ιτε",
+        "pl.nom": "ιτα",
+        "pl.gen": "ίτων",
+        "pl.dat": "ισι ισιν",
+        "pl.acc": "ιτα",
+        "pl.voc": "ιτα"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": true,
+    "gend": "neut",
+    "dicts": "ους-ου ουν-ου",
+    "ex": "τό εὔνουν",
+    "flexes":{
+        "sg.nom": "ουν",
+        "sg.gen": "ου",
+        "sg.dat": "ῳ",
+        "sg.acc": "ουν",
+        "sg.voc": "ουν",
+        "du.nom": "ω",
+        "du.gen": "οιν",
+        "du.dat": "οιν",
+        "du.acc": "ω",
+        "du.voc": "ω",
+        "pl.nom": "οα",
+        "pl.gen": "ων",
+        "pl.dat": "οις",
+        "pl.acc": "οα",
+        "pl.voc": "οα"
+    }
+}
