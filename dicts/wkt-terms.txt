@@ -106,6 +106,7 @@ conj: ἐπεί • (epeí)
 
     after, after that, since, when
     = ἐπειδή • (epeidḗ)
+    =  ἐπείτε
 
 
 conj: ἐπήν • (epḗn)
@@ -365,6 +366,8 @@ particle: μέντοι
           postpositive “of course” (emphatic in replies); “however” (in a transition)
 particle: μήν
           follows a particle that it emphasizes
+particle: μέν
+          indeed, of a truth
 particle: νῦν
           ”now” “as it is now…”
           = νυνί
@@ -465,6 +468,8 @@ prep: ἐς
       (+acc.) into
 prep: ἐπί
       (+acc.) against
+      = ἐπ'
+      = ἐπ
 prep: κατά
       (+acc.) down, along, according to
 prep: μετά
@@ -488,6 +493,8 @@ prep: ἐν
       (+dat.) in
 prep: ἐπί
       (+dat.) on, for the purpose of, because of
+      = ἐπ'
+      = ἐπ
 prep: παρά
       (+dat.) with, near
 prep: περί
@@ -556,7 +563,12 @@ adv: πλήν
      except (+gen.)
 adv: χωρίς
      separately, without (+gen.)
-
+adv: κἀκεῖ
+     and there
+adv: ἐκεῖ
+     there, to there
+adv: τἀκεῖ
+     what is or happens there, events there
 
 conj: ἵνα
       where; purpose: so that, in order that
@@ -633,6 +645,7 @@ num ἕξ • (héx)
         (ordinal ἕκτος, adverbial ἑξάκις)
 adv: ἑξάκις • (hexákis) (cardinal ἕξ, ordinal ἕκτος)
       six times
+
 num: ἑπτά
          (cardinal) seven
 num: Ι • (I)

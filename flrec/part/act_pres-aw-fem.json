@@ -1,0 +1,23 @@
+{
+  "part": true,
+  "tense": "act.pres.part",
+  "acts": "άω",
+  "gend": "fem",
+  "flexes": {
+        "sg.nom": "ῶσα",
+        "sg.gen": "ώσης",
+        "sg.dat": "ώσῃ",
+        "sg.acc": "ῶσαν",
+        "sg.voc": "οῦσα",
+        "du.nom": "ώσα",
+        "du.gen": "ώσαιν",
+        "du.dat": "ώσαιν",
+        "du.acc": "ώσα",
+        "du.voc": "ώσα",
+        "pl.nom": "ῶσαι",
+        "pl.gen": "ωσῶν",
+        "pl.dat": "ώσαις",
+        "pl.acc": "ώσας",
+        "pl.voc": "οῦσαι"
+    }
+}

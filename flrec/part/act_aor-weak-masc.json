@@ -1,0 +1,25 @@
+{
+  "part": true,
+  "tense": "act.aor.part",
+  "weak": true,
+  "acts": "ω",
+  "gend": "masc",
+  "ex": "λύσας",
+  "flexes": {
+        "sg.nom": "σας",
+        "sg.gen": "σαντος",
+        "sg.dat": "σαντι",
+        "sg.acc": "σαντα",
+        "sg.voc": "σας",
+        "du.nom": "σαντε",
+        "du.gen": "σάντοιν",
+        "du.dat": "σάντοιν",
+        "du.acc": "σαντε",
+        "du.voc": "σαντε",
+        "pl.nom": "σαντες",
+        "pl.gen": "σάντων",
+        "pl.dat": "σασι σασιν",
+        "pl.acc": "σαντας",
+        "pl.voc": "σαντες"
+    }
+}

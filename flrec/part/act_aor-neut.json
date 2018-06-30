@@ -1,24 +1,23 @@
 {
   "part": true,
   "tense": "act.aor.part",
-    "acts": "ω",
-    "gend": "neut",
-    "ex": "λῦσαν",
-    "flexes":{
-        "sg.nom": "σαν",
-        "sg.gen": "σαντος",
-        "sg.dat": "σαντι",
-        "sg.acc": "σαν",
-        "sg.voc": "σαν",
-        "du.nom": "σαντε",
-        "du.gen": "σάντοιν",
-        "du.dat": "σάντοιν",
-        "du.acc": "σαντε",
-        "du.voc": "σαντε",
-        "pl.nom": "σαντα",
-        "pl.gen": "σάντων",
-        "pl.dat": "σασι σασιν",
-        "pl.acc": "σαντα",
-        "pl.voc": "σαντα"
+  "acts": "ω",
+  "gend": "neut",
+  "flexes": {
+        "sg.nom": "όν",
+        "sg.gen": "όντος",
+        "sg.dat": "όντι",
+        "sg.acc": "όν",
+        "sg.voc": "όν",
+        "du.nom": "όντε",
+        "du.gen": "όντοιν",
+        "du.dat": "όντοιν",
+        "du.acc": "όντε",
+        "du.voc": "όντε",
+        "pl.nom": "όντα",
+        "pl.gen": "όντων",
+        "pl.dat": "οῦσι οῦσιν",
+        "pl.acc": "όντα",
+        "pl.voc": "όντα"
     }
 }
