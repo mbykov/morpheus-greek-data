@@ -207,6 +207,10 @@ conj: μήτε • (mḗte)
 
     (mostly doubled, sometimes with μηδέ (mēdé)) and not, neither...nor
 
+conj: μή • (mḗ)
+
+      negative used in prohibitions
+
 conj: ὁπότε • (hopóte) (relative)
 
     when (mostly in reference to the past)
