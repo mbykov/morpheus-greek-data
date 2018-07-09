@@ -7119,3 +7119,19 @@ dict: μαστιγοφόρος • (mastīgophóros) m, f (neuter μαστιγο
 dict: πεντάφυλλος • (pentáphullos) m, f (neuter πεντάφυλλον); second declension
 
     (Byzantine) five-leaved
+
+#---------------------------------
+dict: κόσιοι • (xxx) m (feminine κόσιαι, neuter κόσια);
+
+ hundreds (in compounds)
+
+# # ------------------------------
+# # Adjective
+# dict: πρεσβύτερος • (presbúteros) m (feminine πρεσβυτέρα, neuter πρεσβύτερον); first/second declension
+
+#     older of two people
+#     advanced in life, senior
+
+# END ---------------------------------
+dict: κόσιοι_ • (xxx) m (feminine κόσιαι_, neuter κόσια_);
+  xxxxxxxxxxxxxxxxx

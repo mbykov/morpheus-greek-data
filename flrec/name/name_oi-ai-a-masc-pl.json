@@ -1,0 +1,13 @@
+{
+    "name": true,
+    "masc": "οι-αι-α",
+    "pl": true,
+    "ex": "κόσιοι",
+    "flexes":{
+        "pl.nom": "οι",
+        "pl.gen": "ων",
+        "pl.dat": "οις",
+        "pl.acc": "ους",
+        "pl.voc": "οι"
+    }
+}

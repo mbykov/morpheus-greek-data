@@ -3,6 +3,7 @@
 # replaced: ᾰα ᾱα ῑι ῐι ῠυ ῡυ
 # replaced: ᾰα ᾱα ῑι ῐι ῠυ ῡυ
 # ᾹΑ ᾸΑ
+# ύύ
 
 # Jump to Letter: Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ,
 # Α,
@@ -14,7 +15,7 @@
 ἀδικέω, ἀδικήσω = be unjust, do wrong, wrong, injure, with fut. mid. as pass.; pres. as pf., have done wrong, be in the wrong, and so in the pass., be wronged, have suffered wrong
 ἀδίκημα, ατος, τό = wrongdoing, offence
 ἄδικος, ον = unjust, wicked; ὁ ἄδικος, the wrongdoer
-ἀδύνατος, ον = unable, powerless, impossible
+ἀδύνατος, ον = unable, powerless, impossible
 ἀεί = adv., always, ever, from time to time
 Ἀθηνᾶ, ᾶς, ἡ = Athēna, the patron goddess of Athens
 Ἀθῆναι, ῶν, αἱ = Athens
@@ -29,7 +30,7 @@
 # αῖς = see ὅς
 αἰσθάνομαι, αἰσθήσομαι, ᾐσθόμην, ____, ____, ᾔσθημαι = perceive, learn, see, observe; with gen., hear, hear of
 αἰσχρός, ά, όν = shameful, base, disgraceful
-αἰσχύνω, αἰσχυνῶ, ᾔσχῦνα, ____, ____, ᾐσχύνθην = shame; mid. as pass. dep., feel ashamed, feel ashamed before, stand in awe of
+αἰσχύνω, αἰσχυνῶ, ᾔσχῦνα, ____, ____, ᾐσχύνθην = shame; mid. as pass. dep., feel ashamed, feel ashamed before, stand in awe of
 
 αἰτέω, αἰτήσω = ask for, beg, demand
 # αἰτέω = ask for, beg, demand
@@ -39,15 +40,15 @@
 αἰχμάλωτος, ον = captured by the spear, taken in war, captured; αἰχμάλωτοι, οἱ, captives
 ἀκῖνάκης, ου, ὁ = short sword, a weapon carried by Persians, Medes, and Scythians, worn on the right side, suspended from a belt, over the hip
 ἀκοντίζω, ἀκοντιῶ = hurl the javelin, hit with a javelin, hit
-# ἀκούω, X, ἤκουσα, ἄκουκα, X, ἠκούσθην # mid.fut: ἀκούσομαι; act.pf: ἀκήκο
-ἀκούω, ἀκούσομαι, ἤκουσα, ἄκουκα, X, ἠκούσθην = hear, learn, hear of, listen to, give heed to
+# ἀκούω, X, ἤκουσα, ἄκουκα, X, ἠκούσθην # mid.fut: ἀκούσομαι; act.pf: ἀκήκο
+ἀκούω, ἀκούσομαι, ἤκουσα, ἄκουκα, X, ἠκούσθην = hear, learn, hear of, listen to, give heed to
 ἀκρόπολις, εως, ἡ = upper city, acropolis, citadel
 ἄκρος, α, ον = pointed, at the point, highest, topmost
 ἄκρον, τό = height, summit
 ἄκρα, τὰ = the heights
 ἀλέτης, ου, ὁ = lit grinder, only as adj. in the phrase ὄνος ἀλέτης, upper mill-ston
 ἀλήθεια, ας, ἡ = truth, sincerity
-ἀληθεύω, ἀληθεύσω, ἠλήθευσα = speak the truth, tell the truth
+ἀληθεύω, ἀληθεύσω, ἠλήθευσα = speak the truth, tell the truth
 ἀληθής, ές = unconcealed, true; τὸ ἀληθές, the truth
 ἁλίσκομαι, ἁλώσομαι, ἐάλων and ἤλων, ἑάλωκα and ἥλωκα = be captured, taken, caught, be convicted; used as pass. to αἱρέω
 ἀλλά = conj. adversative, otherwise, in another way, on the other hand, still, but, yet. It introduces something different from or opposed to what has been said before, At the beginning of a speech, by way of an abrupt transition, or to break off discussion, well, well but, however, for my part
@@ -56,7 +57,7 @@
 ἄλλος, η, ο = pron. other, another; with the art., the other, the remaining, the rest, the rest of; ἄλλοι ἄλλως Lat. aliī aliter, some one way, others another; with numerals and in enumerating objects, besides, further; οὐδὲν ἄλλο ἤ, nothing else than, only
 ἄλλως = adv., otherwise, in another way; ἄλλως πως, in some or any other way
 # ἁλώσομαι
-ἄμα = adv., at the same timc, together; ἄμα τῇ ἡμέρᾳ, at daybreak; ἄμα τῇ ἐπιούσῃ ἡμέρᾳ, as the next day was breaking
+ἄμα = adv., at the same timc, together; ἄμα τῇ ἡμέρᾳ, at daybreak; ἄμα τῇ ἐπιούσῃ ἡμέρᾳ, as the next day was breaking
 Αμαζών, όνος, ἡ = an Amazon. The Amazons were a myuthical, warlike race of women, the ideal of female bravery and strength. They have a prominent place in Greek Mythology and are frequently represented on Greek works of art
 ἅμαξα, ης, ἡ = a heavy wagon, originally with four wheels (and therefore with two connected axles, as the name signifies)
 ἁμαξιτός, όν = passable for wagons; ὁδὸς ἁμαξιτός, wagon-road
@@ -73,7 +74,7 @@
 ἀναβαίνω = go up, ascend, march up, mount
 ἀναγιγνώσκω = knov again, recognize, read
 ἀνάγκη, ης, ἡ = force, necessity, constraint; ἀνάγκη ἐστί (more often without ἐστί), it is necessary, one must, of physical necessity
-# ἀναγνούς = see ἀνα-γιγνώσκω
+# ἀναγνούς = see ἀνα-γιγνώσκω
 ἀναμιμνῄσκω = remind of
 ἀναξυρίδες, ίδων, αἱ = trousers, worn by the Orientals, but not by Greeks. They were close-fitting and often were highly ornamented in the weaving of the cloth and by embroidery
 ἀναστέλλω = send back, repulse
@@ -102,15 +103,16 @@
 ἄξιος, α, ον = weighing as much as, worthy of, deserving, valuable, befitting, worth; neut., ἀξιον (sc. ἐστί), be worth while, becoming; πολλοῦ ἄξιος, worth much, of great value; πλείονος ἄξιος, more valuable or serviceable; πλείστου ἄξιος, most valuable
 ἀξιόω, ἀξιώσω = think fit, deem worthy or proper, expect; hence, claim, ask, demand
 ἀπαγγέλλω = bring back word, announce, report
-ἀπαγορεύω = say no, forbid; intr., give up or out
+ἀπαγορεύω = say no, forbid; intr., give up or out
 ἀπάγω = lead away or back
 ἀπαιτέω = ask from, demand, demand back
 ἀπαλλάττω = change off, abandon, quit, go away, depart, withdraw, act. And mid.; pass., be freed from, be rid of
 ἅπαξ = numeral adv., once
 ἀπαράσκευος, ον = unprepared
-ἄπας, ασα, αν = all together, all, whole, entire; with the art. It has pred. Position, as ἅπαν τὸ μέσον, the entire space between
+# apas - pronoun FAIL
+# ἄπας, ασα, αν = all together, all, whole, entire; with the art. It has pred. Position, as ἅπαν τὸ μέσον, the entire space between
 ἄπειμι = go off or away depart
-ἀπελαύνω = drive away; intr., march, ride, or go away
+ἀπελαύνω = drive away; intr., march, ride, or go away
 # ἀπελθών = see ἀπ-έρχομαι
 # ἅπερ = see ὅσ-περ
 ἀπέρχομαι = come or go away, depart, retreat, desert
@@ -133,7 +135,7 @@
 # ἀπολώλεκα = see ἀπ-όλλυμι
 ἀποπέμπω = send off or away, let go, send home, remit; mid., send away from oneself, dismiss
 ἀποπλέω = sail from the side of, said away or home
-ἀποπορεύομαι = go off, depart
+ἀποπορεύομαι = go off, depart
 ἀπορέω, ἀπορήσω = be in doubt, be at a loss, act. And mid.; be in want of
 ἄπορος, ον = without means, impracticable; of roads, mountains, or rivers, impassable, unfordable; ἄπορον, τό, obstacle, difficulty
 ἀπόρρητος, ον = not to be told, secret
@@ -151,7 +153,7 @@
 Ἀράβιος, α, ον = Arabian
 Ἀράξης, ου, ὁ = the Araxes
 ἀργυροῦς, ᾶ, οῦν = contr. οῦς, ᾶ, οῦν, of silver
-ἀργύριον, ου, τό = silver, silver money, coin
+ἀργύριον, ου, τό = silver, silver money, coin
 ἄργυρος, ου, ὁ = silver
 ἀπετή, ῆς, ἡ = goodness, virtue, courage, valor, good service
 Ἀριαῖος, ου, ὁ = Ariaeus, the lieutenant-general of Cyrus, and commander of his barbarian force
@@ -186,14 +188,14 @@
 αὐτόθι = adv., in this or that very place, here, there
 αὐτομολέω = desert, the regular military word
 αὐτόμολος, ου, ὁ = deserter
-αὐτός, ή, ό = intensive pron., self, same, him, her, it
+αὐτός, ή, ό = pron., self, same, him, her, it
 αὐτοῦ = adv., in the very place, here, there
 # αὑτοῦ = see ἑαυτοῦ
 # ἀφ᾿ = see ἀπό
 # ἀφήσω = see ἀφ-ίημι
 ἀφίημι = send away, let go, let loose, let flow
 ἀφικνέομαι = come from one place to another, arrive, reach, return
-ἀφιππεύω = ride back or off
+ἀφιππεύω = ride back or off
 ἄχρι = conj., until
 
 # =============================================== B ===================================
@@ -201,7 +203,7 @@
 Βαβθλών, ῶνος, ἡ = Babylon
 Βαβυλωνία, ας, ἡ = Babylonia
 Βάθος, ους, τό = depth
-βαθύς, εῖα, ύ = deep
+βαθύς, εῖα, ύ = deep
 βαίνω, βήσομαι, ἔβην, βέβηκα, βέβαμαι, ἐβάθην = go, walk
 βακτηρία, ας, ἡ = staff, walking-stick, so commonly in use among the Greeks that it was carried even by soldiers that it was carried even by soldiers afield
 βάλανος, ου, ἡ = acorn, date
@@ -210,10 +212,10 @@
 βαρβαρικῶς = adv., in the barbarian tongue, e.g. in Persian
 βάρβαρος, ον = not Greek, barbarian, foreign; βάρβαρος, ὀ, a foreigner, barbarian
 βασίλειος, ον = royal; βασίλειον, τό, and βασίλεια, τά, palace
-βασιλεύς, έως, ὁ = king, Lat. rex, esp. the king of Persia, when the art. Is regularly omitted; παρὰ βασιλεῖ, at court
-βασιλεύω, βασιλεύσω, ἐβασίλευσα = be king
+βασιλεύς, έως, ὁ = king, Lat. rex, esp. the king of Persia, when the art. Is regularly omitted; παρὰ βασιλεῖ, at court
+βασιλεύω, βασιλεύσω, ἐβασίλευσα = be king
 βασιλικός, ή, όν = royal, the king’s
-βαύ, βαύ = indecl. bow, wow, imitation of a dog’s bark
+βαύ, βαύ = indecl. bow, wow, imitation of a dog’s bark
 βέλτιστος, η, ον = most desired, best, noblest, most advantageous
 βελτίων, ον = more disired, better, nobler, more advantageous
 βία, ας, ἡ = force, voilence, Lat. uis
@@ -228,13 +230,13 @@
 βοή, ῆς, ἡ = shout, call, cry
 βοηθέω, βοηθήσω, ἐβοήθησα, βεβοήθηκα, X, βεβοήθημαι = run to rescue at a cry for help, give assistance, bring aid, help, assist
 
-βουλεύω, βουλεύσω = to take counsel, deliberate, concert measures, and in past tenses to have considered and so to determine, resolve. Mid., form one’s own plan, consider, deliberate, purpose, determine, settle on
+βουλεύω, βουλεύσω = to take counsel, deliberate, concert measures, and in past tenses to have considered and so to determine, resolve. Mid., form one’s own plan, consider, deliberate, purpose, determine, settle on
 
 βουλή, ῆς, ἡ = will, plan, deliberation
-βούλομαι, βουλήσομαι, X, X, βεβούλημαι, ἐβουλήθην = will, wish, desire, be willing, like
+βούλομαι, βουλήσομαι, X, X, βεβούλημαι, ἐβουλήθην = will, wish, desire, be willing, like
 # βοῦς, βοός, ὁ, ἡ = ox, cow, pl. cattle, oxen
 βοῦς, οός, ὁ, ἡ = ox, cow, pl. cattle, oxen
-βραχύς, εῖα, ύ = short; πέτεσθαι βραχύ, have a short flight
+βραχύς, εῖα, ύ = short; πέτεσθαι βραχύ, have a short flight
 βρέχω, βρέξω, ἔβρεξα, X, βέβρεγμαι, ἐβρέχθην = wet, pass. get wet
 βωμός, οῦ, ὁ = altar
 
@@ -247,13 +249,13 @@
 γένος, ους, τό = family, race
 γέρρον, ου, τό = wicker-shield
 γέρων, οντος, ὁ = old man
-γεύω, γεύσω, ἔγευσα, X, γέγευμαι = give a taste; mid., tase
+γεύω, γεύσω, ἔγευσα, X, γέγευμαι = give a taste; mid., tase
 γέφυρα, ας, ἡ = bridge
 γῆ, ῆς, ἡ = earth, ground, country, Lat. terra, land as oppesed to sea
 γήλοφος, ου, ὁ = mound of eath, hill, hillock
 γίγνομαι, γενήσομαι, ἐγενόμην, γέγονα, γεγένημαι = be brorn, become, be made, happen, take place, occur, and with many other menaings to be determied from the contect. such as arise. fall upon, get, dawn, draw on, fall, accrue, be favorable, amount to, prove oneself to be
 γιγνώσκω, γνώσομαι, ἔγνων, ἔγνωκα, ἔγνωσμαι, ἐγνώσθην = perceive, know, understand, learn, think
-γλαύξ, κός, ἡ = owl. The owl was a part of the device on Athenian coins
+γλαύξ, κός, ἡ = owl. The owl was a part of the device on Athenian coins
 γνώμη, ης, ἡ = opinion, plan, undersanting, gudhment; ἄνευ τῆς γνώμης τινός, against one’s will; ἐμπιμπλὰς τὴν γνώμην, satisfy one’s desire
 # γνῶναι, γνώσομαι = see γιγνώσκω
 # γόνυ, γόνατος, τό = knee
@@ -267,7 +269,7 @@
 
 # ================================================== D ===============================
 
-δακρύω, δακρύσω, ἐδάκρυσα, X, δεδάκρυμαι = Shed tears, weep
+δακρύω, δακρύσω, ἐδάκρυσα, X, δεδάκρυμαι = Shed tears, weep
 # Δάνα, ων, τά = Dana, a city
 δαπανάω, δαπανήσω = spend, expend
 Δάρδας, ατος, ὁ = the Dardas, ariver
@@ -284,7 +286,7 @@
 δέρμα, ατος, τό = hide, skin
 δέρω, δερῶ, ἔδειρα, X, δέδαρμαι, ἐδάρην = flay
 δεῦρο = adv., hither, here
-δεύτρος, α, ον = second; δεύτερον, as adv., a second time, Lat. iterum
+δεύτρος, α, ον = second; δεύτερον, as adv., a second time, Lat. iterum
 δέχομαι, δέξομαι, ἐδεξάμην, X, δέδεγμαι = receive what is offered, take, accept, admit, await
 # XXX восстановить второе de
 δέω, δήσω, ἔδησα, δέδεκα, δέδεμαι, ἐδέθην = bind, fasten, tie, fetter, shackle
@@ -293,7 +295,7 @@
 δηλόω, δηλώσω, ἐδήλωσα = make clear
 διά = indecl. orig. between, then through; with gen., used of place, time, or means, through, during, throughout, by means, of Lat. per; with acc., through, by means or aid of, on account of, for the sake of, Lat. ob ir propter. In composition διά signifies through or over; sometimes it adds an idea of continuance or fulfilment; or it may signify apart, Lat. dī, dis-
 #διά = prep XX
-Δία, Διΐ, Διός = see Ζεύς
+Δία, Διΐ, Διός = irreg. see Ζεύς
 διαβαίνω = go over, cross
 διαβάλλω = throw over, throw at with words, slander, traduce
 βατός, ή, όν = passable, accessible
@@ -310,7 +312,7 @@
 διαφθείρω = teach, instruct, show, Lat. doceō
 # διδράακω, δράσομαι, ἔδραν, δέδρακα = run
 δίδωμι, δώσω, ἔδωκα, δέδωκα, δέδομαι, ἐδόθην = give, grant, permit
-διελαύνω = driveor ride through
+διελαύνω = driveor ride through
 διίστημι = set apart; mid. and aor. act. intr., stand apart, open ranks, stand at interuals
 δίκαιος, α, ον = just right, reasonable, proper
 δικαίως = adv., justly, rightlky
@@ -324,9 +326,9 @@
 διῶρυξ, χος, ἡ = ditch, canal
 δοκέω, δόξω, ἔδοξα, X, δέδογμαι, X, ἐδόχθην = seem, appear, seem best or good, be voted, think
 δορρκάς, άδος, ἡ = gazelle
-δόρυ, ατος, τό = δρύς, tree, then shaft of a spear, and hence pear with long shaft
+δόρυ, ατος, τό = δρύς, tree, then shaft of a spear, and hence pear with long shaft
 # δοῦναι = see δίδωμι
-δουπέω, ἐδούπησα = make a din
+δουπέω, ἐδούπησα = make a din
 # δράμοιμι, δραμοῦμαι = see τρέχω
 δραχμή, ῆς, ἡ = drachma, an Attic silver coin worth about cents in U. S. legal money, ornamented on the obverse side with the head of Athena wearing the close-fitting crested hel- met, and on the reverse with the owl, olive spray, and an inscription con- taining the first three letters of the name of Athens, ΑΘΕΝΑΙ
 δρεπανηφόρος, ον = scythe-bearing, of chariots
@@ -345,7 +347,7 @@
 
 # ἑάλωκα, ἑάλων = see ἀλίσκομαι
 ἐάν = conj. contr. ἄν or ἤν, in crasis κἄν for καὶ ἐάν, conj. if with subjv.
-ἑαθτοῦ, ῆς, οῦ = reflexive pron., of himself, herself, itself
+ἑαθτοῦ, ῆς, οῦ = pron. (reflexive), of himself, herself, itself
 ἐάω, ἐάσω, εἴασα, εἴακα, εἴαμαι, εἰάθην = permit, allow, let, let go
 ἐγ = for ἐν before a palatal mute
 ἐγγύς = adv., near at hand, comp. ἐγγύτερον, sup. ἐγγυτάτω or ἐγγύτατα
@@ -371,7 +373,7 @@
 #
 # εἶπον (εἰπ, ἐρ, ῥε), ἐρῶ, εἴρηκα, εἴρημαι, ἐρρήθην = say, speak, tell, relate, propose, order; εἴρητο, orders had been given
 εἰς = prep. with acc., properly of place,. into, to, among, for, against, into the country of, sometimes with verbs of rest, but implying previous motion, where Eng. uses in; of time, up to, during, in, at; with numerals, up to, at most, to the number of; of the end or object, in regard to, for, in respect to. In composition, εἰς signifies into, to, on, in
-εἶς, μία, ἕν = numeral, adj., one, Lat. unus
+εἷς, μία, ἕν = irreg. numeral, adj., one, Lat. unus
 εἰσάγω = lead into or in
 εἰσβάλλω = throw in intr., empty (of rivers), invade
 εἰσβολή, ῆς, ἡ = entrance, pass
@@ -387,7 +389,7 @@
 ἐκβάλλω = throw out, expel
 ἐκδέρω = strip off the skin, flay
 ἐκεῖ = adv., there, in that place, thither
-ἐκεῖνος, η, ο = dem. pron., that, that man there, Lat. ille
+ἐκεῖνος, η, ο = pron. (dem.), that, that man there, Lat. ille
 ἐκκλίνω = bend out, give way
 ἐκκομίζω = carry out
 ἐκκόπτω = cut off or down
@@ -396,12 +398,12 @@
 ἐκποδών = adv., out of the way
 ἑκών, οῦσα, όν = willing, of one's own accord; in pred., willingly
 ἐλάττων, ον = gen. ονος, smaller, less, fewer
-ἐλαύνω, ἐλῶ, ἤλασα, ἐλήλακα, ἐλήλαμαι, ἠλάθην = drive, set in motion; ride, drive, march
+ἐλαύνω, ἐλῶ, ἤλασα, ἐλήλακα, ἐλήλαμαι, ἠλάθην = drive, set in motion; ride, drive, march
 ἐλάζιστος, η, ον = fewest, least, shortest, lowest
 # ἑλεῖν, ἑλέσθαι = see αἱρέ
 ἐλελίζω, ἠλέλιξα = cry ἐλελεῦ, raise the war-cry
 ἐλευθερία, ας, ἡ = liberty, freedom
-ἐλεύθερος, α, ον = free, Lat. līber
+ἐλεύθερος, α, ον = free, Lat. līber
 # ἐλθεῖν, ἐλθών = see ἔρχομα
 Ἑλλάς, άδος, ἡ = Greece
 Ἕλλην, ηνος, ὁ = a Greek
@@ -410,7 +412,7 @@
 Ἑλλήσποντος, ου, ὁ = the Hellespont, now the Dardanelles
 ἐλπίς, ίδος, ἡ = hope
 ἐμ = for ἐν- before a labial mute
-ἐμαυτοῦ, ῆς = reflexive pron., of myself
+ἐμαυτοῦ, ῆς = pron. (reflexive), of myself
 ἐμβάλλω = throw in, inflict; intr., empty (of rivers), make an invasion, attack
 ἐμός, ή, όν = my, mine
 ἔμπειπος, ον = acquainted with
@@ -421,9 +423,9 @@
 ἐμπόριον, ου, τό = place of trade, emporium
 ἔμπορος, ου, ὁ = one who travels, merchant
 ἔμπροσθεν = adv., before, in front of
-ἐν = prep. with dat., in; of place, in, among, in the presence of, before, at, on, by; of timem, in, during, within, at, in the course of; ἐν τούτῳ, meamohile; ἐν ῷ, while. In composition ἐν signifies in, at, on, upon, among
+ἐν = prep. with dat., in; of place, in, among, in the presence of, before, at, on, by; of timem, in, during, within, at, in the course of; ἐν τούτῳ, meamohile; ἐν ῷ, while. In composition ἐν signifies in, at, on, upon, among
 ἑνδέκατος, η, ον = eleventh
-ἐνδύω = put on
+ἐνδύω = put on
 ἔνειμι = be in or there
 ἕνεκα = prep. improper with gen., post-positive, on account of
 ἕνεκεν = prep. improper with gen., post-positive, on account of
@@ -438,7 +440,7 @@
 ἐντίθημι = put in, inspire in
 ἐντυγχάνω = chance upon, meet, find
 Ἐνυάλιος, ου, ὁ = Enyalius, a name of Ares, god of war
-ἐξ = prep., before a consonant ἐκ, with gen. Of place, out of, from, from within; of time, after, after, as ἑκ τούτου, after this, hereupon, ἐκ παίδων, from boyhood; of source or origin, from, in consequence of, as ἐκ τούτου, in consequence of this. In composition ἐξ signifies. from, away, out, often implying resolution, strong intention, fulfillment, or completion
+ἐξ = prep., before a consonant ἐκ, with gen. Of place, out of, from, from within; of time, after, after, as ἑκ τούτου, after this, hereupon, ἐκ παίδων, from boyhood; of source or origin, from, in consequence of, as ἐκ τούτου, in consequence of this. In composition ἐξ signifies. from, away, out, often implying resolution, strong intention, fulfillment, or completion
 ἔξ = indecl., six
 ἐξαγαγέλω = tell out, report, esp. the proceedings of a conference
 ἐξάγω = lead forth, induce
@@ -449,7 +451,7 @@
 ἐξαπατάω, ἐξ-απατησω = deceive grossly, mislead
 ἐξαπάτη, ης, ἡ = gross deceit, deception
 ἔξειμι = used only impers. εἰμί, ἔξεστι, it is allowed or possible
-ἔξελαύνω = drive out, expel; intr., mauch, march on
+ἔξελαύνω = drive out, expel; intr., mauch, march on
 # ἔξεστι, ἐξ-έσται = see ἔξ-ειμι
 ἐξετάζω, ἐξ-ετάσω = etc., examine closely, review
 ἐξέτασις, εως, ἡ = inspection, review
@@ -463,23 +465,23 @@
 ἔπειμι = go or come on, follow, advance, make an attack
 ἐπέχω = hold upon, hold back, delay
 ἐπήν = conj. temporal with subjv. whenever, as soon as
-ἐπί = prep. with gen., dat., or acc. With gen., of place, on, upon, ἐφ᾿ ἵππων, on horseback, with verbs of motion, towards, in the time of, at; of manner, esp. denoting distribution, ἐπὶ τεττάρων, four deep, ἐπὶ φάλαγγος, in the form of a phalanx, in battle array. With dat., of place, upon., on, by, close to, at. ἐπὶ θαλάττῃ, on the sea; of time, ἐπὶ τούτῳ or τούτοις, at or reason, for; of place, on, upon, to, against; of extent of space, extending over, over, along; of extent of time, for, during; of purpose or object, to, for. In composition ἐπί signifies over, in, upon, against, in addition, but often it is merely intensive
-ἐπιβουλεύω = plan or plot against, design
+ἐπί = prep. with gen., dat., or acc. With gen., of place, on, upon, ἐφ᾿ ἵππων, on horseback, with verbs of motion, towards, in the time of, at; of manner, esp. denoting distribution, ἐπὶ τεττάρων, four deep, ἐπὶ φάλαγγος, in the form of a phalanx, in battle array. With dat., of place, upon., on, by, close to, at. ἐπὶ θαλάττῃ, on the sea; of time, ἐπὶ τούτῳ or τούτοις, at or reason, for; of place, on, upon, to, against; of extent of space, extending over, over, along; of extent of time, for, during; of purpose or object, to, for. In composition ἐπί signifies over, in, upon, against, in addition, but often it is merely intensive
+ἐπιβουλεύω = plan or plot against, design
 ἐπιδείκνυμι = show to, point out, display, disclose; mid., show for oneself, show
-ἐπιθυμέω, ἐπι-θῦμήσω, ἐπ-εθύμησα = have one’s heart on, desire, long for
+ἐπιθυμέω, ἐπι-θῦμήσω, ἐπ-εθύμησα = have one’s heart on, desire, long for
 ἐπικάμπτω, ἐπι-κάμψω = bend towards, wheel
 ἐπίκειμαι = lie upon, attack
 ἐπικίνδυνος, ον = dangerous, perilous
-ἐπικούρημα, ατος, τό = relief, protection
+ἐπικούρημα, ατος, τό = relief, protection
 ἐπιλείπω = leave behind; intr., fail, give out
 ἐπιμελέομαι, ἐπι-μελήσομαι, X, X, ἐπι-μεμέλημαι, ἐπ-εμελήθην = care for, give attention to
 ἐπιπίπτω = fall upon, attack, assail; of snow, fall
-ἐπισιτίζομαι, ἐπι-σιτιοῦμαι, ἐπ-εσιτισάμην = collect or procure supplies
+ἐπισιτίζομαι, ἐπισιτιοῦμαι, ἐπεσιτισάμην = collect or procure supplies
 ἐπισιτισμός, οῦ, ὁ = a procuring of supplies, foraging
 ἐπίσταμαι, ἐπιστήσομαι, X, X, X, ἠπιστήθην = understand, know, know how
 ἐπιστέλλω = send to, send word, enjoin, command
 ἐπιστολή, ῆς, ἡ = letter
-ἐπιστρατεύω = make an expedition against
+ἐπιστρατεύω = make an expedition against
 ἐπιτήδειος, α, ον = suitable, fit, deserving; τὰ ἐπιτήδεια, provisions, supplies
 ἐπιτίθημι = impose upon, inflict; δίκην ἐπιτιθέναι, inflict punishment; mid., attack, assault
 ἐπιτρέπω = turn over to, entrust, allow; mid., give oneself up for protection
@@ -490,7 +492,7 @@
 ἔργον, ου, τό = work, deed, execution, exercise
 ἔρημος, η, ον = deserted, empty, uninhabited, destitute or deprived of; σταθμοὶ ἔρημοι, marches through a desert
 ἐρίζω, ἤρισα = strive, contend, vie with
-ἑρμηνεύς, έως, ὁ = interpreter
+ἑρμηνεύς, έως, ὁ = interpreter
 Ἑρμῆς, οῦ, ὁ = Hermes, the Mercury of the Romans, messenger of Zeus
 ἔρομαι = Attic only in fut. ἐρήσομαι and aor. ἠρόμην, ask. inquire
 ἔρυμα, ατος, τό = protection, wall
@@ -512,14 +514,14 @@
 εὐδαιμονίζω, εὐδαιμονιῶ, ηὐδαιμόνισα = count happy, congratulate
 εὐδαιμόνως = adv., happily, comp. εὐδαιμονέστερον
 εὐδαίμων, ον = gen. ονος, of good fate or fortune, fortunate, happy, prosperous, flourishing
-εὐθύς = adv., straightway, immediately, at once, Lat. statim
+εὐθύς = adv., straightway, immediately, at once, Lat. statim
 εὔνοια, ας, ἡ = good-will, fidelity.
 εὐνοϊκῶς = adv., with good-will, kindly;εὐνοϊκῶς ἔχειν, be well-disposed
 εὔνους, ουν = contr. from εὔνοος, ουν, well- disposed, attached
 εὑρίσκω, εὑρήσω, ηὖρον, ηὕρηκα, ηὕρημαι, ηὑρέθην = find, devise, procure
 εὖρος, ους, τό = breadth, width
 εὐταξία, ας, ἡ = good order, discipline
-Εὐφρύτης, ου, ὁ = the Euphrātes
+Εὐφρύτης, ου, ὁ = the Euphrātes
 εὐώνυμος, ον = of good name or omen, euphemistic for the ill- omened word ἀριστερός, left; τὸ εὐώνυμον, the left wing
 # ἐφ᾿ = see έπί
 # ἔφαγον = see ἐσθίω
@@ -535,7 +537,7 @@
 # ====================================================== Dz ===============================
 
 ζάω, ζήσω = live, be alive
-Ζεύς, Διός, ὁ = Zeus, son of Cronus and Rhea, highest of the gods
+Ζεύς, Διός, ὁ = irreg. Zeus, son of Cronus and Rhea, highest of the gods
 ζηλόω, ζηλώσω = emulate, envy
 ζηλωτός, ή, όν = to be envied; ζηλωτόν, an object of envy
 # ζῆν, ζῶν = see ζάω
@@ -554,16 +556,16 @@
 ἡδέως = adv., gladly; comp. ἥδιον, sup. ἥδιστα
 ἤδη = adv., already, by this time, at length, now, forthwith
 ἥδομαι, ἡσθήσομαι, ἥσθην = be glad, be pleased
-ἡδύς, εῖα, ύ = sweet, peasant
+ἡδύς, εῖα, ύ = sweet, peasant
 # ἡκιστα = see ἥττων
 ἥκω = ἥξω, come, be or have come
-# ἤλασε = see ἐλαύνω
+# ἤλασε = see ἐλαύνω
 # se
 # ἦλθον = see ἐρχομαι
 ἧμαι =, sit
 # ἠμεῖς = see ἐγώ
 ἠμελημένως = adv., carelessly
-ἡμέρα, ας, ἡ = day; τῇ ἐπιούσῃ ἡμέρᾳ, next day; μέσον ἡμέρας, mid-day, noon; ἄμα τῇ ἡμέρᾳ, at daybreak
+ἡμέρα, ας, ἡ = day; τῇ ἐπιούσῃ ἡμέρᾳ, next day; μέσον ἡμέρας, mid-day, noon; ἄμα τῇ ἡμέρᾳ, at daybreak
 ἡμέτερος, α, ον = our; τὰ ἡμέτερα, our affairs
 ἡμι = only in composition, half
 ἡμιδαρεικόν, οῦ, τό = halfdaric
@@ -585,9 +587,9 @@
 θάπτω, θάψω, ἔθαψα, X, τέθαμμαι, ἐτάφην = bury
 θαρρέω, θαρρήσω, ἐθάρρησα, τεθάρρηκα = be bold or courageous, take heart; θαρρῶν, part. as adv., confidently, courageously
 θάρρος, ους, τό = courage
-θαρρύνω = make bold, cheer, encourage
-# θάττων = see ταχύς
-θαυμάζω, θαυμάσομαι, ἐθαύμασα, τεθαύμακα, X, ἐθαυμάσθην = wonder at, admire, wonder
+θαρρύνω = make bold, cheer, encourage
+# θάττων = see ταχύς
+θαυμάζω, θαυμάσομαι, ἐθαύμασα, τεθαύμακα, X, ἐθαυμάσθην = wonder at, admire, wonder
 θαυμαστός, ή, όν = wondrous, wonderful, surprising, remarkable
 θεάομαι, θεάσομαι = etc., gaze at, behold
 θεᾶσθαι = by contr. for θεάεσθαι
@@ -596,19 +598,19 @@
 θεός, οῦ, ὁ, ἡ = god, goddess
 Θετταλία, ας, ἡ = Thessaly
 Θετταλός, οῦ, ὁ, ἡ = Thessalian
-θέω, θεύσομαι = run, race; of troops, charge
+θέω, θεύσομαι = run, race; of troops, charge
 θήρ, ηρός, ὁ = wild beast
-θηρεύω, θηρεύσω = hunt, catch
+θηρεύω, θηρεύσω = hunt, catch
 θηρίον, ου, τό = wild animal, creature
 θι = suffix denoting where
 θνῄσκω, θανοῦμαι, ἔθανον, τέθνηκα = di
 θόρυβος, ου, ὁ = noise, disturbance, uproar
 Θρᾷξ, κός, ὁ = a Thracian
-Θύμβριον, ου, τό = Thymbrium
+Θύμβριον, ου, τό = Thymbrium
 θυμός, οῦ, ὁ = soul, heart
-θύρα, ας, ἡ = door; ἐπὶ ταῖς βασιλέως θύραις, at court; so θύραι of a general’s headquarters
+θύρα, ας, ἡ = door; ἐπὶ ταῖς βασιλέως θύραις, at court; so θύραι of a general’s headquarters
 θυσία, ας, ἡ = sacrifice, offering
-θύω, θύσω, ἔθυσα, τέθυκα, X, ἐτύθην = sacrifice; mid., cause to sacrifice, offer sacrifice
+θύω, θύσω, ἔθυσα, τέθυκα, X, ἐτύθην = sacrifice; mid., cause to sacrifice, offer sacrifice
 θωρακίζω, θωρακίζομαι, ἐθωράκισα, X, τεθωράκισμαι, ἐθωρακίσθην = arm with a cuirass; mid., put on one’s cuirass
 θώραξ, κος, ὁ = breastplate, corselet, cuirass, worn not only by the heavy-armed foot-soldier but also by the canalryman
 
@@ -624,7 +626,7 @@
 ἴλη, ης, ἡ = crowd, band; of canalry, troop
 ἱμάτιον, ου, τό = outer garment resembling the mantle, himation, corresponding in use to the Roman toga
 ἵνα = final particle, that, in order that
-ἱππεύς, έως, ὁ = horseman, knight, caualryman; pl., caualry
+ἱππεύς, έως, ὁ = horseman, knight, caualryman; pl., caualry
 ἱππικός, ή, όν = for cavalry, cavalry-;ἱππικόν, τό, cavalry, horse
 ἱππόδρομος, ου, ὁ = racecourse, hippodrome
 ἵππος, ου, ὁ, ἡ = horse, mare; ἀπὸ or ἐφ᾿ ἵππου, on horseback
@@ -634,9 +636,9 @@
 ἱστίον, ου, τό = sail
 ἰσχυρός, ά, όν = strong
 ἰσχυρῶς = adv., strongly, vehemently, exceedingly, vigorously, with severity
-ἰσχύς, ύος, ἡ = strength; of an army, force
+ἰσχύς, ύος, ἡ = strength; of an army, force
 ἴσως = adv., equally, perhaps
-ἰχθύς, ύος, ὁ = fish
+ἰχθύς, ύος, ὁ = fish
 ἴχνος, ους, τό = trace, track
 Ἰωνία, ας, ἡ = Ionia
 
@@ -655,7 +657,7 @@
 κἀκεῖνος = by crasis for καὶ ἐκεῖνος
 κακός, ή, όν = bad in the broadest sense (as opposed to ἀγαθός), base, cowardly, hurtful; κακόν, τό, harm, evil
 κακῶς = adv., badly, ill; κακῶς ποιεῖν, do harmor damage to, injure, ravage; κακῶς ἔχειν,be badly off
-καλέω, καλῶ, ἐκάλεσα, κέκληκα, κέκλημαι, ἐκλήθην = call, summon, Lat. uocō, call, name; ὁ καλούμενος, the so-called
+καλέω, καλῶ, ἐκάλεσα, κέκληκα, κέκλημαι, ἐκλήθην = call, summon, Lat. uocō, call, name; ὁ καλούμενος, the so-called
 καλός, ή, όν = beautiful, fair, propitious, noble; καλὸς καὶ ἀγαθός, καλὸς κἀγαθός, noble and good, ‘gentleman.
 καλῶς = adv., beautifully, bravely, well, successfully, honorably;καλῶς ἔχειν, be well
 κἀμοί = by crasis for καὶ ἐμοί
@@ -672,32 +674,32 @@
 κατακόπτω = cut to pieces, slay
 καταλαμβάνω = seize upon, capture, take, surprise, occupy
 καταλείπω = leave behind, abandon
-καταλύω = unloose, dissolve, end, make peace, stop fighting, unyoke (sc. τὰ ὑποζύγια), i. e. make a halt, halt
+καταλύω = unloose, dissolve, end, make peace, stop fighting, unyoke (sc. τὰ ὑποζύγια), i. e. make a halt, halt
 καταπηδάω = leap down, leap
 καταπράττω = do thoroughly, execute, bring to an end, accomplish
 κατασκέπτομαι = view closely
 κατασχίζω = split down, cleave asunder, burst through, burst open
 καταφανής, ές = clearly seen, in plain sight, visible
-καταφεύγω = take refuge
+καταφεύγω = take refuge
 καταψηφίζομαι = vote against
 # κατεῖδον = see καθ-οράω
 κατεκόπην = aor. pass. of κατα-κόπτω
 # κατιδών = see καθ-οράω
 καῦμα, ατος, τό = heat
-κάω, καύσω, ἔκαυσα, κέκαυκα, κέκαυμαι, ἐκαύθην = burn, kindle
+κάω, καύσω, ἔκαυσα, κέκαυκα, κέκαυμαι, ἐκαύθην = burn, kindle
 κεῖμαι, κείσομαι = lie, be laid, lie dead
-Κελαιναί, ῶν, αἱ = Celaenae
-κελεύω, κελεύσω, ἐκέλευσα, κεκέλευκα, κεκέλευσμαι, ἐκελεύσθην = drive, order, command, bid, give orders, Lat. iubeō, urge, advise, suggest
+# Κελαιναί, ῶν, αἱ = Celaenae
+κελεύω, κελεύσω, ἐκέλευσα, κεκέλευκα, κεκέλευσμαι, ἐκελεύσθην = drive, order, command, bid, give orders, Lat. iubeō, urge, advise, suggest
 κενός, ή, όν = empty, groundless
 κέρας, αος, τό = horn, prop. of an animal, then bugle horn, drinking horn, peak of a mountain, wingof an army
 κέρας, ατος, τό = horn, prop. of an animal, then bugle horn, drinking horn, peak of a mountain, wingof an army
 κεφαλή, ῆς, ἡ = head
 # κῆρυξ, ῦκος, ὁ
 κῆρυξ, κος, ὁ = herald, who carried messages to the enemy or made proclamations and gave all sorts of public notices to his fellow soldiers. His distinctive badge was his staff, a straight shaft with two intertwined shoots above
-κηρύττω, κηρὑξω, ἐκήρῦξα, κεκήρῦχα, κεκήρῦγμαι, ἐκηρύχθην = be a herald, proclaim, make proclamation, announce
+κηρύττω, κηρὑξω, ἐκήρῦξα, κεκήρῦχα, κεκήρῦγμαι, ἐκηρύχθην = be a herald, proclaim, make proclamation, announce
 Κιλικία, ας, ἡ = Cilicia
 Κίλιξ, κος, ὁ = a Cilician
-κινδυνεύω, κινδυνεύσω = encounter danger, run a risk, be in peril
+κινδυνεύω, κινδυνεύσω = encounter danger, run a risk, be in peril
 κίνδυνος, ου, ὁ = danger, risk
 Κλέαρχος, ου, ὁ = Clearchus, a Spartan general, the special friend of Cyrus
 κλείω, κλείσω, ἔκλεισα, X, κέκλειμαι and κέκλεισμαι, ἐκλείσθην = shut, close
@@ -706,7 +708,7 @@
 κλώψ, πός, ὁ = thief
 κνημίς, ῖδος, ἡ = greave,generally plur., that part of the defensive armor of the Greek hoplite which covered his leg from the knee to the instep. Greaves were made of flexible metal, and lined with felt, leather, or cloth, and fastened behind by straps or buckles
 κολάζω, κολάσω, ἐκόλασα, X, κεκόλασμαι, ἐκολάσθην = check, punish, inflict punishment
-Κολοσσαί, ῶν, αἱ = Colossae
+Κολοσσαί, ῶν, αἱ = irreg. Colossae
 κομίζω, κομιῶ = carry awayso as to save, bring, convey
 κονιορτός, οῦ, ὁ = cloud of dust
 κόπτω, κόψω, ἔκοψα, κέκοφα, κέκομμαι, ἐκόπην = cut, hew, slash, fell, slaughter
@@ -723,16 +725,16 @@
 Κρής, ητός, ὁ = a Cretan
 κρίνω, κρινῶ, ἔκρινα, κέκρικα, κέκριμαι, ἐκρίθην = divide, distinguish, decide, determine, be of opinion, judge, bring to trial
 κρίσις, εως, ἡ = decision, trial
-κρύπτω, κρύψω, ἔκρυψα, X, κέκρυμμαι, ἐκρύφθην = hide, conceal, Lat. tegō
+κρύπτω, κρύψω, ἔκρυψα, X, κέκρυμμαι, ἐκρύφθην = hide, conceal, Lat. tegō
 κτάομαι, κτήσομαι, ἐκτησάμην, κέκτημαι = acquire, gain, get, get together; pf. as pres., possess, have
 κτείνω, κτενῶ, ἔκτεινα, ἔκτονα = kill
-κύκλος, ου, ὁ = circle, curve, ring;κύκλῳ, in a circle
+κύκλος, ου, ὁ = circle, curve, ring;κύκλῳ, in a circle
 κυκλόω, κυκλώσω = surround, encircle, hem in
-κύκλωσις, εως, ἡ = an encircling;ὡς εἰς κύκλωσιν, as if to encircle
+κύκλωσις, εως, ἡ = an encircling;ὡς εἰς κύκλωσιν, as if to encircle
 Κῦρος, ου, ὁ = : I. Cyrus the Elder, founder of the Persian empire, according to Xenophon the son of Cambȳses and grandson of Astyages; II. Cyrus the Younger,the leader of the expedition against Artaxerxes
-# κύων, κυνός, ὁ, ἡ = dog, hound, cur
+# κύων, κυνός, ὁ, ἡ = dog, hound, cur
 # TODO: exception? κύων, ὁ and ἡ, both in Hom., the masc. more freq., gen. κυ^νός, dat.κυ^νί, acc.κύνα, vo
-κωλύω, κωλύσω = hinder, prevent, oppose, check; τὸ κωλῦον, the hindrance, obstacle
+κωλύω, κωλύσω = hinder, prevent, oppose, check; τὸ κωλῦον, the hindrance, obstacle
 κώμη, ης, ἡ = village
 κωμήτης, ου, ὁ = villager
 
@@ -759,13 +761,13 @@
 λοχαγός, οῦ, ὁ = commander of a λόχος, captain
 λόχος, ου, ὁ = ambush, men in ambush, company
 Λυδία, ας, ἡ = Lydia
-Λύδιος, α, ον = Lydian
+Λύδιος, α, ον = Lydian
 Λυκαονία, ας, ἡ = Lycaonia
 λυπέω, λυπήσω = grieve, distress, vex, annoy, molest
-λύπη, ης, ἡ = pain, grief, sorrow
+λύπη, ης, ἡ = pain, grief, sorrow
 # luo lu
-# λύω, λύσω, ἔλυσα, λέλυκα, λέλυμαι, ἐλύθην = loose, set free, release, break, break down, destroy; mid., loose one’s own, ransom
-λύω = loose, set free, release, break, break down, destroy; mid., loose one’s own, ransom
+# λύω, λύσω, ἔλυσα, λέλυκα, λέλυμαι, ἐλύθην = loose, set free, release, break, break down, destroy; mid., loose one’s own, ransom
+λύω = loose, set free, release, break, break down, destroy; mid., loose one’s own, ransom
 
 # ================================================ M ================================
 
@@ -775,14 +777,14 @@
 λάλα = adv., very, much, very much, greatly, exceedingly, Lat. ualdē; comp.μᾶλλον, more, rather;sup. μάλιστα, most, especially
 μανθάνω, μαθήσομαι, ἔμαθον, μεμάθηκα = learn, find out
 μάντις, εως, ὁ = one inspired, seer, diviner
-Μαρσύᾶς, ου, ὁ = Marsyas, a satyr
+Μαρσύᾶς, ου, ὁ = irreg. Marsyas, a satyr
 # Μάσκᾶς, ᾶ, ὁ = the Mascas, a river
 # μάστῖξ, ῖγος, ἡ
 μάστῖξ, γος, ἡ = whip, lash
 μάχαιρα, ας, ἡ = khife, sword, sabre
 μάχη, ης, ἡ = battle, engagement, fight
 μάχομαι, μαχοῦμαι, ἐμαχεσάμην, μεμάχημαι = fight, give battle
-μέγας, μεγάλη, μέγα = great, large, tall, weighty, powerful;neut. as adv., μέγα, greatly
+μέγας, μεγάλη, μέγα = irreg. great, large, tall, weighty, powerful;neut. as adv., μέγα, greatly
 Μεγαφέρνης, ου, ὁ = Megaphernes
 μέγιστος = super. of μέγας
 # μεθ᾿ = see μετά
@@ -803,7 +805,7 @@
 μέσος, η, ον = middle; μέσον, τό, the middle, centre, midst, space between
 μεστός, ή, όν = full of, laden
 μετά = prep. with gen. and acc. With gen., with, in company with, among; with acc., of place or time, behind, after, next;μετὰ τοῦτο or ταῦτα, after this, hereupon. In composition μετά signifies sharing, with, among, or time or quest, after, or change, from one place to another
-μεταξύ = adv., between
+μεταξύ = adv., between
 μετάπεμπτος, ον = send for
 μεταπέμπω = send after; mid., send for a person to come to oneself, summon
 μετέχω = have a share
@@ -837,7 +839,7 @@
 # ============================================= N ==================================
 
 νάπη, ης, ἡ = ravine, glen
-ναύαρχος, ου, ὁ = admiral
+ναύαρχος, ου, ὁ = admiral
 ναῦς, νεώς, ἡ = ship, either the merchant vessel, seen at the left in No., or the man-of-war, seen at the right
 νεανίας, ου, ὁ = young man
 νεκρός, οῦ, ὁ = dead body, corpse; οἱ νεκροί, the dead
@@ -851,7 +853,7 @@
 νόμος, ου, ὁ = custom, law
 νοῦς, νοῦ, ὁ = mind, Lat. mēns; ἐν νῷ ἔχειν, have in mind, purpose, intend
 νῦν = adv., now, just now, just, at present
-νύξ, κτός, ἡ = night; μέσαι νύκτες, midnight
+νύξ, κτός, ἡ = night; μέσαι νύκτες, midnight
 
 # ============================================ KS ==================================
 
@@ -859,14 +861,14 @@
 ξένος, ου, ὁ = stranger, foreigner, guest friend, guest, host, foreign soldier, mercenary
 Ξενοφῶν, ῶντος, ὁ = Xenophon, an Athenian, author of the Anabasis
 ξίφος, ους, τό = sword, Lat. gladius. The ξίφος had a straight blade, and was double-edged. It was carried in a scabbard which rested on the left side of the body, and was supported by a strap that passed over the right shoulder
-ξύλινος, η, ον = of wood, wooden
-ξύλον, ου, τό = piece or bar of wood; pl. timbers, beams, wood, fuel
+ξύλινος, η, ον = of wood, wooden
+ξύλον, ου, τό = piece or bar of wood; pl. timbers, beams, wood, fuel
 
 # =========================================== O ====================================
 
-# ὁ, ἡ, τό = the definite article, the, with demonstrative force in the expressions ὁ μὲν.. ὁ δέ, the one.. the other, this.. that, pl. these.. those, some.. the rest; ὁ δέ, without preceding ὁ μέν, and he, but he, and in pl., but they, the rest(never referring to the subject of the preceding sentence, but always to some word in an oblique case). As the art., used sometimes in Greek where we should omit it, as with proper names and numerals. The art. may be used also to mark a person or thing as well known or customary, or with distributive force, as τοῦ μηνὸς τῷ στρατιώτῃ, per month to each soldier, or where we should use a possessive pron. τὰ Κύρου, Cyrus’s relations; οἱ ἐκείνου, his men; οἱ φεύγοντες, the exiles; ὁ βουλόμενος, whoever wishes; οἱ οἴκοι, those at home; οἱ ἔνδον, those within; οἱ παρὰ βασιλέως, men from the king; οἱ ἐκ τῆς ἀγορᾶς, market men; οἱ σὺν αὐτῷ, his men
+# ὁ, ἡ, τό = the definite article, the, with demonstrative force in the expressions ὁ μὲν.. ὁ δέ, the one.. the other, this.. that, pl. these.. those, some.. the rest; ὁ δέ, without preceding ὁ μέν, and he, but he, and in pl., but they, the rest(never referring to the subject of the preceding sentence, but always to some word in an oblique case). As the art., used sometimes in Greek where we should omit it, as with proper names and numerals. The art. may be used also to mark a person or thing as well known or customary, or with distributive force, as τοῦ μηνὸς τῷ στρατιώτῃ, per month to each soldier, or where we should use a possessive pron. τὰ Κύρου, Cyrus’s relations; οἱ ἐκείνου, his men; οἱ φεύγοντες, the exiles; ὁ βουλόμενος, whoever wishes; οἱ οἴκοι, those at home; οἱ ἔνδον, those within; οἱ παρὰ βασιλέως, men from the king; οἱ ἐκ τῆς ἀγορᾶς, market men; οἱ σὺν αὐτῷ, his men
 ὀβολός, οῦ, ὁ = obol, an Attic silver coin, worth about three cents
-ὅδε, ἥδε, τόδε = demon. pron., this, the following
+ὅδε, ἥδε, τόδε = pron. (demon.), this, the following
 ὁδός, οῦ, ἡ = way, road, Lat. uia; march, journey, expedition
 # οἱ, οἵ, οἷ = see ὁ, ὅς, οὗ
 οἶδα = pf. with pres. force, know, understand, have knowledge of
@@ -925,9 +927,9 @@
 Ὀρόντας, ου, ὁ = Orontas
 ὄρος, ους, τό = mountain
 ὀρυκτός, ή, όν = dug, artificial
-ὀρύττω, ὀρύξω, ὤρυξα, ὀρώρυχα, ὀρώρυγμαι, ὠρύχθην = dig, Lat. fodiō, quarry
-ὅς, ἥ, ὅ = rel. pron., who, which, Lat, quī; δι᾿ ἄ, why; ἐν ᾦ, during which (time), meantime. —
-ὅσος,η, ον = rel. pron., how much or great, how many, (as much oras many)as, Lat. quantus; neut. as adv.,ὄσον, with numerals, about;ὅσῳ, with compratives, by how much, the
+ὀρύττω, ὀρύξω, ὤρυξα, ὀρώρυχα, ὀρώρυγμαι, ὠρύχθην = dig, Lat. fodiō, quarry
+ὅς, ἥ, ὅ = pron. (rel.), who, which, Lat, quī; δι᾿ ἄ, why; ἐν ᾦ, during which (time), meantime. —
+ὅσος,η, ον = pron. (rel.), how much or great, how many, (as much oras many)as, Lat. quantus; neut. as adv.,ὄσον, with numerals, about;ὅσῳ, with compratives, by how much, the
 ὄστις, ἥτις, ὅ τι = pron. which, what, used both as a relative and to introduce and indirect question
 ὅτε = rel. adv., when, as, whenever
 ὅτι = conj., that, because, since; used also to strengthen superlatives, as ὅτι ἀπαρασκευότατος, ας unprepared as possible
@@ -952,7 +954,7 @@
 οὔποτε = adv., never
 οὕπω = adv., never get
 οὔτε = neg. conj., and not, Lat. neque; οὔτε.. οὔτε, neither.. nor
-οὗτος = αὕτη, τοῦτο, demon. pron., this, pl. these, freq. as pers. pron., he, she, it pl. they, Lat. hīc.
+οὗτος = αὕτη, τοῦτο, pron. (demon.), this, pl. these, freq. as pers. pron., he, she, it pl. they, Lat. hīc.
 οὑτοσΐ, αὑτηΐ, τουτΐ = pron. strengthened form of οὖτος, this man here
 οὕτως = before a consonant οὔτω, adv., thus, so, in that case
 ὁφείλω, ὁφειλήσω, ὠφείλησα and ὤφελον, ὠφείληκα, X, ὠφειλήθην = owe,Lat. dēbeō; pass, be due
@@ -965,12 +967,12 @@
 # παθεῖν = see πάσχω
 πάθος, ους, τό = experience, trouble, ill-treatment
 παιαίζω = ἐπαιάνισα, raise the paean
-παιδεύω, παιδεύσω = ect., train up a child, educate
+παιδεύω, παιδεύσω = ect., train up a child, educate
 παῖς, ιδός, ὁ, ἡ = Child, boy, girl, son; son; ἐκ παίδων, from boyhood
 παίω, παίσω, ἔπαισα, πέπαικα, X, ἐπαίσθην = strike, hit, beat, strike at
 πάλιν = adv., back, again, a second time
 παλτόν, οῦ, τό = spear, javelin
-Πάν, Πανός, ὁ = Pan, a rural god of Arcadia, son of Hermes, represented with goat’s feet, horns, and shaggy hai
+Πάν, Πανός, ὁ = irreg. Pan, a rural god of Arcadia, son of Hermes, represented with goat’s feet, horns, and shaggy hai
 παντοῖος, α, ον = of all sorts
 πάνυ = adv., very, altogether, wholly, very much
 παρά = prep. with gen., dat, and acc.,beside. With gen., from beside, from the pres-ence of, from; with the pass., by With dat., beside, by the side of, beside, at or on the side of, with, at; παρὰ βασιλεῖ,ατ ψοθρτ΄ τὰ παρ᾿ ἐμοί, my fortunes, my side. With acc., to a position beside.to the side of, unto, to, towards, along to, alongside, along, near, by, past,sometimes even with verbs of rest; in violation of ; of ime, during. In composition, παρά singnifies along, along by or past, alongside, by, beside, beyond, aside, amiss
@@ -989,15 +991,15 @@
 παρέρχομαι = pass by or along
 παρέχω = hold near, afford, fur nish, render, make, cause, inspire
 πάροδος, ου, ἡ = way by, pass, passage, act of passing
-Παρύσατις, ιδος, ἡ = Parysatis, mother of Cyrus the Youger
+Παρύσατις, ιδος, ἡ = Parysatis, mother of Cyrus the Youger
 πᾶς, πᾶσα, πᾶν = pron. all, Lat. omnis, every with a noun, comm, in the predicate position, all, entire, the whole
-πᾶς, ᾶσα, ᾶν = all, Lat. omnis, every with a noun, comm, in the predicate position, all, entire, the whole
+# πᾶς, ᾶσα, ᾶν = all, Lat. omnis, every with a noun, comm, in the predicate position, all, entire, the whole
 Πασίων, ωνος, ὁ = Pasion
 πάσχω, πείσομαι, ἔπαθον, πέπονθα = experience, suffer, Lat. patior; εὖ παθεῖν, be well treated
 παφτρῷος, α, ον = ancestral, hereditary
 # pauw, paus
-# παύω, παύσω = cause to cease, end, stop; mid., cause oneself tocease, cease, stop, deist, give up, come to on end
-παύω = cause to cease, end, stop; mid., cause oneself tocease, cease, stop, deist, give up, come to on end
+# παύω, παύσω = cause to cease, end, stop; mid., cause oneself tocease, cease, stop, deist, give up, come to on end
+παύω = cause to cease, end, stop; mid., cause oneself tocease, cease, stop, deist, give up, come to on end
 Παφλαγών, όνος, ὁ = Paphlagonian
 πεδίον, ου, τό = level ground,open country, plain
 πεζῇ = adv., on foot, afoot
@@ -1034,13 +1036,13 @@
 πιέζω, πιέσω, ἐπίεσα, πεπίεκα, πεπίεσμαι, ἐπιέσθην-ἐπιάσθην = press hard, crowd; pass., be hard pressed
 πίμπλημι, πλήσω, ἔπλησα, πέπληκα, πέπλημαι and πέπλησμαι, ἐπλήσθην = fill
 Πῖσίδαι, ῶν, οἱ = the Pisidians
-πιστεύω, πιστεεύσω = put faith in, trust, rely on
+πιστεύω, πιστεεύσω = put faith in, trust, rely on
 πίστις, εως, ἡ = faith, good faith, pledge
 πιστός, ή, όν = faithful, trustvorthy; πιστόι, a tile given to Persian royal counsellors; πιστά, τά, pledges
 πλαίσιον, ου, τό = square, of troops
 πλέθρον, ου, τό = a plethrum, a measure of Greek feet
-# πλεῖστος, πλείων = see πολύ
-πλέω, πλεύσομαι and πλευσοῦμα, ἔπλευσα, πέπλευκα, πέπλευσαμι = sail
+# πλεῖστος, πλείων = see πολύ
+πλέω, πλεύσομαι and πλευσοῦμα, ἔπλευσα, πέπλευκα, πέπλευσαμι = sail
 πλῆθος, ους, τό = fulness, extent, number, multitude
 πλήθω = be full
 πλήν = conj., except, except that; improper prep. with gen., except
@@ -1059,12 +1061,12 @@
 πολιοπκέω, πολιοπκήσω = hem in a city, besicge
 πόλις, εως, ἡ = city, state
 πολλάκις = adv., many times, often, frequently
-πολύς, πολλή, πολύ = much, many, Lat. multus, in great numbers, great, large, long, strong; neut. as adv., πολύ, much, far; τό πολύ, the greater part; ἐπὶ πολύ, over a great extent
+πολύς, πολλή, πολύ = irreg. much, many, Lat. multus, in great numbers, great, large, long, strong; neut. as adv., πολύ, much, far; τό πολύ, the greater part; ἐπὶ πολύ, over a great extent
 πολυτελής, ές = requiring outlay, expensive
 πονέω, πονήσω = toil, labor, undergo hardship, earn by hard work
 πόνος, ου, ὁ = toil, hardship
 πορεία, ἡ = journey, march
-πορεύω, πορεύσω = make go; comm. pass dep. go, proceed, adnance, march, journey
+πορεύω, πορεύσω = make go; comm. pass dep. go, proceed, adnance, march, journey
 πορίζω, ποριῶ = furnish, provide, give; mid., get, obstain
 πόρος, ου, ὁ = means of passing, ford, passage, way or means of doing, means, provideing
 πόσος, η, ον = interr. pron., how much? Lat. quantus
@@ -1072,7 +1074,7 @@
 ποτέ = indef. encl adv., at same time, once on a time, once, ever
 πότερος, α, ον = interr. pron., which of two? neut. as adv., in an alternative question, πότερον.. ἥ, whether.. or, Lat.utrum.. a
 ποῦ = interr. adv., where
-πούς, δός, ὁ = foot
+πούς, δός, ὁ = foot
 πρᾶγμα, ατος, τό = deed, thing, matter, affair, event, circumstance, difficulty; pl., affairs, trouble
 πράττω, πραξα, πέπραγα and πέπραχα, πέπραγμαι, έπράχθην = do, act, accomplish; intr., do, fare
 πράσσω, πράξω, ἔπραξα, πέπραχα, πέπραγμαι, ἐπράχθην = do, act, accomplish; intr., do, fare
@@ -1083,19 +1085,19 @@
 προδιαβαίνω = cross first
 προδίδωμι = give over, surrender, betray, abandon
 πρόεριμι = go forward, advance, proceed, coame on
-προελαύνω = intr., ride, forward, march on before, push on
+προελαύνω = intr., ride, forward, march on before, push on
 πρόθυμος, ον = ready, eager
-προθύμως = adv., eagerly
+προθύμως = adv., eagerly
 προίημι = send forth; forth; mid., give oneself up, entrust, surrender, abandon
 προμετωπίδιον, ου, τό = frontlet, of horses
 Πρόξενος, ου, ὁ = Proxenus
 # προοράω = see in front
 πρός = prep. with gen., dat., and acc., confronting, at, by. With gen., over against, towards; in swearting, by; with the pass., by, form; with adjectives, in the sight of; expressing what is characteristic, pertaining to, like. With dat., near, at, besides, in addition to With acc., to towards, against, before, at, acording to, with respect to, about; πρὸς φιλίαν, in a friendly manner. In composition πρός signifies to,towards, against, besides, in addition to
 προσσιτέω = ask in addition
-προσελαύνω = ride towards or up
+προσελαύνω = ride towards or up
 προσέρχομαι = come on or up, approach, advance
 προσήκω = adv., before, previously, soner; in attributive position, previous
-προσκυνέω, προσ-κυνήσω, προσ-εκύνησα = make obeisance to slute
+προσκυνέω, προσ-κυνήσω, προσ-εκύνησα = make obeisance to slute
 προσλαμβάνω = take to oneself
 προσπολεμέω = war against
 προστάττω = assign or appoint;pass. impersonal προσ-ετάχθη, orders had been given
@@ -1107,9 +1109,9 @@
 πρῶτος, η, ον = first, foremost;neut. as adv., πρῶτον, at first, first
 πτέρυξ, γος, ἡ = wing of a bird, fiap of a cuirass
 Πυθαγόρας, ου, ὁ = Pythagoras
-Πύλαι, ῶν, αἱ = Pylae
-πύλη, ης, ἡ = gate, pl. gate, pass
-πυνθάνομαι, πεύσομαι, ἐπυθόμην, X, πέπυσμαι = inquire, ask, learn by inquiry, learn, ascertain, find out
+Πύλαι, ῶν, αἱ = Pylae
+πύλη, ης, ἡ = gate, pl. gate, pass
+πυνθάνομαι, πεύσομαι, ἐπυθόμην, X, πέπυσμαι = inquire, ask, learn by inquiry, learn, ascertain, find out
 πῦρ, υρός, τό = fire; pl.,πυρά, τά, beacons
 πώ = indef. encl. adv., get, up to this time
 πωλέω, πωλήσω = sell
@@ -1120,7 +1122,7 @@
 
 ῥᾴδιος, α, ον = easy
 ῥᾳδίως = adv., easily, readily
-ῥέω, ῥεύσομαι, ἐρρύηκα, X, X, ἐρρύην = flow
+ῥέω, ῥεύσομαι, ἐρρύηκα, X, X, ἐρρύην = flow
 ῥήτωρ, ορος, ὁ = speaker, orator
 ῥίπτω, ῤίψω, ἔρριψα, ἔρριφα, ἔρριμμαι, ἐρρίψθην and ἐρρίφην = throw, hurl, cast aside
 
@@ -1131,8 +1133,8 @@
 σαλπίζω, ἐσάλπιγζα = blow the trumpet; ἐπεὶ ἐσάλπιγξε (sc. ὁ σαλπικτής), when the trumpet sounded the charge
 σαλπικτής, οῦ, ὁ = trumpeter
 Σάμιος, α, ον = Samian
-Σάρδεις, εων, αἱ = Sardis
-σατραπεύω = rule as satrap, rule
+# Σάρδεις, εων, αἱ = Sardis
+σατραπεύω = rule as satrap, rule
 σατράπης, ου, ὁ = satrap, viceroy
 Σάτυρος, ου, ὁ = the satyr Silēhus
 σεαυτοῦ, ῆς = contr. σαυτοῦ, ἠς, refl. pron., of yourself
@@ -1153,7 +1155,7 @@
 Σοφαίνετος, ου, ὁ = Sophaenetue
 σπάω, X, ἔσπασα, ἔσπακα, ἔσπασμαι, ἐσπάσθην = draw
 σπείρω, σπερῶ, ἔσπιρα, X, ἔσπαρμαι, ἐσπάρην = sow, scatter, disperse
-σπεύδω, σπεύσω, ἔσπευσα = urge, hasten, be urgent
+σπεύδω, σπεύσω, ἔσπευσα = urge, hasten, be urgent
 σπονδή, ῆς, ἡ = libation, pl. truce
 σπουδή, ῆς, ἡ = haste, hurry
 στάδιον, ου, τό = pl. στἅδιοι, οἱ, and στάδια, τά, extended space, stadium, stade, as a measure of distance Greek feet
@@ -1169,43 +1171,43 @@
 στόλος, ου, ὁ = equipment, armed forece, expedition
 στόμα, ατος, τό = mout
 στράτευμα, ατος, τό = army, troops, host, force, division, contingent
-στρατεύω, στρατεύσω = make an expedition, make war; mid. dep., take the field, take part in an expedition
+στρατεύω, στρατεύσω = make an expedition, make war; mid. dep., take the field, take part in an expedition
 στρατηγέω, στρατηγήσω = be general, lead, command
 στρατηγός, οῦ, ὁ = general, commander
 στρατιά, ᾶς, ἡ = army, troops, host
 στρατιώτης, ου, ὁ = soldier, pl. troops
-στρατοπεδεύω = encamp; comm. mid. dep., encamp, go into camp
+στρατοπεδεύω = encamp; comm. mid. dep., encamp, go into camp
 στρατόπεδον, ου, τό = camp-ground, encampment
 στρατός, οῦ, ὁ = an encamped army, army, force
 στρεπός, οῦ, ὁ = necklace, collar, worn by Persians
 στρέφω, στρέψω, ἔστρεψα, ἐστροφα, ἔστραμμαι, ἐστράφην and ἐστρέφθην = turn, twist;intr., and in pass., turn or face about
 στρουθός, οῦ, ἡ = sparrow;στρουθὸς ἡ μεγάλη or ἡ Ἀραβλα, the ostrich
-σύ, σοῦ = pers. pron., thou, you
+σύ, σοῦ = pers. pron., thou, you
 συγκαλέω = call together, summon
 Συέννεσις, ιος, ὁ = Syennesis
 συλλαμβάνω = seize, arrest
 συλλέγω = collect, gather, bring together;pass., come together, assemble
-συμβουλεύω = plan with, advise, counsel, give advice; mid., consult with, deliberate
-σύμβουλος, ου, ὁ = adviser
+συμβουλεύω = plan with, advise, counsel, give advice; mid., consult with, deliberate
+σύμβουλος, ου, ὁ = adviser
 συμμαχία, ας, ἡ = alliance
-σύμμαχος, ον = in allance with; σύμμαχος, ου, ὁ, ally
+σύμμαχος, ον = in allance with; σύμμαχος, ου, ὁ, ally
 συμπέμπω = send with
-συμπορεύομαι = accompany
+συμπορεύομαι = accompany
 συμπράττω = help in doing, co-operate
-σύν = prep. with dat., with, in company with, along with, together with, on the side of, with the help or aid of, by the favor of. In composition σύν singifies with, along with, together, jointhl, at the same time, entirely, at once
+σύν = prep. with dat., with, in company with, along with, together with, on the side of, with the help or aid of, by the favor of. In composition σύν singifies with, along with, together, jointhl, at the same time, entirely, at once
 συνάγω = bringor get together, call, coolect
 συναντάω, συν-ήντησα = meet with, meet
 συνάπτω = join with
 συνεκβιβάζω = help extricate
-συνεπισπεύδω = help hurry on
-σύνθημα, ατος, τό = thing agreed on, wathword
-σύνοιδα = share in knowledge, be conscious
+συνεπισπεύδω = help hurry on
+σύνθημα, ατος, τό = thing agreed on, wathword
+σύνοιδα = share in knowledge, be conscious
 συντάττω = set in order together, draw up in battle array; mid., fall into battle-line, take one’s position
 συντίθημι = put together; mid., make an agreement, contract
 Συρία, ας, ἡ = Syria
-Σύρος, ου, ὁ = a Syrian
+Σύρος, ου, ὁ = a Syrian
 συσπάω = drawor sew together
-συστρατεύμαι = take the field with, join an expedition
+συστρατεύμαι = take the field with, join an expedition
 σφάλλω, σφαλῶ, ἔσφηλα, ἔσφαλμαι, ἐσφάλην = trip up, make fall; pass., fail, meet with a mischance
 # σφεῖς = see οὖ
 σφενδόνη, ης, ἡ = sling,Lat. funda
@@ -1220,11 +1222,11 @@
 Σωκράτης, ους, ὁ = Socrates
 σῶμα, ατος, τό = body, life, person
 σῶος, α, ον = safe and sound, alive, saved from danger
-σῶς, σᾶ, σῶν = safe and sound, alive, saved from danger
+# σῶς, σᾶ, σῶν = safe and sound, alive, saved from danger
 σωτήρ, ῆρος, ὁ = savior
 σωτηρία, ας, ἡ = safety, deliverance, rescue from danger
 σώφρων, ον = of sound min
-σωφροσύνη, ης, ἡ = self-control. mind], of sound mind, discreet
+σωφροσύνη, ης, ἡ = self-control. mind], of sound mind, discreet
 
 # ===================================================== T =======================================
 
@@ -1238,7 +1240,7 @@
 τάφρος, ου, ἡ = ditch, trench
 τάχα = adv., quickly, forthwith; in apodosis with ἄν, perhaps
 ταχέως = adv., quickly, soon
-ταχύς, εῖα, ύ = quick, swift,Lat. celer; διὰ ταχέων,with speed;neut. as adv., ταχύ, swiftly, soon; comp. θᾶττον, more quickly;sup. τάχιστα, with ὄτι or ὡς, as quickly as possible, with all possible speed
+ταχύς, εῖα, ύ = quick, swift,Lat. celer; διὰ ταχέων,with speed;neut. as adv., ταχύ, swiftly, soon; comp. θᾶττον, more quickly;sup. τάχιστα, with ὄτι or ὡς, as quickly as possible, with all possible speed
 τέ = conj. encl. copulative, and,corresponding to καί much as Lat. -que to et; τε.. καί or τε καί, both.. and
 # τεθνάναι, τέθνηκα = see θνῄσκω
 τείνω, τενῶ, ἔτεινα, τέτακα, τέταμαι, ἐτάθην = stretch, exert oneself, hasten, push on
@@ -1251,7 +1253,8 @@
 τέμνω, τεμῶ, ἔτεμον and ἔταμον τέτμηκα, τέτμημαι, ἐτμήθην = cut
 τέταρτος, η, ον = fourth
 τετταράκοντα = indecl., forty
-τέτταρες, οἱ, αἱ = four
+# τέτταρες, οἱ, αἱ = four
+τέτταρες = num. four
 τήκω, τήζω, ἔτηξα, τέτηκα, X, ἐτάκην and ἐτήχθην = melt;intr.,thaw, melt
 τίθημι, θήσω, ἔθηκα, τέθεικα, τέθειμαι, ἐτέθην = put, set, place, institute; θέσθαι τὰ ὅπλα, order arms, ground arms, get under arms; κατὰ χώραν ἔθεντο τὰ ὅπλα, moved back to quarters
 τιμάω, τιμήσω, ἐτίμησα, τετίμηκα, τετίμημαι, ἐτιμήθην = value, esteem, honor
@@ -1262,14 +1265,14 @@
 τὶς, τὶ = encl. indef. pron., a, an, any, some, a sort of, a certian, Lat. quis; subst., somebody, anybody something, anything, pl. some
 Τισσαφέρνης, ους, ὁ = Tissaphernes
 τιτρώσκω, τρώσω, ἔτρωσα, X, τέτρωμαι, ἐτρώθην = wound
-τοιόσδε, τοιάδε = demon. pron., such, such as follows; ἔλεξε τοιάδε, spoke as follows or in the following terms, Eng. a-tlas], courage to endure
+τοιόσδε, τοιάδε = pron. (demon.), such, such as follows; ἔλεξε τοιάδε, spoke as follows or in the following terms, Eng. a-tlas], courage to endure
 τολμάω, τολμήσω = have the courage, venture, risk, dare
 τόξευμα, ατος, τό = arrow
-τοσξεύω, X, ἐτόξευσα, X, τετόξεθμαι, ἐτοξεύθην = use one’s bow, shoot
+τοσξεύω, X, ἐτόξευσα, X, τετόξεθμαι, ἐτοξεύθην = use one’s bow, shoot
 τόξον, ου, τό = bow
 τοξότης, ου, ὁ = bowman
 τόπος, ου, ὁ = place, region
-τοσοῦτος, τοσαύτη, τοσούυτον = dem. pron., so much, so many; with comparatives, τοσούτῳ, by so mcuh, the; neut. acc. as adverb, τοσοῦτον, so much so far
+τοσοῦτος, τοσαύτη, τοσούυτον = pron. (dem.), so much, so many; with comparatives, τοσούτῳ, by so mcuh, the; neut. acc. as adverb, τοσοῦτον, so much so far
 τότε = adv., at that time, then
 τράπεζα, ης, ἡ = table, prop. with four legs
 τράχηλος, ου, ὁ = neck, throat
@@ -1286,7 +1289,7 @@
 τρίτος, η, ον = thir
 τρίτον, τὸ = the third time
 τροπή, ῆς, ἡ = rout, defeat
-τυγχάνω, τεύξομαι, ἔτυχον, τετύχηκα and τέτευχα = hit, attain, get. obtain, happen, chance
+τυγχάνω, τεύξομαι, ἔτυχον, τετύχηκα and τέτευχα = hit, attain, get. obtain, happen, chance
 Τυριαῖον, ου, τό = Tyriaeum
 τῳ = τις
 
@@ -1294,7 +1297,7 @@
 
 ὕδωρ, ατος, τό = water
 υἱός, οῦ, ὁ = son
-# ύμεῖς = see σύ
+# ύμεῖς = see σύ
 μέτερος, α, ον = your
 ὑπάγω = lead under, lead on or advance slowely; mid., draw on, suggest crafttily
 ὕπαρχος, ου, ὁ = existed really, opp. φαίνομαι, to be already in existence, lieutenant
@@ -1305,11 +1308,11 @@
 ὑπισχνέομαι, ὑπο-σχήσομαι, ὑπ-εσόμην, ὑπ-έσχημαι = hold oneself under, promise
 ὑπό = prep. with gen., dat., and acc., under. With gen., under, from under, frequently of agency, by, through, from, at the hands of, by reason of. With acc., under, down under. In composition ὑπό signifies under, often with an idea of secrecy or craft (cf. Eng. underhand), or has diminutive force, rather, somewhat, or it denotes subordination or inferiority
 ὑποδέχομαι = receive under one’s protection, welcome
-ὑποζύγιον, ου, τό = beast of burden; pl. beggage animals
+ὑποζύγιον, ου, τό = beast of burden; pl. beggage animals
 ὑπολείπω = leave behind
-ὑπολύω = loose beneath, take off one’s shoee
+ὑπολύω = loose beneath, take off one’s shoee
 ὑπόμνημα, ατος, τό = memorial, reminder
-ὑποπτεύω = suspect, apprehend, surmis
+ὑποπτεύω = suspect, apprehend, surmis
 ὑποψία, ας, ἡ = suspicion, apprehension; ὑποψία ἐστί, with dat. of person, be apprehensive
 ὑστεραῖος, α, ον = later, following; τῇ ὐστεραίᾳ (sc. ἡμέρᾳ), the following day, next day
 ὑστερέω, ὑστερήσω, ὑστέρησα, ὑστέρηκα = be later, come too late for
@@ -1323,7 +1326,7 @@
 φανερός, ά, όν = in plain sight, nisible, manifest, open; ἐν τῷ φανερῷ, ιopenly, publicly
 φαρέτρα, ας, ἡ = quiver
 φέρω, οἴσω, ἤνεγκα and ἤνεγκον, ἐνήνοχα, ἐνήνεγμαι, ἠνέχθην = bear, bring, carry, produce, receive, endure; pass, be borne, carry, rush; χαλεπῶς φέρειν, take it ill, be troubled
-φεύγω, φεύξομαι and φευξουμαι, ἔφυγον, πέφευγα = flee, take flight, run away, retureat, fly, Lat. fugiō, flee from, run away from, flee from one’s country, be an exile, be banished; οἱ φευγοντες, the exiles
+φεύγω, φεύξομαι and φευξουμαι, ἔφυγον, πέφευγα = flee, take flight, run away, retureat, fly, Lat. fugiō, flee from, run away from, flee from one’s country, be an exile, be banished; οἱ φευγοντες, the exiles
 φημί, φήσω, ἔφησα = say, declare, state; ἔφη, said yes; οὐκ ἔφη, said no, in answers; οὔ φημι, say no, refuse, deny
 φθάνω, φθήσομαι and φθάσω, ἔφθην and ἔφθασα = get the start of, anticipate, outstrip
 # XX
@@ -1336,7 +1339,7 @@
 φίλος, η, ον = friendly, dear, dear to, loved by, attached to, kindly disposed, comp. φιλαίτερος or φίλτερος φίλος, ὁ, friend, adherent
 φλυαρέω, φλυαρήσω = talk bosh
 φλυαρία, ας, ἡ = pl. bosh
-δλύαρος, ου, ὁ = nonsense
+δλύαρος, ου, ὁ = nonsense
 φοβέω, φοβήσω, ἐφόβησα = frighten, terrify, of unreasoning fear; comm. pass. dep., be frightened, be terrified, fear, dread, be afraid
 φόβος, ου, ὁ = fear, dread, terror, fright
 Φοινίκη, ης, ἡ = Phoenicia
@@ -1346,14 +1349,14 @@
 Φοῖνιξ, κος, ὁ = a Phoenician
 φοῖνιξ, κος, ὁ = palm, date palm
 φράζω, φράσω = etc., say, tell
-φρούραρχος, ου, ὁ = commander of a garrison
+φρούραρχος, ου, ὁ = commander of a garrison
 φρουρός, οῦ, ὁ = watcher, guuar
 Φρυγία, ας, ἡ = Phrygia
 φυγάς, άδος, ὁ = fugitive, exile, refugee
 φυγή, ῆς, ἡ = flight, rout
 φυλακή, ῆς, ἡ = a watching, watch, picket duty, garrison
-φύλαξ, κος, ὁ = a watcher, guard, outpost; pl. body-guard
-φυλάττω, φυλάξω, ἐφύλαξα, πεφύλαχα, πεφύλαγμαι, ἐξυλάχθην = stand guard, guard, watch, defend; mid., be on one’s guard, watch out against, Lat. caueō; φυλακὰς φυλάττειν, stand guard
+φύλαξ, κος, ὁ = a watcher, guard, outpost; pl. body-guard
+φυλάττω, φυλάξω, ἐφύλαξα, πεφύλαχα, πεφύλαγμαι, ἐξυλάχθην = stand guard, guard, watch, defend; mid., be on one’s guard, watch out against, Lat. caueō; φυλακὰς φυλάττειν, stand guard
 
 # ================================================== X ====================================
 
@@ -1376,7 +1379,7 @@
 χιλός, οῦ, ὁ = fodder, forage
 χιτών, ῶνος, ὁ = undergarment, Lat. tunica, worn next the person by both men and women. In its simplest form it was a double piece of cloth, oblong in shape, one half of which covered the front of he body, the other the back. The χιτών was fastened on each shoulder by brooches, and was confined over the hips by the girdle, ζώνη
 χιών, όνος, ἡ = snow
-χλαμύς, ύδος, ἡ = clock, mantle, worn esp. by horsemen, but also by the foot soldier on the march and by travellers in general. It was an oblong piece of cloth thrown over the lest shoulder, the open ends of which were fastened over the right shoulder by a brooch
+χλαμύς, ύδος, ἡ = clock, mantle, worn esp. by horsemen, but also by the foot soldier on the march and by travellers in general. It was an oblong piece of cloth thrown over the lest shoulder, the open ends of which were fastened over the right shoulder by a brooch
 χόρτος, ου, ὁ = fodder, grass
 χράω, χρήσω, ἔχρησα, X, X, ἐχρήσθην = proclai
 χράομαι, χρήσομαι, X, X, κέχρημαι, X = mid. dep., serve oneself by, make use of, use, employ, treat, Lat. ūtor
@@ -1398,7 +1401,7 @@
 # =================================================== PS =================================
 
 ψέλιον, ου, τό = armlet, bracelet
-ψεύδομαι, ψεύσομαι, ἐψευσάμην, X, ἔψευσμαι, ἐψεύσθην = lie, cheat, deceive, act falsely
+ψεύδομαι, ψεύσομαι, ἐψευσάμην, X, ἔψευσμαι, ἐψεύσθην = lie, cheat, deceive, act falsely
 ψηφίζομαι, ψηφιοῦμαι = mid. dep., reckon with pebbles, vote, resolve, determine
 ψιλός, ή, όν = bare, unprotected;οἱ ψιλοί, light-armed troops
 
@@ -1439,7 +1442,7 @@
 # tests for preposition
 
 ἀγγέλλω, ἀγγελῶ, ἤγγειλα, ἤγγελκα, ἤγγελμαι, ἠγγέλθην = I announce
-ἀντιβασιλεύς, έως, ὁ = test for anti-basileus
+ἀντιβασιλεύς, έως, ὁ = test for anti-basileus
 ἀπ = prep., ἀπό, off from, away from
 ἀλέξησις, εως, ἡ = keeping off, defence
 ἀπαλέξησις, εως, ἡ = time of blossoming
@@ -1453,10 +1456,10 @@
 ὀδούς, όντος, ὁ = tooth
 τέρας, ατος, τό = sign, wonder, marvel, portent, monster
 δαίμων, ονος, ὁ, ἡ = god, goddess
-ἅλς, ἁλός, ὁ = salt
+ἅλς, ἁλός, ὁ = irreg. salt
 θυγάτηρ, ρός, ἡ = daughter
 γέρας, αος, τό = gift, present
-περίπλους, ου, ὁ = sailing round
+# περίπλους, ου, ὁ = sailing round # FAIL
 κανοῦν, οῦ, τό = basket of ree
 συκῆ, ῆς, ἡ = the fig-tree
 νεώς, ώ, ὁ = a temple
@@ -1477,24 +1480,6 @@
 ἦμαρ, ατος, τό = day, = ἡμέρα
 ἐρῶν, ῶντος, ὁ = he who loves with sexual passion, a lover
 μαμωνᾶς, ᾶ, ὁ = wealth, property, money
-ἑκών, όντος, ὁ = willing
+# ἑκών, όντος, ὁ = willing # FAIL - NB
 ἄκων, ουσα, ον = unwilling
-πλέως, έα, έων = full
-
-
-# augments, connectors, etc
-# ο = connector
-
-# ἀ = augmen
-# ἐ = augmen
-# ὁ = augmen
-# ὀ = augmen
-# αἰ = augmen
-
-# ἠ = augmen
-# ἡ = augmen
-# ᾐ = augmen
-# ὡ = augmen
-
-ε = augment for pp
-# нужно как-то этот аумент отбрасывать, если не pp
+# πλέως, έα, έων = full # FAIL =======================
